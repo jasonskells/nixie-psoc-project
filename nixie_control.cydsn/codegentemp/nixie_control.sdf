@@ -1,0 +1,26 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2022-04-08T03:46:04Z")
+ (DESIGN "nixie_control")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.4")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "nixie_control")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT C\(0\)_PAD C\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT B\(0\)_PAD B\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT D\(0\)_PAD D\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT A\(0\)_PAD A\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT E\(0\)_PAD E\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT F\(0\)_PAD F\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT G\(0\)_PAD G\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT H\(0\)_PAD H\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)

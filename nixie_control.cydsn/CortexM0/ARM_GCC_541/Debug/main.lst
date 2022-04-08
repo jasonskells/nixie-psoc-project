@@ -1,0 +1,725 @@
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.rodata
+  20              		.align	2
+  21              	.LC0:
+  22 0000 00000000 		.word	0
+  23 0004 00000000 		.word	0
+  24 0008 00000000 		.word	0
+  25 000c 00000000 		.word	0
+  26 0010 00000000 		.word	0
+  27 0014 00000000 		.word	0
+  28 0018 00000000 		.word	0
+  29 001c 01000000 		.word	1
+  30 0020 00000000 		.word	0
+  31 0024 00000000 		.word	0
+  32 0028 01000000 		.word	1
+  33 002c 00000000 		.word	0
+  34 0030 00000000 		.word	0
+  35 0034 00000000 		.word	0
+  36 0038 01000000 		.word	1
+  37 003c 01000000 		.word	1
+  38 0040 00000000 		.word	0
+  39 0044 01000000 		.word	1
+  40 0048 00000000 		.word	0
+  41 004c 00000000 		.word	0
+  42 0050 00000000 		.word	0
+  43 0054 01000000 		.word	1
+  44 0058 00000000 		.word	0
+  45 005c 01000000 		.word	1
+  46 0060 00000000 		.word	0
+  47 0064 01000000 		.word	1
+  48 0068 01000000 		.word	1
+  49 006c 00000000 		.word	0
+  50 0070 00000000 		.word	0
+  51 0074 01000000 		.word	1
+  52 0078 01000000 		.word	1
+  53 007c 01000000 		.word	1
+  54 0080 01000000 		.word	1
+  55 0084 00000000 		.word	0
+  56 0088 00000000 		.word	0
+  57 008c 00000000 		.word	0
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 2
+
+
+  58 0090 01000000 		.word	1
+  59 0094 00000000 		.word	0
+  60 0098 00000000 		.word	0
+  61 009c 01000000 		.word	1
+  62              		.section	.text.main,"ax",%progbits
+  63              		.align	2
+  64              		.global	main
+  65              		.code	16
+  66              		.thumb_func
+  67              		.type	main, %function
+  68              	main:
+  69              	.LFB34:
+  70              		.file 1 "main.c"
+   1:main.c        **** /*****************************************************************************
+   2:main.c        **** * File Name: main.c
+   3:main.c        **** *
+   4:main.c        **** * Version: 1.00
+   5:main.c        **** *
+   6:main.c        **** * Description: This code example demonstrates the functionality of TCPWM 
+   7:main.c        **** *              component in PWM mode to blink LEDs using PSoC 4 MCU.
+   8:main.c        **** *
+   9:main.c        **** * Related Document: CE230991_Getting_Started_With_PSoC4.pdf
+  10:main.c        **** *
+  11:main.c        **** * Hardware Dependency: All PSoC 4 Development Kits
+  12:main.c        **** ******************************************************************************
+  13:main.c        **** * Copyright (2020), Cypress Semiconductor Corporation.
+  14:main.c        **** ******************************************************************************
+  15:main.c        **** * This software, including source code, documentation and related materials
+  16:main.c        **** * ("Software") is owned by Cypress Semiconductor Corporation (Cypress) and is
+  17:main.c        **** * protected by and subject to worldwide patent protection (United States and 
+  18:main.c        **** * foreign), United States copyright laws and international treaty provisions. 
+  19:main.c        **** * Cypress hereby grants to licensee a personal, non-exclusive, non-transferable
+  20:main.c        **** * license to copy, use, modify, create derivative works of, and compile the 
+  21:main.c        **** * Cypress source code and derivative works for the sole purpose of creating 
+  22:main.c        **** * custom software in support of licensee product, such licensee product to be
+  23:main.c        **** * used only in conjunction with Cypress's integrated circuit as specified in the
+  24:main.c        **** * applicable agreement. Any reproduction, modification, translation, compilation,
+  25:main.c        **** * or representation of this Software except as specified above is prohibited 
+  26:main.c        **** * without the express written permission of Cypress.
+  27:main.c        **** * 
+  28:main.c        **** * Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, 
+  29:main.c        **** * EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED 
+  30:main.c        **** * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  31:main.c        **** * Cypress reserves the right to make changes to the Software without notice. 
+  32:main.c        **** * Cypress does not assume any liability arising out of the application or use
+  33:main.c        **** * of Software or any product or circuit described in the Software. Cypress does
+  34:main.c        **** * not authorize its products for use as critical components in any products 
+  35:main.c        **** * where a malfunction or failure may reasonably be expected to result in 
+  36:main.c        **** * significant injury or death ("ACTIVE Risk Product"). By including Cypress's 
+  37:main.c        **** * product in a ACTIVE Risk Product, the manufacturer of such system or application
+  38:main.c        **** * assumes all risk of such use and in doing so indemnifies Cypress against all
+  39:main.c        **** * liability. Use of this Software may be limited by and subject to the applicable
+  40:main.c        **** * Cypress software license agreement.
+  41:main.c        **** *****************************************************************************/
+  42:main.c        **** 
+  43:main.c        **** /*******************************************************************************
+  44:main.c        **** *   Included Headers
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 3
+
+
+  45:main.c        **** *******************************************************************************/
+  46:main.c        **** #include <project.h>
+  47:main.c        **** 
+  48:main.c        **** /*******************************************************************************
+  49:main.c        **** * Function Name: main()
+  50:main.c        **** ********************************************************************************
+  51:main.c        **** * Summary:
+  52:main.c        **** * This function performs the following actions:
+  53:main.c        **** *
+  54:main.c        **** *     1. Enables and starts the PWM block.
+  55:main.c        **** *
+  56:main.c        **** * Return:
+  57:main.c        **** * Non zero value indicates error 	
+  58:main.c        **** *
+  59:main.c        **** *******************************************************************************/
+  60:main.c        **** int main()
+  61:main.c        **** {
+  71              		.loc 1 61 0
+  72              		.cfi_startproc
+  73              		@ args = 0, pretend = 0, frame = 168
+  74              		@ frame_needed = 1, uses_anonymous_args = 0
+  75 0000 80B5     		push	{r7, lr}
+  76              		.cfi_def_cfa_offset 8
+  77              		.cfi_offset 7, -8
+  78              		.cfi_offset 14, -4
+  79 0002 AAB0     		sub	sp, sp, #168
+  80              		.cfi_def_cfa_offset 176
+  81 0004 00AF     		add	r7, sp, #0
+  82              		.cfi_def_cfa_register 7
+  62:main.c        **** 	/*Enable and start the PWM block*/
+  63:main.c        ****     
+  64:main.c        ****     int digits[10][4] = {
+  83              		.loc 1 64 0
+  84 0006 3A1D     		adds	r2, r7, #4
+  85 0008 3C4B     		ldr	r3, .L5
+  86 000a 1000     		movs	r0, r2
+  87 000c 1900     		movs	r1, r3
+  88 000e A023     		movs	r3, #160
+  89 0010 1A00     		movs	r2, r3
+  90 0012 FFF7FEFF 		bl	memcpy
+  91              	.L4:
+  92              	.LBB2:
+  65:main.c        ****         {0,0,0,0},
+  66:main.c        ****         {0,0,0,1},
+  67:main.c        ****         {0,0,1,0},
+  68:main.c        ****         {0,0,1,1},
+  69:main.c        ****         {0,1,0,0},
+  70:main.c        ****         {0,1,0,1},
+  71:main.c        ****         {0,1,1,0},
+  72:main.c        ****         {0,1,1,1},
+  73:main.c        ****         {1,0,0,0},
+  74:main.c        ****         {1,0,0,1}
+  75:main.c        ****     };
+  76:main.c        ****     
+  77:main.c        ****     while(1){
+  78:main.c        ****         
+  79:main.c        ****         //A_Write(1);
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 4
+
+
+  80:main.c        ****         //B_Write(1);
+  81:main.c        ****         //C_Write(1);
+  82:main.c        ****         //D_Write(1);
+  83:main.c        ****     
+  84:main.c        ****         for(int i = 0; i < 10; i++) {
+  93              		.loc 1 84 0
+  94 0016 0023     		movs	r3, #0
+  95 0018 A422     		movs	r2, #164
+  96 001a BA18     		adds	r2, r7, r2
+  97 001c 1360     		str	r3, [r2]
+  98 001e 67E0     		b	.L2
+  99              	.L3:
+  85:main.c        ****             A_Write(digits[i][3]);
+ 100              		.loc 1 85 0 discriminator 3
+ 101 0020 3A1D     		adds	r2, r7, #4
+ 102 0022 A423     		movs	r3, #164
+ 103 0024 FB18     		adds	r3, r7, r3
+ 104 0026 1B68     		ldr	r3, [r3]
+ 105 0028 1B01     		lsls	r3, r3, #4
+ 106 002a D318     		adds	r3, r2, r3
+ 107 002c 0C33     		adds	r3, r3, #12
+ 108 002e 1B68     		ldr	r3, [r3]
+ 109 0030 DBB2     		uxtb	r3, r3
+ 110 0032 1800     		movs	r0, r3
+ 111 0034 FFF7FEFF 		bl	A_Write
+  86:main.c        ****             B_Write(digits[i][2]);
+ 112              		.loc 1 86 0 discriminator 3
+ 113 0038 3A1D     		adds	r2, r7, #4
+ 114 003a A423     		movs	r3, #164
+ 115 003c FB18     		adds	r3, r7, r3
+ 116 003e 1B68     		ldr	r3, [r3]
+ 117 0040 1B01     		lsls	r3, r3, #4
+ 118 0042 D318     		adds	r3, r2, r3
+ 119 0044 0833     		adds	r3, r3, #8
+ 120 0046 1B68     		ldr	r3, [r3]
+ 121 0048 DBB2     		uxtb	r3, r3
+ 122 004a 1800     		movs	r0, r3
+ 123 004c FFF7FEFF 		bl	B_Write
+  87:main.c        ****             C_Write(digits[i][1]);
+ 124              		.loc 1 87 0 discriminator 3
+ 125 0050 3A1D     		adds	r2, r7, #4
+ 126 0052 A423     		movs	r3, #164
+ 127 0054 FB18     		adds	r3, r7, r3
+ 128 0056 1B68     		ldr	r3, [r3]
+ 129 0058 1B01     		lsls	r3, r3, #4
+ 130 005a D318     		adds	r3, r2, r3
+ 131 005c 0433     		adds	r3, r3, #4
+ 132 005e 1B68     		ldr	r3, [r3]
+ 133 0060 DBB2     		uxtb	r3, r3
+ 134 0062 1800     		movs	r0, r3
+ 135 0064 FFF7FEFF 		bl	C_Write
+  88:main.c        ****             D_Write(digits[i][0]);
+ 136              		.loc 1 88 0 discriminator 3
+ 137 0068 3B1D     		adds	r3, r7, #4
+ 138 006a A422     		movs	r2, #164
+ 139 006c BA18     		adds	r2, r7, r2
+ 140 006e 1268     		ldr	r2, [r2]
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 5
+
+
+ 141 0070 1201     		lsls	r2, r2, #4
+ 142 0072 D358     		ldr	r3, [r2, r3]
+ 143 0074 DBB2     		uxtb	r3, r3
+ 144 0076 1800     		movs	r0, r3
+ 145 0078 FFF7FEFF 		bl	D_Write
+  89:main.c        ****             
+  90:main.c        ****             E_Write(digits[i][3]);
+ 146              		.loc 1 90 0 discriminator 3
+ 147 007c 3A1D     		adds	r2, r7, #4
+ 148 007e A423     		movs	r3, #164
+ 149 0080 FB18     		adds	r3, r7, r3
+ 150 0082 1B68     		ldr	r3, [r3]
+ 151 0084 1B01     		lsls	r3, r3, #4
+ 152 0086 D318     		adds	r3, r2, r3
+ 153 0088 0C33     		adds	r3, r3, #12
+ 154 008a 1B68     		ldr	r3, [r3]
+ 155 008c DBB2     		uxtb	r3, r3
+ 156 008e 1800     		movs	r0, r3
+ 157 0090 FFF7FEFF 		bl	E_Write
+  91:main.c        ****             F_Write(digits[i][2]);
+ 158              		.loc 1 91 0 discriminator 3
+ 159 0094 3A1D     		adds	r2, r7, #4
+ 160 0096 A423     		movs	r3, #164
+ 161 0098 FB18     		adds	r3, r7, r3
+ 162 009a 1B68     		ldr	r3, [r3]
+ 163 009c 1B01     		lsls	r3, r3, #4
+ 164 009e D318     		adds	r3, r2, r3
+ 165 00a0 0833     		adds	r3, r3, #8
+ 166 00a2 1B68     		ldr	r3, [r3]
+ 167 00a4 DBB2     		uxtb	r3, r3
+ 168 00a6 1800     		movs	r0, r3
+ 169 00a8 FFF7FEFF 		bl	F_Write
+  92:main.c        ****             G_Write(digits[i][1]);
+ 170              		.loc 1 92 0 discriminator 3
+ 171 00ac 3A1D     		adds	r2, r7, #4
+ 172 00ae A423     		movs	r3, #164
+ 173 00b0 FB18     		adds	r3, r7, r3
+ 174 00b2 1B68     		ldr	r3, [r3]
+ 175 00b4 1B01     		lsls	r3, r3, #4
+ 176 00b6 D318     		adds	r3, r2, r3
+ 177 00b8 0433     		adds	r3, r3, #4
+ 178 00ba 1B68     		ldr	r3, [r3]
+ 179 00bc DBB2     		uxtb	r3, r3
+ 180 00be 1800     		movs	r0, r3
+ 181 00c0 FFF7FEFF 		bl	G_Write
+  93:main.c        ****             H_Write(digits[i][0]);
+ 182              		.loc 1 93 0 discriminator 3
+ 183 00c4 3B1D     		adds	r3, r7, #4
+ 184 00c6 A422     		movs	r2, #164
+ 185 00c8 BA18     		adds	r2, r7, r2
+ 186 00ca 1268     		ldr	r2, [r2]
+ 187 00cc 1201     		lsls	r2, r2, #4
+ 188 00ce D358     		ldr	r3, [r2, r3]
+ 189 00d0 DBB2     		uxtb	r3, r3
+ 190 00d2 1800     		movs	r0, r3
+ 191 00d4 FFF7FEFF 		bl	H_Write
+  94:main.c        ****             
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 6
+
+
+  95:main.c        ****             CyDelay(1000);
+ 192              		.loc 1 95 0 discriminator 3
+ 193 00d8 FA23     		movs	r3, #250
+ 194 00da 9B00     		lsls	r3, r3, #2
+ 195 00dc 1800     		movs	r0, r3
+ 196 00de FFF7FEFF 		bl	CyDelay
+  84:main.c        ****             A_Write(digits[i][3]);
+ 197              		.loc 1 84 0 discriminator 3
+ 198 00e2 A423     		movs	r3, #164
+ 199 00e4 FB18     		adds	r3, r7, r3
+ 200 00e6 1B68     		ldr	r3, [r3]
+ 201 00e8 0133     		adds	r3, r3, #1
+ 202 00ea A422     		movs	r2, #164
+ 203 00ec BA18     		adds	r2, r7, r2
+ 204 00ee 1360     		str	r3, [r2]
+ 205              	.L2:
+  84:main.c        ****             A_Write(digits[i][3]);
+ 206              		.loc 1 84 0 is_stmt 0 discriminator 1
+ 207 00f0 A423     		movs	r3, #164
+ 208 00f2 FB18     		adds	r3, r7, r3
+ 209 00f4 1B68     		ldr	r3, [r3]
+ 210 00f6 092B     		cmp	r3, #9
+ 211 00f8 92DD     		ble	.L3
+ 212              	.LBE2:
+  96:main.c        ****         }
+  97:main.c        ****     
+  98:main.c        ****     }
+ 213              		.loc 1 98 0 is_stmt 1
+ 214 00fa 8CE7     		b	.L4
+ 215              	.L6:
+ 216              		.align	2
+ 217              	.L5:
+ 218 00fc 00000000 		.word	.LC0
+ 219              		.cfi_endproc
+ 220              	.LFE34:
+ 221              		.size	main, .-main
+ 222              		.text
+ 223              	.Letext0:
+ 224              		.section	.debug_info,"",%progbits
+ 225              	.Ldebug_info0:
+ 226 0000 DC000000 		.4byte	0xdc
+ 227 0004 0400     		.2byte	0x4
+ 228 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 229 000a 04       		.byte	0x4
+ 230 000b 01       		.uleb128 0x1
+ 231 000c B5000000 		.4byte	.LASF15
+ 232 0010 0C       		.byte	0xc
+ 233 0011 1B000000 		.4byte	.LASF16
+ 234 0015 43010000 		.4byte	.LASF17
+ 235 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 236 001d 00000000 		.4byte	0
+ 237 0021 00000000 		.4byte	.Ldebug_line0
+ 238 0025 02       		.uleb128 0x2
+ 239 0026 01       		.byte	0x1
+ 240 0027 06       		.byte	0x6
+ 241 0028 93000000 		.4byte	.LASF0
+ 242 002c 02       		.uleb128 0x2
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 7
+
+
+ 243 002d 01       		.byte	0x1
+ 244 002e 08       		.byte	0x8
+ 245 002f 56000000 		.4byte	.LASF1
+ 246 0033 02       		.uleb128 0x2
+ 247 0034 02       		.byte	0x2
+ 248 0035 05       		.byte	0x5
+ 249 0036 AB000000 		.4byte	.LASF2
+ 250 003a 02       		.uleb128 0x2
+ 251 003b 02       		.byte	0x2
+ 252 003c 07       		.byte	0x7
+ 253 003d 80000000 		.4byte	.LASF3
+ 254 0041 02       		.uleb128 0x2
+ 255 0042 04       		.byte	0x4
+ 256 0043 05       		.byte	0x5
+ 257 0044 69000000 		.4byte	.LASF4
+ 258 0048 02       		.uleb128 0x2
+ 259 0049 04       		.byte	0x4
+ 260 004a 07       		.byte	0x7
+ 261 004b 27000000 		.4byte	.LASF5
+ 262 004f 02       		.uleb128 0x2
+ 263 0050 08       		.byte	0x8
+ 264 0051 05       		.byte	0x5
+ 265 0052 00000000 		.4byte	.LASF6
+ 266 0056 02       		.uleb128 0x2
+ 267 0057 08       		.byte	0x8
+ 268 0058 07       		.byte	0x7
+ 269 0059 39000000 		.4byte	.LASF7
+ 270 005d 03       		.uleb128 0x3
+ 271 005e 04       		.byte	0x4
+ 272 005f 05       		.byte	0x5
+ 273 0060 696E7400 		.ascii	"int\000"
+ 274 0064 02       		.uleb128 0x2
+ 275 0065 04       		.byte	0x4
+ 276 0066 07       		.byte	0x7
+ 277 0067 0E000000 		.4byte	.LASF8
+ 278 006b 02       		.uleb128 0x2
+ 279 006c 04       		.byte	0x4
+ 280 006d 04       		.byte	0x4
+ 281 006e 50000000 		.4byte	.LASF9
+ 282 0072 02       		.uleb128 0x2
+ 283 0073 08       		.byte	0x8
+ 284 0074 04       		.byte	0x4
+ 285 0075 79000000 		.4byte	.LASF10
+ 286 0079 02       		.uleb128 0x2
+ 287 007a 01       		.byte	0x1
+ 288 007b 08       		.byte	0x8
+ 289 007c 64000000 		.4byte	.LASF11
+ 290 0080 02       		.uleb128 0x2
+ 291 0081 04       		.byte	0x4
+ 292 0082 07       		.byte	0x7
+ 293 0083 83010000 		.4byte	.LASF12
+ 294 0087 02       		.uleb128 0x2
+ 295 0088 08       		.byte	0x8
+ 296 0089 04       		.byte	0x4
+ 297 008a 9F000000 		.4byte	.LASF13
+ 298 008e 04       		.uleb128 0x4
+ 299 008f 22000000 		.4byte	.LASF18
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 8
+
+
+ 300 0093 01       		.byte	0x1
+ 301 0094 3C       		.byte	0x3c
+ 302 0095 5D000000 		.4byte	0x5d
+ 303 0099 00000000 		.4byte	.LFB34
+ 304 009d 00010000 		.4byte	.LFE34-.LFB34
+ 305 00a1 01       		.uleb128 0x1
+ 306 00a2 9C       		.byte	0x9c
+ 307 00a3 CD000000 		.4byte	0xcd
+ 308 00a7 05       		.uleb128 0x5
+ 309 00a8 72000000 		.4byte	.LASF14
+ 310 00ac 01       		.byte	0x1
+ 311 00ad 40       		.byte	0x40
+ 312 00ae CD000000 		.4byte	0xcd
+ 313 00b2 03       		.uleb128 0x3
+ 314 00b3 91       		.byte	0x91
+ 315 00b4 D47E     		.sleb128 -172
+ 316 00b6 06       		.uleb128 0x6
+ 317 00b7 16000000 		.4byte	.LBB2
+ 318 00bb E4000000 		.4byte	.LBE2-.LBB2
+ 319 00bf 07       		.uleb128 0x7
+ 320 00c0 6900     		.ascii	"i\000"
+ 321 00c2 01       		.byte	0x1
+ 322 00c3 54       		.byte	0x54
+ 323 00c4 5D000000 		.4byte	0x5d
+ 324 00c8 02       		.uleb128 0x2
+ 325 00c9 91       		.byte	0x91
+ 326 00ca 74       		.sleb128 -12
+ 327 00cb 00       		.byte	0
+ 328 00cc 00       		.byte	0
+ 329 00cd 08       		.uleb128 0x8
+ 330 00ce 5D000000 		.4byte	0x5d
+ 331 00d2 09       		.uleb128 0x9
+ 332 00d3 80000000 		.4byte	0x80
+ 333 00d7 09       		.byte	0x9
+ 334 00d8 09       		.uleb128 0x9
+ 335 00d9 80000000 		.4byte	0x80
+ 336 00dd 03       		.byte	0x3
+ 337 00de 00       		.byte	0
+ 338 00df 00       		.byte	0
+ 339              		.section	.debug_abbrev,"",%progbits
+ 340              	.Ldebug_abbrev0:
+ 341 0000 01       		.uleb128 0x1
+ 342 0001 11       		.uleb128 0x11
+ 343 0002 01       		.byte	0x1
+ 344 0003 25       		.uleb128 0x25
+ 345 0004 0E       		.uleb128 0xe
+ 346 0005 13       		.uleb128 0x13
+ 347 0006 0B       		.uleb128 0xb
+ 348 0007 03       		.uleb128 0x3
+ 349 0008 0E       		.uleb128 0xe
+ 350 0009 1B       		.uleb128 0x1b
+ 351 000a 0E       		.uleb128 0xe
+ 352 000b 55       		.uleb128 0x55
+ 353 000c 17       		.uleb128 0x17
+ 354 000d 11       		.uleb128 0x11
+ 355 000e 01       		.uleb128 0x1
+ 356 000f 10       		.uleb128 0x10
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 9
+
+
+ 357 0010 17       		.uleb128 0x17
+ 358 0011 00       		.byte	0
+ 359 0012 00       		.byte	0
+ 360 0013 02       		.uleb128 0x2
+ 361 0014 24       		.uleb128 0x24
+ 362 0015 00       		.byte	0
+ 363 0016 0B       		.uleb128 0xb
+ 364 0017 0B       		.uleb128 0xb
+ 365 0018 3E       		.uleb128 0x3e
+ 366 0019 0B       		.uleb128 0xb
+ 367 001a 03       		.uleb128 0x3
+ 368 001b 0E       		.uleb128 0xe
+ 369 001c 00       		.byte	0
+ 370 001d 00       		.byte	0
+ 371 001e 03       		.uleb128 0x3
+ 372 001f 24       		.uleb128 0x24
+ 373 0020 00       		.byte	0
+ 374 0021 0B       		.uleb128 0xb
+ 375 0022 0B       		.uleb128 0xb
+ 376 0023 3E       		.uleb128 0x3e
+ 377 0024 0B       		.uleb128 0xb
+ 378 0025 03       		.uleb128 0x3
+ 379 0026 08       		.uleb128 0x8
+ 380 0027 00       		.byte	0
+ 381 0028 00       		.byte	0
+ 382 0029 04       		.uleb128 0x4
+ 383 002a 2E       		.uleb128 0x2e
+ 384 002b 01       		.byte	0x1
+ 385 002c 3F       		.uleb128 0x3f
+ 386 002d 19       		.uleb128 0x19
+ 387 002e 03       		.uleb128 0x3
+ 388 002f 0E       		.uleb128 0xe
+ 389 0030 3A       		.uleb128 0x3a
+ 390 0031 0B       		.uleb128 0xb
+ 391 0032 3B       		.uleb128 0x3b
+ 392 0033 0B       		.uleb128 0xb
+ 393 0034 49       		.uleb128 0x49
+ 394 0035 13       		.uleb128 0x13
+ 395 0036 11       		.uleb128 0x11
+ 396 0037 01       		.uleb128 0x1
+ 397 0038 12       		.uleb128 0x12
+ 398 0039 06       		.uleb128 0x6
+ 399 003a 40       		.uleb128 0x40
+ 400 003b 18       		.uleb128 0x18
+ 401 003c 9642     		.uleb128 0x2116
+ 402 003e 19       		.uleb128 0x19
+ 403 003f 01       		.uleb128 0x1
+ 404 0040 13       		.uleb128 0x13
+ 405 0041 00       		.byte	0
+ 406 0042 00       		.byte	0
+ 407 0043 05       		.uleb128 0x5
+ 408 0044 34       		.uleb128 0x34
+ 409 0045 00       		.byte	0
+ 410 0046 03       		.uleb128 0x3
+ 411 0047 0E       		.uleb128 0xe
+ 412 0048 3A       		.uleb128 0x3a
+ 413 0049 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 10
+
+
+ 414 004a 3B       		.uleb128 0x3b
+ 415 004b 0B       		.uleb128 0xb
+ 416 004c 49       		.uleb128 0x49
+ 417 004d 13       		.uleb128 0x13
+ 418 004e 02       		.uleb128 0x2
+ 419 004f 18       		.uleb128 0x18
+ 420 0050 00       		.byte	0
+ 421 0051 00       		.byte	0
+ 422 0052 06       		.uleb128 0x6
+ 423 0053 0B       		.uleb128 0xb
+ 424 0054 01       		.byte	0x1
+ 425 0055 11       		.uleb128 0x11
+ 426 0056 01       		.uleb128 0x1
+ 427 0057 12       		.uleb128 0x12
+ 428 0058 06       		.uleb128 0x6
+ 429 0059 00       		.byte	0
+ 430 005a 00       		.byte	0
+ 431 005b 07       		.uleb128 0x7
+ 432 005c 34       		.uleb128 0x34
+ 433 005d 00       		.byte	0
+ 434 005e 03       		.uleb128 0x3
+ 435 005f 08       		.uleb128 0x8
+ 436 0060 3A       		.uleb128 0x3a
+ 437 0061 0B       		.uleb128 0xb
+ 438 0062 3B       		.uleb128 0x3b
+ 439 0063 0B       		.uleb128 0xb
+ 440 0064 49       		.uleb128 0x49
+ 441 0065 13       		.uleb128 0x13
+ 442 0066 02       		.uleb128 0x2
+ 443 0067 18       		.uleb128 0x18
+ 444 0068 00       		.byte	0
+ 445 0069 00       		.byte	0
+ 446 006a 08       		.uleb128 0x8
+ 447 006b 01       		.uleb128 0x1
+ 448 006c 01       		.byte	0x1
+ 449 006d 49       		.uleb128 0x49
+ 450 006e 13       		.uleb128 0x13
+ 451 006f 00       		.byte	0
+ 452 0070 00       		.byte	0
+ 453 0071 09       		.uleb128 0x9
+ 454 0072 21       		.uleb128 0x21
+ 455 0073 00       		.byte	0
+ 456 0074 49       		.uleb128 0x49
+ 457 0075 13       		.uleb128 0x13
+ 458 0076 2F       		.uleb128 0x2f
+ 459 0077 0B       		.uleb128 0xb
+ 460 0078 00       		.byte	0
+ 461 0079 00       		.byte	0
+ 462 007a 00       		.byte	0
+ 463              		.section	.debug_aranges,"",%progbits
+ 464 0000 1C000000 		.4byte	0x1c
+ 465 0004 0200     		.2byte	0x2
+ 466 0006 00000000 		.4byte	.Ldebug_info0
+ 467 000a 04       		.byte	0x4
+ 468 000b 00       		.byte	0
+ 469 000c 0000     		.2byte	0
+ 470 000e 0000     		.2byte	0
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 11
+
+
+ 471 0010 00000000 		.4byte	.LFB34
+ 472 0014 00010000 		.4byte	.LFE34-.LFB34
+ 473 0018 00000000 		.4byte	0
+ 474 001c 00000000 		.4byte	0
+ 475              		.section	.debug_ranges,"",%progbits
+ 476              	.Ldebug_ranges0:
+ 477 0000 00000000 		.4byte	.LFB34
+ 478 0004 00010000 		.4byte	.LFE34
+ 479 0008 00000000 		.4byte	0
+ 480 000c 00000000 		.4byte	0
+ 481              		.section	.debug_line,"",%progbits
+ 482              	.Ldebug_line0:
+ 483 0000 74000000 		.section	.debug_str,"MS",%progbits,1
+ 483      02001D00 
+ 483      00000201 
+ 483      FB0E0D00 
+ 483      01010101 
+ 484              	.LASF6:
+ 485 0000 6C6F6E67 		.ascii	"long long int\000"
+ 485      206C6F6E 
+ 485      6720696E 
+ 485      7400
+ 486              	.LASF8:
+ 487 000e 756E7369 		.ascii	"unsigned int\000"
+ 487      676E6564 
+ 487      20696E74 
+ 487      00
+ 488              	.LASF16:
+ 489 001b 6D61696E 		.ascii	"main.c\000"
+ 489      2E6300
+ 490              	.LASF18:
+ 491 0022 6D61696E 		.ascii	"main\000"
+ 491      00
+ 492              	.LASF5:
+ 493 0027 6C6F6E67 		.ascii	"long unsigned int\000"
+ 493      20756E73 
+ 493      69676E65 
+ 493      6420696E 
+ 493      7400
+ 494              	.LASF7:
+ 495 0039 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 495      206C6F6E 
+ 495      6720756E 
+ 495      7369676E 
+ 495      65642069 
+ 496              	.LASF9:
+ 497 0050 666C6F61 		.ascii	"float\000"
+ 497      7400
+ 498              	.LASF1:
+ 499 0056 756E7369 		.ascii	"unsigned char\000"
+ 499      676E6564 
+ 499      20636861 
+ 499      7200
+ 500              	.LASF11:
+ 501 0064 63686172 		.ascii	"char\000"
+ 501      00
+ 502              	.LASF4:
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 12
+
+
+ 503 0069 6C6F6E67 		.ascii	"long int\000"
+ 503      20696E74 
+ 503      00
+ 504              	.LASF14:
+ 505 0072 64696769 		.ascii	"digits\000"
+ 505      747300
+ 506              	.LASF10:
+ 507 0079 646F7562 		.ascii	"double\000"
+ 507      6C6500
+ 508              	.LASF3:
+ 509 0080 73686F72 		.ascii	"short unsigned int\000"
+ 509      7420756E 
+ 509      7369676E 
+ 509      65642069 
+ 509      6E7400
+ 510              	.LASF0:
+ 511 0093 7369676E 		.ascii	"signed char\000"
+ 511      65642063 
+ 511      68617200 
+ 512              	.LASF13:
+ 513 009f 6C6F6E67 		.ascii	"long double\000"
+ 513      20646F75 
+ 513      626C6500 
+ 514              	.LASF2:
+ 515 00ab 73686F72 		.ascii	"short int\000"
+ 515      7420696E 
+ 515      7400
+ 516              	.LASF15:
+ 517 00b5 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 517      43313120 
+ 517      352E342E 
+ 517      31203230 
+ 517      31363036 
+ 518 00e8 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 518      20726576 
+ 518      6973696F 
+ 518      6E203233 
+ 518      37373135 
+ 519 011b 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 519      66756E63 
+ 519      74696F6E 
+ 519      2D736563 
+ 519      74696F6E 
+ 520              	.LASF17:
+ 521 0143 433A5C55 		.ascii	"C:\\Users\\Jason\\Documents\\PSoC Creator\\nixie\\n"
+ 521      73657273 
+ 521      5C4A6173 
+ 521      6F6E5C44 
+ 521      6F63756D 
+ 522 0170 69786965 		.ascii	"ixie_control.cydsn\000"
+ 522      5F636F6E 
+ 522      74726F6C 
+ 522      2E637964 
+ 522      736E00
+ 523              	.LASF12:
+ 524 0183 73697A65 		.ascii	"sizetype\000"
+ 524      74797065 
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccS6Rp1b.s 			page 13
+
+
+ 524      00
+ 525              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,0 +1,174 @@
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/A.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/A_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/B.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/B_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/C.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/C_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/Cm0Start.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/Cm0Start.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/cyapicallbacks.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/cyapicallbacks.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/CyDMA.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyDMA.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyDMA.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyDMA.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/CyFlash.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/CyLFClk.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/CyLib.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/D.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/D_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/E.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/E_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/F.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/F_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/G.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/G_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/H.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H_aliases.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/H_PM.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H_PM.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H_PM.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/cyPm.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyPm.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyPm.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyPm.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/cy_em_eeprom.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/cyfitter_cfg.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/cyapicallbacks.h 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/cyutils.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyutils.c 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyutils.c : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/project.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/A_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/B_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/C_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyDMA.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/D_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/E_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/F_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/G_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/H_aliases.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/main.c 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/Generated_Source/PSoC4/project.h : 
+
+C:/Users/Jason/Documents/PSoC\ Creator/nixie/nixie_control.cydsn/main.c : 
+

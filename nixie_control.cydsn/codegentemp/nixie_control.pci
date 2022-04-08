@@ -1,0 +1,16 @@
+# nixie_control
+# 2022-04-08 03:46:03Z
+
+# IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 2
+# IO_3@[IOP=(3)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 3
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "C(0)" iocell 2 2
+set_io "B(0)" iocell 2 1
+set_io "D(0)" iocell 2 3
+set_io "A(0)" iocell 2 0
+set_io "E(0)" iocell 2 4
+set_io "F(0)" iocell 2 5
+set_io "G(0)" iocell 9 2
+set_io "H(0)" iocell 9 3

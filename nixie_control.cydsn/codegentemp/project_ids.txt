@@ -1,0 +1,6 @@
+C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\nixie_control.cyprj|77255af5-0450-4ce0-a50d-8904d9643046
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c4293412-eb50-4ad8-beec-a696c6f6a630
+C:\Users\Jason\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|ed188197-e5da-43ef-bff3-b227f4f3e592
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6eaa1a62-5d22-4f9f-a676-5dcfed68f104
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|6cc3c046-3be0-413e-aad6-444b16d91931
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|eb8e98ee-fea8-4122-8a97-340a7f31af3a
