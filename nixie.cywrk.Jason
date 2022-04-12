@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="nixie">
 <ExpandedNodeIds>
 <v>nixie</v>
 <v>nixie\nixie_control</v>
@@ -33,6 +33,7 @@
 <v>nixie\nixie_control\Source Files\main.c</v>
 <v>nixie\nixie_control\Generated_Source</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\RTC</v>
 <v>nixie\CE230991_Getting_Started_With_PSoC4.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -57,6 +58,7 @@
 <v>nixie\nixie_control\Generated_Source\PSoC4\A</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\B</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\C</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\Clock_1</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_boot</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_dmac</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_lfclk</v>
@@ -66,23 +68,11 @@
 <v>nixie\nixie_control\Generated_Source\PSoC4\F</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\G</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\H</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cycodeshareexport.ld</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cycodeshareimport.ld</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cyfitter.h</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cyfitter_cfg.c</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cyfitter_cfg.h</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cyfittergnu.inc</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cyfitteriar.inc</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cyfitterrv.inc</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\cymetadata.c</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\project.h</v>
-<v>nixie\CE230991_Getting_Started_With_PSoC4.pdf</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\I</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\J</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\K</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\L</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\led</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -151,6 +141,7 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\B_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -172,7 +163,52 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\G_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\I.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\I_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\J.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\J_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\K.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\K_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\L.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\L_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_4.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_4_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_red.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_red_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\M.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\M_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\N.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\N_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\O.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\O_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\P.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\P_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PB.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PB_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Q.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Q_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\R.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\R_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\RTC.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\S.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\S_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\T.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\T_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\U.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\U_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\V.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\V_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\W.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\W_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\X.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\X_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\nixie_control.elf</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\nixie_control.hex</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\nixie_control.map</v>
@@ -193,6 +229,7 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\B_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -214,13 +251,8 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\G_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\nixie_control.elf</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\nixie_control.hex</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\nixie_control.map</v>
-<v>nixie\nixie_control\nixie_control.gpdsc</v>
-<v>nixie\nixie_control\nixie_control.rpt</v>
-<v>nixie\nixie_control\nixie_control_timing.html</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\I.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\I_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -238,8 +270,14 @@
 <v>nixie\nixie_control\System Reference Guides\cy_boot_v5_70</v>
 <v>nixie\nixie_control\System Reference Guides\cy_dmac_v1_10</v>
 <v>nixie\nixie_control\System Reference Guides\cy_lfclk_v1_20</v>
+<v>nixie\nixie_control\cy_clock_v2_20</v>
+<v>nixie\nixie_control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>nixie\nixie_control\cy_pins_v2_20</v>
 <v>nixie\nixie_control\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>nixie\nixie_control\Debouncer_v1_0.pdf</v>
+<v>nixie\nixie_control\RTC_P4_v1_30.pdf</v>
+<v>nixie\nixie_control\Timer_v2_80.pdf</v>
+<v>nixie\nixie_control\ZeroTerminal.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>nixie</v>
@@ -250,8 +288,14 @@
 <v>nixie\nixie_control\System Reference Guides\cy_boot_v5_70</v>
 <v>nixie\nixie_control\System Reference Guides\cy_dmac_v1_10</v>
 <v>nixie\nixie_control\System Reference Guides\cy_lfclk_v1_20</v>
+<v>nixie\nixie_control\cy_clock_v2_20</v>
+<v>nixie\nixie_control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>nixie\nixie_control\cy_pins_v2_20</v>
 <v>nixie\nixie_control\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>nixie\nixie_control\Debouncer_v1_0.pdf</v>
+<v>nixie\nixie_control\RTC_P4_v1_30.pdf</v>
+<v>nixie\nixie_control\Timer_v2_80.pdf</v>
+<v>nixie\nixie_control\ZeroTerminal.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -260,16 +304,14 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs>
-<name v=".\nixie_control.cydsn\main.c" />
-</OpenDocs>
+<OpenDocs />
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1439, 711" SelectedTabbedMdiWindow="7ed64d48-7afb-48b7-8829-ceda55bbd7c5"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8a6581ca-a8e3-4a28-a4d4-8b9fb4f14ad5" /><DocumentWindow Key="C:\Users\Jason\Desktop\nixie psoc github\nixie_control.cydsn\main.c" Guid="7ed64d48-7afb-48b7-8829-ceda55bbd7c5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1309, 495" SelectedTabbedMdiWindow="8a6581ca-a8e3-4a28-a4d4-8b9fb4f14ad5"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8a6581ca-a8e3-4a28-a4d4-8b9fb4f14ad5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

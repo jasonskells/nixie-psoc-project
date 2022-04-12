@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="nixie_control" Path="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" Version="5.70" Type="Normal">
+  <Project Name="nixie_control" Path="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" Version="5.70" Type="Normal">
     <CMSIS_SVD_File>nixie_control.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,14 +34,14 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC4\Cm0Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="STRICT" Path="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn">
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\Generated_Source\PSoC4">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\Generated_Source\PSoC4">
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cymetadata.c</File>
@@ -119,37 +119,128 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\H.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\H_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\H_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\RTC.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\RTC.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\I_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\J.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\J.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\J_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\J_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\K.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\K.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\K_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\K_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\L.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\L.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\L_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\L_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\M.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\M.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\M_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\M_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\N.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\N.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\N_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\N_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\O.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\O.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\O_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\O_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\P_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Q.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Q.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Q_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Q_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\R.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\R.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\R_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\R_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\S.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\S.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\S_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\S_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\T.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\T.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\T_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\T_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\U.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\U.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\U_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\U_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\V.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\V.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\V_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\V_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\W.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\W.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\W_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\W_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\X_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PB.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PB.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PB_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\PB_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Timer.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Timer.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Timer_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_4.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_4.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_4_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_red.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_red.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_red_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\led_red_PM.c</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM4">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
-        <Files Root="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn" />
+        <Files Root="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn" />
       </Folder>
     </Folders>
   </Project>

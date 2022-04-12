@@ -1,6 +1,6 @@
 -- ======================================================================
 -- nixie_control.ctl generated from nixie_control
--- 04/07/2022 at 23:46
+-- 04/10/2022 at 21:25
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 

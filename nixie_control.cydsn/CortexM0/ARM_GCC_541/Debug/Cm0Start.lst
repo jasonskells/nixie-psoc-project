@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
   22:Generated_Source\PSoC4/Cm0Start.c **** 
   23:Generated_Source\PSoC4/Cm0Start.c **** #define CY_NUM_VECTORS              (CY_INT_IRQ_BASE + CY_NUM_INTERRUPTS)
   24:Generated_Source\PSoC4/Cm0Start.c **** 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 2
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 2
 
 
   25:Generated_Source\PSoC4/Cm0Start.c **** #if (CY_IP_CPUSS_CM0)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
   79:Generated_Source\PSoC4/Cm0Start.c **** 
   80:Generated_Source\PSoC4/Cm0Start.c **** 
   81:Generated_Source\PSoC4/Cm0Start.c **** #if (CYDEV_PROJ_TYPE != CYDEV_PROJ_TYPE_STANDARD)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 3
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 3
 
 
   82:Generated_Source\PSoC4/Cm0Start.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  119:Generated_Source\PSoC4/Cm0Start.c ****                 CyBoot_IntDefaultHandler_Enomem_Exception_Callback();
  120:Generated_Source\PSoC4/Cm0Start.c ****             #endif /* CY_BOOT_INT_DEFAULT_HANDLER_ENOMEM_EXCEPTION_CALLBACK */
  121:Generated_Source\PSoC4/Cm0Start.c ****             
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 4
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 4
 
 
  122:Generated_Source\PSoC4/Cm0Start.c ****             while(1)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  160:Generated_Source\PSoC4/Cm0Start.c **** ****************************************************************************//**
  161:Generated_Source\PSoC4/Cm0Start.c **** *
  162:Generated_Source\PSoC4/Cm0Start.c **** * This function handles the reset interrupt for the MDK toolchains.
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 5
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 5
 
 
  163:Generated_Source\PSoC4/Cm0Start.c **** * This is the first bit of code that is executed at startup.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  217:Generated_Source\PSoC4/Cm0Start.c **** 
  218:Generated_Source\PSoC4/Cm0Start.c **** /* The static objects constructors initializer */
  219:Generated_Source\PSoC4/Cm0Start.c **** extern void __libc_init_array(void);
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 6
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 6
 
 
  220:Generated_Source\PSoC4/Cm0Start.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
   85              	.L5:
  256:Generated_Source\PSoC4/Cm0Start.c **** 
  257:Generated_Source\PSoC4/Cm0Start.c ****     while(1)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 7
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 7
 
 
  258:Generated_Source\PSoC4/Cm0Start.c ****     {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  286:Generated_Source\PSoC4/Cm0Start.c **** 
  287:Generated_Source\PSoC4/Cm0Start.c ****     if (((heapPointer + nbytes) - (uint8 *) &end) <= CYDEV_HEAP_SIZE)
  112              		.loc 1 287 0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 8
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 8
 
 
  113 0008 104B     		ldr	r3, .L10
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  155              	.L11:
  156              		.align	2
  157              	.L10:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 9
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 9
 
 
  158 004c 00000000 		.word	heapPointer.4945
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  190 000e 204B     		ldr	r3, .L20
  191 0010 7B61     		str	r3, [r7, #20]
  192 0012 35E0     		b	.L13
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 10
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 10
 
 
  193              	.L18:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  234 004c EED1     		bne	.L15
  333:Generated_Source\PSoC4/Cm0Start.c ****             }
  334:Generated_Source\PSoC4/Cm0Start.c ****             limit = rptr->zero_size;
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 11
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 11
 
 
  235              		.loc 1 334 0 is_stmt 1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  344:Generated_Source\PSoC4/Cm0Start.c ****         /* Invoke static objects constructors */
  345:Generated_Source\PSoC4/Cm0Start.c ****         __libc_init_array();
  276              		.loc 1 345 0 is_stmt 1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 12
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 12
 
 
  277 0086 FFF7FEFF 		bl	__libc_init_array
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  368:Generated_Source\PSoC4/Cm0Start.c **** 
  369:Generated_Source\PSoC4/Cm0Start.c ****         /* The bootloadable application image is started at Reset() handler
  370:Generated_Source\PSoC4/Cm0Start.c ****         * as a result of a branch instruction execution from the bootloader.
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 13
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 13
 
 
  371:Generated_Source\PSoC4/Cm0Start.c ****         * So, the stack pointer needs to be reset to be sure that
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  391:Generated_Source\PSoC4/Cm0Start.c **** * Function Name: __low_level_init
  392:Generated_Source\PSoC4/Cm0Start.c **** ****************************************************************************//**
  393:Generated_Source\PSoC4/Cm0Start.c **** *
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 14
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 14
 
 
  394:Generated_Source\PSoC4/Cm0Start.c **** * This function performs early initializations for the IAR Embedded
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  448:Generated_Source\PSoC4/Cm0Start.c **** *******************************************************************************/
  449:Generated_Source\PSoC4/Cm0Start.c **** 
  450:Generated_Source\PSoC4/Cm0Start.c **** #if defined(__ARMCC_VERSION)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 15
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 15
 
 
  451:Generated_Source\PSoC4/Cm0Start.c ****     /* Suppress diagnostic message 1296-D: extended constant initialiser used */
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  493:Generated_Source\PSoC4/Cm0Start.c ****     uint32 indexInit;
  494:Generated_Source\PSoC4/Cm0Start.c **** 
  495:Generated_Source\PSoC4/Cm0Start.c ****     #if(CY_IP_CPUSSV2)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 16
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 16
 
 
  496:Generated_Source\PSoC4/Cm0Start.c ****         #if (CY_IP_CPUSS_CM0)
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  384 0034 0133     		adds	r3, r3, #1
  385 0036 7B60     		str	r3, [r7, #4]
  386              	.L24:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 17
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 17
 
 
  508:Generated_Source\PSoC4/Cm0Start.c ****     {
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  412              	.L28:
  413 005c 00001040 		.word	1074790400
  414 0060 00000000 		.word	RomVectors
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 18
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 18
 
 
  415 0064 00000000 		.word	IntDefaultHandler
@@ -1050,15 +1050,15 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  441 000b 01       		.uleb128 0x1
  442 000c D5000000 		.4byte	.LASF41
  443 0010 0C       		.byte	0xc
- 444 0011 C6010000 		.4byte	.LASF42
- 445 0015 69010000 		.4byte	.LASF43
+ 444 0011 98010000 		.4byte	.LASF42
+ 445 0015 80020000 		.4byte	.LASF43
  446 0019 00000000 		.4byte	.Ldebug_ranges0+0
  447 001d 00000000 		.4byte	0
  448 0021 00000000 		.4byte	.Ldebug_line0
  449 0025 02       		.uleb128 0x2
  450 0026 01       		.byte	0x1
  451 0027 06       		.byte	0x6
- 452 0028 86020000 		.4byte	.LASF0
+ 452 0028 5F020000 		.4byte	.LASF0
  453 002c 02       		.uleb128 0x2
  454 002d 01       		.byte	0x1
  455 002e 08       		.byte	0x8
@@ -1066,7 +1066,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  457 0033 02       		.uleb128 0x2
  458 0034 02       		.byte	0x2
  459 0035 05       		.byte	0x5
- 460 0036 67020000 		.4byte	.LASF2
+ 460 0036 40020000 		.4byte	.LASF2
  461 003a 02       		.uleb128 0x2
  462 003b 02       		.byte	0x2
  463 003c 07       		.byte	0x7
@@ -1074,22 +1074,22 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  465 0041 02       		.uleb128 0x2
  466 0042 04       		.byte	0x4
  467 0043 05       		.byte	0x5
- 468 0044 71020000 		.4byte	.LASF4
+ 468 0044 4A020000 		.4byte	.LASF4
  469 0048 02       		.uleb128 0x2
  470 0049 04       		.byte	0x4
  471 004a 07       		.byte	0x7
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 19
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 19
 
 
  472 004b A2000000 		.4byte	.LASF5
  473 004f 02       		.uleb128 0x2
  474 0050 08       		.byte	0x8
  475 0051 05       		.byte	0x5
- 476 0052 54020000 		.4byte	.LASF6
+ 476 0052 26020000 		.4byte	.LASF6
  477 0056 02       		.uleb128 0x2
  478 0057 08       		.byte	0x8
  479 0058 07       		.byte	0x7
- 480 0059 06020000 		.4byte	.LASF7
+ 480 0059 D8010000 		.4byte	.LASF7
  481 005d 03       		.uleb128 0x3
  482 005e 04       		.byte	0x4
  483 005f 05       		.byte	0x5
@@ -1097,7 +1097,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  485 0064 02       		.uleb128 0x2
  486 0065 04       		.byte	0x4
  487 0066 07       		.byte	0x7
- 488 0067 F9010000 		.4byte	.LASF8
+ 488 0067 CB010000 		.4byte	.LASF8
  489 006b 04       		.uleb128 0x4
  490 006c 06000000 		.4byte	.LASF10
  491 0070 02       		.byte	0x2
@@ -1106,14 +1106,14 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  494 0076 02       		.uleb128 0x2
  495 0077 08       		.byte	0x8
  496 0078 04       		.byte	0x4
- 497 0079 7A020000 		.4byte	.LASF9
+ 497 0079 53020000 		.4byte	.LASF9
  498 007d 05       		.uleb128 0x5
  499 007e C9000000 		.4byte	.LASF11
  500 0082 03       		.byte	0x3
  501 0083 E401     		.2byte	0x1e4
  502 0085 2C000000 		.4byte	0x2c
  503 0089 05       		.uleb128 0x5
- 504 008a E8010000 		.4byte	.LASF12
+ 504 008a BA010000 		.4byte	.LASF12
  505 008e 03       		.byte	0x3
  506 008f E601     		.2byte	0x1e6
  507 0091 48000000 		.4byte	0x48
@@ -1124,11 +1124,11 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  512 009c 02       		.uleb128 0x2
  513 009d 08       		.byte	0x8
  514 009e 04       		.byte	0x4
- 515 009f AF010000 		.4byte	.LASF14
+ 515 009f 81010000 		.4byte	.LASF14
  516 00a3 02       		.uleb128 0x2
  517 00a4 01       		.byte	0x1
  518 00a5 08       		.byte	0x8
- 519 00a6 62020000 		.4byte	.LASF15
+ 519 00a6 34020000 		.4byte	.LASF15
  520 00aa 05       		.uleb128 0x5
  521 00ab 00000000 		.4byte	.LASF16
  522 00af 03       		.byte	0x3
@@ -1137,8 +1137,8 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  525 00b6 06       		.uleb128 0x6
  526 00b7 89000000 		.4byte	0x89
  527 00bb 05       		.uleb128 0x5
- 528 00bc 23020000 		.4byte	.LASF17
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 20
+ 528 00bc F5010000 		.4byte	.LASF17
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 20
 
 
  529 00c0 03       		.byte	0x3
@@ -1151,18 +1151,18 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  536 00ce 02       		.uleb128 0x2
  537 00cf 04       		.byte	0x4
  538 00d0 07       		.byte	0x7
- 539 00d1 4B020000 		.4byte	.LASF18
+ 539 00d1 1D020000 		.4byte	.LASF18
  540 00d5 09       		.uleb128 0x9
  541 00d6 04       		.byte	0x4
  542 00d7 0A       		.uleb128 0xa
  543 00d8 A3000000 		.4byte	0xa3
  544 00dc 04       		.uleb128 0x4
- 545 00dd 3A020000 		.4byte	.LASF19
+ 545 00dd 0C020000 		.4byte	.LASF19
  546 00e1 01       		.byte	0x1
  547 00e2 DD       		.byte	0xdd
  548 00e3 2C000000 		.4byte	0x2c
  549 00e7 0B       		.uleb128 0xb
- 550 00e8 C0020000 		.4byte	.LASF44
+ 550 00e8 C5020000 		.4byte	.LASF44
  551 00ec 10       		.byte	0x10
  552 00ed 01       		.byte	0x1
  553 00ee DF       		.byte	0xdf
@@ -1180,7 +1180,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  565 0106 24010000 		.4byte	0x124
  566 010a 04       		.byte	0x4
  567 010b 0C       		.uleb128 0xc
- 568 010c 30020000 		.4byte	.LASF22
+ 568 010c 02020000 		.4byte	.LASF22
  569 0110 01       		.byte	0x1
  570 0111 E3       		.byte	0xe3
  571 0112 6B000000 		.4byte	0x6b
@@ -1196,9 +1196,9 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  581 0125 04       		.byte	0x4
  582 0126 DC000000 		.4byte	0xdc
  583 012a 0D       		.uleb128 0xd
- 584 012b 92020000 		.4byte	.LASF45
+ 584 012b 69010000 		.4byte	.LASF45
  585 012f 01       		.byte	0x1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 21
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 21
 
 
  586 0130 6C       		.byte	0x6c
@@ -1225,7 +1225,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  607 015d 74       		.sleb128 -12
  608 015e 00       		.byte	0
  609 015f 10       		.uleb128 0x10
- 610 0160 A9010000 		.4byte	.LASF25
+ 610 0160 7B010000 		.4byte	.LASF25
  611 0164 01       		.byte	0x1
  612 0165 1701     		.2byte	0x117
  613 0167 D5000000 		.4byte	0xd5
@@ -1235,7 +1235,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  617 0174 9C       		.byte	0x9c
  618 0175 B6010000 		.4byte	0x1b6
  619 0179 11       		.uleb128 0x11
- 620 017a B9020000 		.4byte	.LASF27
+ 620 017a 39020000 		.4byte	.LASF27
  621 017e 01       		.byte	0x1
  622 017f 1701     		.2byte	0x117
  623 0181 5D000000 		.4byte	0x5d
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  640 01a3 13       		.uleb128 0x13
  641 01a4 28000000 		.4byte	.LASF29
  642 01a8 01       		.byte	0x1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 22
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 22
 
 
  643 01a9 1D01     		.2byte	0x11d
@@ -1280,7 +1280,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  659 01cd 9C       		.byte	0x9c
  660 01ce 37020000 		.4byte	0x237
  661 01d2 13       		.uleb128 0x13
- 662 01d3 B1020000 		.4byte	.LASF31
+ 662 01d3 78020000 		.4byte	.LASF31
  663 01d7 01       		.byte	0x1
  664 01d8 3D01     		.2byte	0x13d
  665 01da 64000000 		.4byte	0x64
@@ -1315,10 +1315,10 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  694 0215 91       		.byte	0x91
  695 0216 68       		.sleb128 -24
  696 0217 13       		.uleb128 0x13
- 697 0218 1D020000 		.4byte	.LASF33
+ 697 0218 EF010000 		.4byte	.LASF33
  698 021c 01       		.byte	0x1
  699 021d 4501     		.2byte	0x145
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 23
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 23
 
 
  700 021f 64000000 		.4byte	0x64
@@ -1352,7 +1352,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  728 0258 01       		.uleb128 0x1
  729 0259 9C       		.byte	0x9c
  730 025a 18       		.uleb128 0x18
- 731 025b B6010000 		.4byte	.LASF47
+ 731 025b 88010000 		.4byte	.LASF47
  732 025f 01       		.byte	0x1
  733 0260 EB01     		.2byte	0x1eb
  734 0262 00000000 		.4byte	.LFB6
@@ -1361,7 +1361,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  737 026b 9C       		.byte	0x9c
  738 026c 80020000 		.4byte	0x280
  739 0270 13       		.uleb128 0x13
- 740 0271 EF010000 		.4byte	.LASF35
+ 740 0271 C1010000 		.4byte	.LASF35
  741 0275 01       		.byte	0x1
  742 0276 ED01     		.2byte	0x1ed
  743 0278 89000000 		.4byte	0x89
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  754 028c 03       		.byte	0x3
  755 028d 00000000 		.4byte	cySysNoInitDataValid
  756 0291 12       		.uleb128 0x12
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 24
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 24
 
 
  757 0292 656E6400 		.ascii	"end\000"
@@ -1391,7 +1391,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  764 02a6 1B       		.uleb128 0x1b
  765 02a7 00       		.byte	0
  766 02a8 1C       		.uleb128 0x1c
- 767 02a9 A4020000 		.4byte	.LASF37
+ 767 02a9 6B020000 		.4byte	.LASF37
  768 02ad 01       		.byte	0x1
  769 02ae E7       		.byte	0xe7
  770 02af B3020000 		.4byte	0x2b3
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  811 030d E5020000 		.4byte	0x2e5
  812 0311 00       		.byte	0
  813              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 25
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 25
 
 
  814              	.Ldebug_abbrev0:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  868 0035 00       		.byte	0
  869 0036 05       		.uleb128 0x5
  870 0037 16       		.uleb128 0x16
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 26
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 26
 
 
  871 0038 00       		.byte	0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  925 006e 0B       		.uleb128 0xb
  926 006f 3A       		.uleb128 0x3a
  927 0070 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 27
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 27
 
 
  928 0071 3B       		.uleb128 0x3b
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  982 00a9 0B       		.uleb128 0xb
  983 00aa 3B       		.uleb128 0x3b
  984 00ab 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 28
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 28
 
 
  985 00ac 27       		.uleb128 0x27
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1039 00e5 01       		.uleb128 0x1
  1040 00e6 13       		.uleb128 0x13
  1041 00e7 00       		.byte	0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 29
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 29
 
 
  1042 00e8 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1096 011e 0E       		.uleb128 0xe
  1097 011f 3A       		.uleb128 0x3a
  1098 0120 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 30
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 30
 
 
  1099 0121 3B       		.uleb128 0x3b
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1153 0159 19       		.uleb128 0x19
  1154 015a 11       		.uleb128 0x11
  1155 015b 01       		.uleb128 0x1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 31
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 31
 
 
  1156 015c 12       		.uleb128 0x12
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1210 0194 13       		.uleb128 0x13
  1211 0195 00       		.byte	0
  1212 0196 00       		.byte	0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 32
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 32
 
 
  1213 0197 1B       		.uleb128 0x1b
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1267 000b 00       		.byte	0
  1268 000c 0000     		.2byte	0
  1269 000e 0000     		.2byte	0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 33
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 33
 
 
  1270 0010 00000000 		.4byte	.LFB1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1313              	.LASF29:
  1314 0028 68656170 		.ascii	"heapPointer\000"
  1314      506F696E 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 34
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 34
 
 
  1314      74657200 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1340      61746156 
  1340      616C6964 
  1341              	.LASF11:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 35
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 35
 
 
  1342 00c9 75696E74 		.ascii	"uint8\000"
@@ -2065,123 +2065,123 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 1
  1349              	.LASF24:
  1350 0163 5F657869 		.ascii	"_exit\000"
  1350      7400
- 1351              	.LASF43:
- 1352 0169 433A5C55 		.ascii	"C:\\Users\\Jason\\Documents\\PSoC Creator\\nixie\\n"
- 1352      73657273 
- 1352      5C4A6173 
- 1352      6F6E5C44 
- 1352      6F63756D 
- 1353 0196 69786965 		.ascii	"ixie_control.cydsn\000"
- 1353      5F636F6E 
- 1353      74726F6C 
- 1353      2E637964 
- 1353      736E00
- 1354              	.LASF25:
- 1355 01a9 5F736272 		.ascii	"_sbrk\000"
- 1355      6B00
- 1356              	.LASF14:
- 1357 01af 646F7562 		.ascii	"double\000"
- 1357      6C6500
- 1358              	.LASF47:
- 1359 01b6 696E6974 		.ascii	"initialize_psoc\000"
- 1359      69616C69 
- 1359      7A655F70 
- 1359      736F6300 
- 1360              	.LASF42:
- 1361 01c6 47656E65 		.ascii	"Generated_Source\\PSoC4\\Cm0Start.c\000"
- 1361      72617465 
- 1361      645F536F 
- 1361      75726365 
- 1361      5C50536F 
- 1362              	.LASF12:
- 1363 01e8 75696E74 		.ascii	"uint32\000"
- 1363      333200
- 1364              	.LASF35:
- 1365 01ef 696E6465 		.ascii	"indexInit\000"
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 36
+ 1351              	.LASF45:
+ 1352 0169 496E7444 		.ascii	"IntDefaultHandler\000"
+ 1352      65666175 
+ 1352      6C744861 
+ 1352      6E646C65 
+ 1352      7200
+ 1353              	.LASF25:
+ 1354 017b 5F736272 		.ascii	"_sbrk\000"
+ 1354      6B00
+ 1355              	.LASF14:
+ 1356 0181 646F7562 		.ascii	"double\000"
+ 1356      6C6500
+ 1357              	.LASF47:
+ 1358 0188 696E6974 		.ascii	"initialize_psoc\000"
+ 1358      69616C69 
+ 1358      7A655F70 
+ 1358      736F6300 
+ 1359              	.LASF42:
+ 1360 0198 47656E65 		.ascii	"Generated_Source\\PSoC4\\Cm0Start.c\000"
+ 1360      72617465 
+ 1360      645F536F 
+ 1360      75726365 
+ 1360      5C50536F 
+ 1361              	.LASF12:
+ 1362 01ba 75696E74 		.ascii	"uint32\000"
+ 1362      333200
+ 1363              	.LASF35:
+ 1364 01c1 696E6465 		.ascii	"indexInit\000"
+ 1364      78496E69 
+ 1364      7400
+ 1365              	.LASF8:
+ 1366 01cb 756E7369 		.ascii	"unsigned int\000"
+ 1366      676E6564 
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 36
 
 
- 1365      78496E69 
- 1365      7400
- 1366              	.LASF8:
- 1367 01f9 756E7369 		.ascii	"unsigned int\000"
- 1367      676E6564 
- 1367      20696E74 
- 1367      00
- 1368              	.LASF7:
- 1369 0206 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1369      206C6F6E 
- 1369      6720756E 
- 1369      7369676E 
- 1369      65642069 
- 1370              	.LASF33:
- 1371 021d 6C696D69 		.ascii	"limit\000"
- 1371      7400
- 1372              	.LASF17:
- 1373 0223 63796973 		.ascii	"cyisraddress\000"
- 1373      72616464 
- 1373      72657373 
- 1373      00
- 1374              	.LASF22:
- 1375 0230 696E6974 		.ascii	"init_size\000"
- 1375      5F73697A 
- 1375      6500
- 1376              	.LASF19:
- 1377 023a 5F5F6379 		.ascii	"__cy_byte_align8\000"
- 1377      5F627974 
- 1377      655F616C 
- 1377      69676E38 
- 1377      00
- 1378              	.LASF18:
- 1379 024b 73697A65 		.ascii	"sizetype\000"
- 1379      74797065 
- 1379      00
- 1380              	.LASF6:
- 1381 0254 6C6F6E67 		.ascii	"long long int\000"
- 1381      206C6F6E 
- 1381      6720696E 
- 1381      7400
- 1382              	.LASF15:
- 1383 0262 63686172 		.ascii	"char\000"
- 1383      00
- 1384              	.LASF2:
- 1385 0267 73686F72 		.ascii	"short int\000"
- 1385      7420696E 
- 1385      7400
- 1386              	.LASF4:
- 1387 0271 6C6F6E67 		.ascii	"long int\000"
- 1387      20696E74 
- 1387      00
- 1388              	.LASF9:
- 1389 027a 6C6F6E67 		.ascii	"long double\000"
- 1389      20646F75 
- 1389      626C6500 
- 1390              	.LASF0:
- 1391 0286 7369676E 		.ascii	"signed char\000"
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccJz2sTl.s 			page 37
+ 1366      20696E74 
+ 1366      00
+ 1367              	.LASF7:
+ 1368 01d8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1368      206C6F6E 
+ 1368      6720756E 
+ 1368      7369676E 
+ 1368      65642069 
+ 1369              	.LASF33:
+ 1370 01ef 6C696D69 		.ascii	"limit\000"
+ 1370      7400
+ 1371              	.LASF17:
+ 1372 01f5 63796973 		.ascii	"cyisraddress\000"
+ 1372      72616464 
+ 1372      72657373 
+ 1372      00
+ 1373              	.LASF22:
+ 1374 0202 696E6974 		.ascii	"init_size\000"
+ 1374      5F73697A 
+ 1374      6500
+ 1375              	.LASF19:
+ 1376 020c 5F5F6379 		.ascii	"__cy_byte_align8\000"
+ 1376      5F627974 
+ 1376      655F616C 
+ 1376      69676E38 
+ 1376      00
+ 1377              	.LASF18:
+ 1378 021d 73697A65 		.ascii	"sizetype\000"
+ 1378      74797065 
+ 1378      00
+ 1379              	.LASF6:
+ 1380 0226 6C6F6E67 		.ascii	"long long int\000"
+ 1380      206C6F6E 
+ 1380      6720696E 
+ 1380      7400
+ 1381              	.LASF15:
+ 1382 0234 63686172 		.ascii	"char\000"
+ 1382      00
+ 1383              	.LASF27:
+ 1384 0239 6E627974 		.ascii	"nbytes\000"
+ 1384      657300
+ 1385              	.LASF2:
+ 1386 0240 73686F72 		.ascii	"short int\000"
+ 1386      7420696E 
+ 1386      7400
+ 1387              	.LASF4:
+ 1388 024a 6C6F6E67 		.ascii	"long int\000"
+ 1388      20696E74 
+ 1388      00
+ 1389              	.LASF9:
+ 1390 0253 6C6F6E67 		.ascii	"long double\000"
+ 1390      20646F75 
+ 1390      626C6500 
+ 1391              	.LASF0:
+ 1392 025f 7369676E 		.ascii	"signed char\000"
+ 1392      65642063 
+ 1392      68617200 
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccWWWvm2.s 			page 37
 
 
- 1391      65642063 
- 1391      68617200 
- 1392              	.LASF45:
- 1393 0292 496E7444 		.ascii	"IntDefaultHandler\000"
- 1393      65666175 
- 1393      6C744861 
- 1393      6E646C65 
- 1393      7200
- 1394              	.LASF37:
- 1395 02a4 5F5F6379 		.ascii	"__cy_regions\000"
- 1395      5F726567 
- 1395      696F6E73 
- 1395      00
- 1396              	.LASF31:
- 1397 02b1 72656769 		.ascii	"regions\000"
- 1397      6F6E7300 
- 1398              	.LASF27:
- 1399 02b9 6E627974 		.ascii	"nbytes\000"
- 1399      657300
+ 1393              	.LASF37:
+ 1394 026b 5F5F6379 		.ascii	"__cy_regions\000"
+ 1394      5F726567 
+ 1394      696F6E73 
+ 1394      00
+ 1395              	.LASF31:
+ 1396 0278 72656769 		.ascii	"regions\000"
+ 1396      6F6E7300 
+ 1397              	.LASF43:
+ 1398 0280 433A5C55 		.ascii	"C:\\Users\\Jason\\Desktop\\github\\nixie-psoc-proje"
+ 1398      73657273 
+ 1398      5C4A6173 
+ 1398      6F6E5C44 
+ 1398      65736B74 
+ 1399 02ae 63745C6E 		.ascii	"ct\\nixie_control.cydsn\000"
+ 1399      69786965 
+ 1399      5F636F6E 
+ 1399      74726F6C 
+ 1399      2E637964 
  1400              	.LASF44:
- 1401 02c0 5F5F6379 		.ascii	"__cy_region\000"
+ 1401 02c5 5F5F6379 		.ascii	"__cy_region\000"
  1401      5F726567 
  1401      696F6E00 
  1402              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

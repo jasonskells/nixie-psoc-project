@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
   55 007c 00000000 		.word	CyDmaDefaultInterruptCallback
   56              		.bss
   57              		.align	2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 2
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 2
 
 
   58              	CyDmaChannelUsedMask:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
   44:Generated_Source\PSoC4/CyDMA.c **** 
   45:Generated_Source\PSoC4/CyDMA.c **** /* The live status of all DMA channels usage. Bit i is associated to channel i,
   46:Generated_Source\PSoC4/CyDMA.c **** * with i = 0..CYDMA_CH_NR-1. '0' - channel is free. '1' - channel is in use.
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 3
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 3
 
 
   47:Generated_Source\PSoC4/CyDMA.c **** * All the channels allocated for DMA instances placed on a schematic are in use
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
   88              		.loc 1 81 0
   89 0014 0321     		movs	r1, #3
   90 0016 0E20     		movs	r0, #14
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 4
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 4
 
 
   91 0018 FFF7FEFF 		bl	CyIntSetPriority
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  103:Generated_Source\PSoC4/CyDMA.c **** *
  104:Generated_Source\PSoC4/CyDMA.c **** *******************************************************************************/
  105:Generated_Source\PSoC4/CyDMA.c **** void CyDmaDisable(void)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 5
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 5
 
 
  106:Generated_Source\PSoC4/CyDMA.c **** {
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  125:Generated_Source\PSoC4/CyDMA.c **** *
  126:Generated_Source\PSoC4/CyDMA.c **** * Side effect:
  127:Generated_Source\PSoC4/CyDMA.c **** *  The series of function calls CyDmaGetActiveSrcAddress(),
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 6
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 6
 
 
  128:Generated_Source\PSoC4/CyDMA.c **** *  CyDmaGetActiveDstAddress(), CyDmaGetStatus() are not atomic, the DMA
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  149:Generated_Source\PSoC4/CyDMA.c **** *                   
  150:Generated_Source\PSoC4/CyDMA.c **** * Return:
  151:Generated_Source\PSoC4/CyDMA.c **** *  Bit field of active and pending channels. 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 7
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 7
 
 
  152:Generated_Source\PSoC4/CyDMA.c **** *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  173:Generated_Source\PSoC4/CyDMA.c **** *  Source address currently being used by the DMA transfer engine.
  174:Generated_Source\PSoC4/CyDMA.c **** *
  175:Generated_Source\PSoC4/CyDMA.c **** * Side effect:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 8
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 8
 
 
  176:Generated_Source\PSoC4/CyDMA.c **** *  The series of function calls CyDmaGetActiveSrcAddress(),
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  197:Generated_Source\PSoC4/CyDMA.c **** * Parameters:
  198:Generated_Source\PSoC4/CyDMA.c **** *  None.
  199:Generated_Source\PSoC4/CyDMA.c **** *                   
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 9
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 9
 
 
  200:Generated_Source\PSoC4/CyDMA.c **** * Return:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  221:Generated_Source\PSoC4/CyDMA.c **** *  Sets the function that will be called by the DMA interrupt. Note, calling
  222:Generated_Source\PSoC4/CyDMA.c **** *  CyDmaEnable() for the first time overrides any effect this API could have.
  223:Generated_Source\PSoC4/CyDMA.c **** *  Call CyDmaSetInterruptVector() after calling CyDmaEnable() to change
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 10
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 10
 
 
  224:Generated_Source\PSoC4/CyDMA.c **** *  the default ISR.
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  243:Generated_Source\PSoC4/CyDMA.c **** 
  244:Generated_Source\PSoC4/CyDMA.c **** 
  245:Generated_Source\PSoC4/CyDMA.c **** /*******************************************************************************
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 11
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 11
 
 
  246:Generated_Source\PSoC4/CyDMA.c **** * Function Name: CyDmaGetInterruptSource
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  267:Generated_Source\PSoC4/CyDMA.c **** ********************************************************************************
  268:Generated_Source\PSoC4/CyDMA.c **** *
  269:Generated_Source\PSoC4/CyDMA.c **** * Summary:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 12
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 12
 
 
  270:Generated_Source\PSoC4/CyDMA.c **** *  Clears the pending interrupts.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  286:Generated_Source\PSoC4/CyDMA.c **** * Function Name: CyDmaSetInterruptSourceMask
  287:Generated_Source\PSoC4/CyDMA.c **** ********************************************************************************
  288:Generated_Source\PSoC4/CyDMA.c **** *
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 13
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 13
 
 
  289:Generated_Source\PSoC4/CyDMA.c **** * Summary:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  305:Generated_Source\PSoC4/CyDMA.c **** /*******************************************************************************
  306:Generated_Source\PSoC4/CyDMA.c **** * Function Name: CyDmaGetInterruptSourceMask
  307:Generated_Source\PSoC4/CyDMA.c **** ********************************************************************************
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 14
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 14
 
 
  308:Generated_Source\PSoC4/CyDMA.c **** *
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  329:Generated_Source\PSoC4/CyDMA.c **** * Summary:
  330:Generated_Source\PSoC4/CyDMA.c **** *  Returns the bitwise AND of the interrupt source and the interrupt mask.
  331:Generated_Source\PSoC4/CyDMA.c **** *
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 15
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 15
 
 
  332:Generated_Source\PSoC4/CyDMA.c **** * Parameters:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  353:Generated_Source\PSoC4/CyDMA.c **** *
  354:Generated_Source\PSoC4/CyDMA.c **** * Parameters:
  355:Generated_Source\PSoC4/CyDMA.c **** *  channel:  Channel used by this function.
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 16
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 16
 
 
  356:Generated_Source\PSoC4/CyDMA.c **** *  callback: Pointer to the user defined callback function.
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  542 002e FB60     		str	r3, [r7, #12]
  369:Generated_Source\PSoC4/CyDMA.c ****     CyDmaInterruptCallback[channel] = callback;
  543              		.loc 1 369 0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 17
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 17
 
 
  544 0030 044B     		ldr	r3, .L48
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  577              		.cfi_def_cfa_offset 8
  578              		.cfi_offset 7, -8
  579              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 18
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 18
 
 
  580 0002 82B0     		sub	sp, sp, #8
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  630              		.type	CyDmaInterrupt, %function
  631              	CyDmaInterrupt:
  632              	.LFB15:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 19
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 19
 
 
  395:Generated_Source\PSoC4/CyDMA.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  426:Generated_Source\PSoC4/CyDMA.c **** 
  427:Generated_Source\PSoC4/CyDMA.c ****     /* Call user defined callback functions for triggered interrupt sources. */
  428:Generated_Source\PSoC4/CyDMA.c ****     while(0u != intr)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 20
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 20
 
 
  656              		.loc 1 428 0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  700              		.align	2
  701              		.code	16
  702              		.thumb_func
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 21
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 21
 
 
  703              		.type	CyDmaDefaultInterruptCallback, %function
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  728              		.align	2
  729              		.global	CyDmaChAlloc
  730              		.code	16
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 22
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 22
 
 
  731              		.thumb_func
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  760 0016 3A68     		ldr	r2, [r7]
  761 0018 1340     		ands	r3, r2
  762 001a 06D1     		bne	.L66
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 23
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 23
 
 
  492:Generated_Source\PSoC4/CyDMA.c ****         {
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  806              		.thumb_func
  807              		.type	CyDmaChFree, %function
  808              	CyDmaChFree:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 24
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 24
 
 
  809              	.LFB18:
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  839 001c 0023     		movs	r3, #0
  840              	.L74:
  841              		.loc 1 525 0 discriminator 6
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 25
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 25
 
 
  842 001e 002B     		cmp	r3, #0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  882              		.global	CyDmaChEnable
  883              		.code	16
  884              		.thumb_func
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 26
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 26
 
 
  885              		.type	CyDmaChEnable, %function
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  915              	.L81:
  916              		.loc 1 563 0 discriminator 6
  917 001a 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 27
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 27
 
 
  918 001c 02D1     		bne	.L82
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  580:Generated_Source\PSoC4/CyDMA.c **** *  None.
  581:Generated_Source\PSoC4/CyDMA.c **** *
  582:Generated_Source\PSoC4/CyDMA.c **** * Side effect:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 28
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 28
 
 
  583:Generated_Source\PSoC4/CyDMA.c **** *  If this function is called during a DMA transfer the transfer is aborted. 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  591:Generated_Source\PSoC4/CyDMA.c **** }
  1002              		.loc 1 591 0
  1003 0038 C046     		nop
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 29
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 29
 
 
  1004 003a BD46     		mov	sp, r7
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  614:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT((channel >= 0) && (channel < CYDMA_CH_NR));
  1036              		.loc 1 614 0
  1037 0008 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 30
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 30
 
 
  1038 000a 002B     		cmp	r3, #0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1089              		.type	CyDmaSetPriority, %function
  1090              	CyDmaSetPriority:
  1091              	.LFB22:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 31
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 31
 
 
  618:Generated_Source\PSoC4/CyDMA.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1120              	.L99:
  1121              		.loc 1 643 0 discriminator 6
  1122 001c 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 32
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 32
 
 
  1123 001e 02D1     		bne	.L100
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1172 0066 80BD     		pop	{r7, pc}
  1173              	.L105:
  1174              		.align	2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 33
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 33
 
 
  1175              	.L104:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1208 0010 1F2B     		cmp	r3, #31
  1209 0012 01DC     		bgt	.L107
  1210              		.loc 1 669 0 discriminator 3
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 34
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 34
 
 
  1211 0014 0123     		movs	r3, #1
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  678:Generated_Source\PSoC4/CyDMA.c **** ********************************************************************************
  679:Generated_Source\PSoC4/CyDMA.c **** *
  680:Generated_Source\PSoC4/CyDMA.c **** * Summary:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 35
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 35
 
 
  681:Generated_Source\PSoC4/CyDMA.c **** *  Sets the descriptor that should be run the next time the channel is
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1292              	.L116:
  700:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT((descriptor >= 0) && (descriptor < CYDMA_DESCR_NR));
  1293              		.loc 1 700 0 is_stmt 1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 36
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 36
 
 
  1294 0026 3B68     		ldr	r3, [r7]
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1344              	.LFE24:
  1345              		.size	CyDmaSetNextDescriptor, .-CyDmaSetNextDescriptor
  1346              		.section	.text.CyDmaGetNextDescriptor,"ax",%progbits
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 37
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 37
 
 
  1347              		.align	2
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1379              		.loc 1 726 0 discriminator 4
  1380 0018 0023     		movs	r3, #0
  1381              	.L124:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 38
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 38
 
 
  1382              		.loc 1 726 0 discriminator 6
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  741:Generated_Source\PSoC4/CyDMA.c **** *  channel:    DMA channel modified by this function.
  742:Generated_Source\PSoC4/CyDMA.c **** *  descriptor: Descriptor (0 or 1) modified by this function.
  743:Generated_Source\PSoC4/CyDMA.c **** *  config:     Pointer to a configuration structure. Refer to cydma_init_struct
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 39
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 39
 
 
  744:Generated_Source\PSoC4/CyDMA.c **** *              structure definition in CyDMA_P4.h and/or DMA channel datasheet
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1459              		.loc 1 760 0 is_stmt 1
  1460 0028 BB68     		ldr	r3, [r7, #8]
  1461 002a 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 40
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 40
 
 
  1462 002c 04DB     		blt	.L133
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1513              		.loc 1 763 0 discriminator 7
  1514 0072 0020     		movs	r0, #0
  1515 0074 FFF7FEFF 		bl	CyHalt
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 41
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 41
 
 
  1516              	.L139:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1565 00c4 FFF7FEFF 		bl	CyHalt
  1566              	.L144:
  769:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT(0u == (config->actions             & (uint32)~CYDMA_POST_COMPLETE_ACTIONS));
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 42
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 42
 
 
  1567              		.loc 1 769 0 is_stmt 1
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1608 00fe 7B68     		ldr	r3, [r7, #4]
  1609 0100 9B69     		ldr	r3, [r3, #24]
  776:Generated_Source\PSoC4/CyDMA.c ****                                                            config->transferMode        |
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 43
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 43
 
 
  1610              		.loc 1 776 0
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1658              		.align	2
  1659              		.global	CyDmaValidateDescriptor
  1660              		.code	16
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 44
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 44
 
 
  1661              		.thumb_func
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1689 0018 00E0     		b	.L150
  1690              	.L149:
  1691              		.loc 1 807 0 discriminator 4
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 45
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 45
 
 
  1692 001a 0023     		movs	r3, #0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1742              		.align	2
  1743              	.L155:
  1744 0060 00181040 		.word	1074796544
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 46
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 46
 
 
  1745              		.cfi_endproc
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1777 0014 01DC     		bgt	.L158
  1778              		.loc 1 833 0 discriminator 3
  1779 0016 0123     		movs	r3, #1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 47
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 47
 
 
  1780 0018 00E0     		b	.L159
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1830              	.L166:
  1831              		.align	2
  1832              	.L165:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 48
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 48
 
 
  1833 005c 00181040 		.word	1074796544
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1862 000e 002B     		cmp	r3, #0
  1863 0010 04DB     		blt	.L168
  1864              		.loc 1 862 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 49
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 49
 
 
  1865 0012 FB68     		ldr	r3, [r7, #12]
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1915 0056 BD46     		mov	sp, r7
  1916 0058 04B0     		add	sp, sp, #16
  1917              		@ sp needed
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 50
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 50
 
 
  1918 005a 80BD     		pop	{r7, pc}
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  1951 000e 04DB     		blt	.L177
  1952              		.loc 1 887 0 is_stmt 0 discriminator 1
  1953 0010 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 51
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 51
 
 
  1954 0012 1F2B     		cmp	r3, #31
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2004              		@ sp needed
  2005 0056 80BD     		pop	{r7, pc}
  2006              	.L185:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 52
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 52
 
 
  2007              		.align	2
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2036              		.loc 1 916 0
  2037 000c FB68     		ldr	r3, [r7, #12]
  2038 000e 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 53
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 53
 
 
  2039 0010 04DB     		blt	.L187
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2090 0056 1A60     		str	r2, [r3]
  920:Generated_Source\PSoC4/CyDMA.c **** }
  2091              		.loc 1 920 0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 54
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 54
 
 
  2092 0058 C046     		nop
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  941:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT((channel    >= 0) && (channel    < CYDMA_CH_NR));
  2126              		.loc 1 941 0
  2127 000a 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 55
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 55
 
 
  2128 000c 002B     		cmp	r3, #0
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2179 0052 1B68     		ldr	r3, [r3]
  945:Generated_Source\PSoC4/CyDMA.c **** }
  2180              		.loc 1 945 0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 56
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 56
 
 
  2181 0054 1800     		movs	r0, r3
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2207              		.cfi_offset 7, -8
  2208              		.cfi_offset 14, -4
  2209 0002 86B0     		sub	sp, sp, #24
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 57
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 57
 
 
  2210              		.cfi_def_cfa_offset 32
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  978:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT(0u == (dataElementSize & (uint32)~CYDMA_DATA_SIZE));
  2260              		.loc 1 978 0 is_stmt 1
  2261 0044 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 58
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 58
 
 
  2262 0046 114A     		ldr	r2, .L213
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2312              		.code	16
  2313              		.thumb_func
  2314              		.type	CyDmaGetDataElementSize, %function
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 59
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 59
 
 
  2315              	CyDmaGetDataElementSize:
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2341 0018 00E0     		b	.L217
  2342              	.L216:
  2343              		.loc 1 1010 0 discriminator 4
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 60
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 60
 
 
  2344 001a 0023     		movs	r3, #0
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2394              	.L224:
  2395 0062 C046     		.align	2
  2396              	.L223:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 61
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 61
 
 
  2397 0064 00181040 		.word	1074796544
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
 1042:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT((channel        >= 0) && (channel         <  CYDMA_CH_NR));
  2424              		.loc 1 1042 0
  2425 000c FB68     		ldr	r3, [r7, #12]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 62
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 62
 
 
  2426 000e 002B     		cmp	r3, #0
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2478              		.loc 1 1044 0 discriminator 3
  2479 0054 0123     		movs	r3, #1
  2480 0056 00E0     		b	.L233
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 63
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 63
 
 
  2481              	.L232:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2530              	.L235:
  2531 00a4 00181040 		.word	1074796544
  2532              		.cfi_endproc
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 64
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 64
 
 
  2533              	.LFE35:
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2562 0010 7B68     		ldr	r3, [r7, #4]
  2563 0012 1F2B     		cmp	r3, #31
  2564 0014 01DC     		bgt	.L238
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 65
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 65
 
 
  2565              		.loc 1 1074 0 discriminator 3
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2615              		.loc 1 1078 0
  2616 005c FB68     		ldr	r3, [r7, #12]
 1079:Generated_Source\PSoC4/CyDMA.c **** }
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 66
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 66
 
 
  2617              		.loc 1 1079 0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2640              		@ args = 0, pretend = 0, frame = 24
  2641              		@ frame_needed = 1, uses_anonymous_args = 0
  2642 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 67
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 67
 
 
  2643              		.cfi_def_cfa_offset 8
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2693              		.loc 1 1114 0 discriminator 7
  2694 003e 0020     		movs	r0, #0
  2695 0040 FFF7FEFF 		bl	CyHalt
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 68
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 68
 
 
  2696              	.L253:
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2745              		.size	CyDmaSetSrcDstTransferWidth, .-CyDmaSetSrcDstTransferWidth
  2746              		.section	.text.CyDmaGetSrcDstTransferWidth,"ax",%progbits
  2747              		.align	2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 69
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 69
 
 
  2748              		.global	CyDmaGetSrcDstTransferWidth
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2779              	.L258:
  2780              		.loc 1 1142 0 discriminator 4
  2781 001a 0023     		movs	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 70
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 70
 
 
  2782              	.L259:
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2833              	.L265:
  2834 0064 00181040 		.word	1074796544
  2835              		.cfi_endproc
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 71
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 71
 
 
  2836              	.LFE38:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2860 000a 7A60     		str	r2, [r7, #4]
 1176:Generated_Source\PSoC4/CyDMA.c ****     uint32 regValue;
 1177:Generated_Source\PSoC4/CyDMA.c **** 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 72
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 72
 
 
 1178:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT((channel    >= 0) && (channel    < CYDMA_CH_NR));
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2912 004e FFF7FEFF 		bl	CyHalt
  2913              	.L274:
 1181:Generated_Source\PSoC4/CyDMA.c **** 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 73
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 73
 
 
 1182:Generated_Source\PSoC4/CyDMA.c ****     regValue = CYDMA_DESCR_BASE.descriptor[channel][descriptor].ctl & (uint32)~CYDMA_ADDR_INCR;
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
 1188:Generated_Source\PSoC4/CyDMA.c **** * Function Name: CyDmaGetAddressIncrement
 1189:Generated_Source\PSoC4/CyDMA.c **** ********************************************************************************
 1190:Generated_Source\PSoC4/CyDMA.c **** *
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 74
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 74
 
 
 1191:Generated_Source\PSoC4/CyDMA.c **** * Summary:
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  2998              		.loc 1 1208 0 is_stmt 1
  2999 0026 3B68     		ldr	r3, [r7]
  3000 0028 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 75
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 75
 
 
  3001 002a 04DB     		blt	.L281
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3052              	CyDmaSetTriggerType:
  3053              	.LFB41:
 1212:Generated_Source\PSoC4/CyDMA.c **** 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 76
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 76
 
 
 1213:Generated_Source\PSoC4/CyDMA.c **** 
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3078 0018 0123     		movs	r3, #1
  3079 001a 00E0     		b	.L289
  3080              	.L288:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 77
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 77
 
 
  3081              		.loc 1 1242 0 discriminator 4
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3131 0062 1B68     		ldr	r3, [r3]
  3132 0064 094A     		ldr	r2, .L295
  3133 0066 1340     		ands	r3, r2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 78
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 78
 
 
  3134 0068 7B61     		str	r3, [r7, #20]
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
 1265:Generated_Source\PSoC4/CyDMA.c **** *  CyDMA_P4.h or the API description in the DMA channel datasheet for more
 1266:Generated_Source\PSoC4/CyDMA.c **** *  information.
 1267:Generated_Source\PSoC4/CyDMA.c **** *
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 79
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 79
 
 
 1268:Generated_Source\PSoC4/CyDMA.c **** *******************************************************************************/
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3219 0036 0023     		movs	r3, #0
  3220              	.L302:
  3221              		.loc 1 1272 0 discriminator 6
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 80
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 80
 
 
  3222 0038 002B     		cmp	r3, #0
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
 1287:Generated_Source\PSoC4/CyDMA.c **** *  channel:      Channel used by this function.
 1288:Generated_Source\PSoC4/CyDMA.c **** *  descriptor:   Descriptor (0 or 1) modified by this function.
 1289:Generated_Source\PSoC4/CyDMA.c **** *  transferMode: Specifies the DMA transfer mode settings. Refer to the API bit
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 81
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 81
 
 
 1290:Generated_Source\PSoC4/CyDMA.c **** *                field definitions in CyDMA_P4.h or the API description in the
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3299              		.loc 1 1306 0 is_stmt 1
  3300 0028 BB68     		ldr	r3, [r7, #8]
  3301 002a 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 82
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 82
 
 
  3302 002c 04DB     		blt	.L311
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3352 007a 1B01     		lsls	r3, r3, #4
  3353 007c C318     		adds	r3, r0, r3
  3354 007e 0833     		adds	r3, r3, #8
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 83
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 83
 
 
  3355 0080 1A60     		str	r2, [r3]
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3386              		.cfi_def_cfa_offset 16
  3387 0004 00AF     		add	r7, sp, #0
  3388              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 84
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 84
 
 
  3389 0006 7860     		str	r0, [r7, #4]
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3439 0048 3B68     		ldr	r3, [r7]
  3440 004a D318     		adds	r3, r2, r3
  3441 004c 1B01     		lsls	r3, r3, #4
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 85
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 85
 
 
  3442 004e CB18     		adds	r3, r1, r3
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3469              		.cfi_startproc
  3470              		@ args = 0, pretend = 0, frame = 24
  3471              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 86
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 86
 
 
  3472 0000 80B5     		push	{r7, lr}
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3522 003c 02D1     		bne	.L333
  3523              		.loc 1 1368 0 discriminator 7
  3524 003e 0020     		movs	r0, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 87
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 87
 
 
  3525 0040 FFF7FEFF 		bl	CyHalt
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3574              	.LFE45:
  3575              		.size	CyDmaSetPreemptable, .-CyDmaSetPreemptable
  3576              		.section	.text.CyDmaGetPreemptable,"ax",%progbits
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 88
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 88
 
 
  3577              		.align	2
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3609              	.L338:
  3610              		.loc 1 1395 0 discriminator 4
  3611 001a 0023     		movs	r3, #0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 89
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 89
 
 
  3612              	.L339:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3662 0062 C046     		.align	2
  3663              	.L345:
  3664 0064 00181040 		.word	1074796544
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 90
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 90
 
 
  3665              		.cfi_endproc
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
 1428:Generated_Source\PSoC4/CyDMA.c ****     CYASSERT((channel    >= 0) && (channel    < CYDMA_CH_NR));
  3691              		.loc 1 1428 0
  3692 000c FB68     		ldr	r3, [r7, #12]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 91
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 91
 
 
  3693 000e 002B     		cmp	r3, #0
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
 1432:Generated_Source\PSoC4/CyDMA.c ****     regValue = CYDMA_DESCR_BASE.descriptor[channel][descriptor].ctl & (uint32)~CYDMA_POST_COMPLETE_
  3744              		.loc 1 1432 0 is_stmt 1
  3745 0052 0F49     		ldr	r1, .L355+4
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 92
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 92
 
 
  3746 0054 FB68     		ldr	r3, [r7, #12]
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
 1441:Generated_Source\PSoC4/CyDMA.c **** * Summary:
 1442:Generated_Source\PSoC4/CyDMA.c **** *  Returns the post descriptor action settings as set by 
 1443:Generated_Source\PSoC4/CyDMA.c **** *  CyDmaSetPostCompletionActions() or CyDmaSetConfiguration().
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 93
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 93
 
 
 1444:Generated_Source\PSoC4/CyDMA.c **** *
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3831 002a 04DB     		blt	.L361
  3832              		.loc 1 1458 0 is_stmt 0 discriminator 1
  3833 002c 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 94
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 94
 
 
  3834 002e 012B     		cmp	r3, #1
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3885 0004 000102C0 		.word	-1073610496
  3886 0008 000202C0 		.word	-1073610240
  3887 000c 080202C0 		.word	-1073610232
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 95
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 95
 
 
  3888              		.text
@@ -5652,45 +5652,45 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3896 0006 00000000 		.4byte	.Ldebug_abbrev0
  3897 000a 04       		.byte	0x4
  3898 000b 01       		.uleb128 0x1
- 3899 000c 10030000 		.4byte	.LASF102
+ 3899 000c 55030000 		.4byte	.LASF102
  3900 0010 0C       		.byte	0xc
- 3901 0011 76070000 		.4byte	.LASF103
- 3902 0015 EC050000 		.4byte	.LASF104
+ 3901 0011 7B070000 		.4byte	.LASF103
+ 3902 0015 44000000 		.4byte	.LASF104
  3903 0019 00000000 		.4byte	.Ldebug_ranges0+0
  3904 001d 00000000 		.4byte	0
  3905 0021 00000000 		.4byte	.Ldebug_line0
  3906 0025 02       		.uleb128 0x2
  3907 0026 01       		.byte	0x1
  3908 0027 06       		.byte	0x6
- 3909 0028 DF000000 		.4byte	.LASF0
+ 3909 0028 24010000 		.4byte	.LASF0
  3910 002c 02       		.uleb128 0x2
  3911 002d 01       		.byte	0x1
  3912 002e 08       		.byte	0x8
- 3913 002f 0A050000 		.4byte	.LASF1
+ 3913 002f 4F050000 		.4byte	.LASF1
  3914 0033 02       		.uleb128 0x2
  3915 0034 02       		.byte	0x2
  3916 0035 05       		.byte	0x5
- 3917 0036 36050000 		.4byte	.LASF2
+ 3917 0036 7B050000 		.4byte	.LASF2
  3918 003a 02       		.uleb128 0x2
  3919 003b 02       		.byte	0x2
  3920 003c 07       		.byte	0x7
- 3921 003d 87020000 		.4byte	.LASF3
+ 3921 003d CC020000 		.4byte	.LASF3
  3922 0041 02       		.uleb128 0x2
  3923 0042 04       		.byte	0x4
  3924 0043 05       		.byte	0x5
- 3925 0044 20010000 		.4byte	.LASF4
+ 3925 0044 65010000 		.4byte	.LASF4
  3926 0048 02       		.uleb128 0x2
  3927 0049 04       		.byte	0x4
  3928 004a 07       		.byte	0x7
- 3929 004b 6A020000 		.4byte	.LASF5
+ 3929 004b AF020000 		.4byte	.LASF5
  3930 004f 02       		.uleb128 0x2
  3931 0050 08       		.byte	0x8
  3932 0051 05       		.byte	0x5
- 3933 0052 D1000000 		.4byte	.LASF6
+ 3933 0052 16010000 		.4byte	.LASF6
  3934 0056 02       		.uleb128 0x2
  3935 0057 08       		.byte	0x8
  3936 0058 07       		.byte	0x7
- 3937 0059 8B000000 		.4byte	.LASF7
+ 3937 0059 D0000000 		.4byte	.LASF7
  3938 005d 03       		.uleb128 0x3
  3939 005e 04       		.byte	0x4
  3940 005f 05       		.byte	0x5
@@ -5698,51 +5698,51 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3942 0064 02       		.uleb128 0x2
  3943 0065 04       		.byte	0x4
  3944 0066 07       		.byte	0x7
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 96
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 96
 
 
- 3945 0067 46020000 		.4byte	.LASF8
+ 3945 0067 8B020000 		.4byte	.LASF8
  3946 006b 04       		.uleb128 0x4
- 3947 006c 8E010000 		.4byte	.LASF9
+ 3947 006c D3010000 		.4byte	.LASF9
  3948 0070 02       		.byte	0x2
  3949 0071 E401     		.2byte	0x1e4
  3950 0073 2C000000 		.4byte	0x2c
  3951 0077 04       		.uleb128 0x4
- 3952 0078 CB010000 		.4byte	.LASF10
+ 3952 0078 10020000 		.4byte	.LASF10
  3953 007c 02       		.byte	0x2
  3954 007d E601     		.2byte	0x1e6
  3955 007f 48000000 		.4byte	0x48
  3956 0083 04       		.uleb128 0x4
- 3957 0084 03010000 		.4byte	.LASF11
+ 3957 0084 48010000 		.4byte	.LASF11
  3958 0088 02       		.byte	0x2
  3959 0089 E901     		.2byte	0x1e9
  3960 008b 41000000 		.4byte	0x41
  3961 008f 02       		.uleb128 0x2
  3962 0090 04       		.byte	0x4
  3963 0091 04       		.byte	0x4
- 3964 0092 CD040000 		.4byte	.LASF12
+ 3964 0092 12050000 		.4byte	.LASF12
  3965 0096 02       		.uleb128 0x2
  3966 0097 08       		.byte	0x8
  3967 0098 04       		.byte	0x4
- 3968 0099 A8010000 		.4byte	.LASF13
+ 3968 0099 ED010000 		.4byte	.LASF13
  3969 009d 02       		.uleb128 0x2
  3970 009e 01       		.byte	0x1
  3971 009f 08       		.byte	0x8
- 3972 00a0 B9050000 		.4byte	.LASF14
+ 3972 00a0 FE050000 		.4byte	.LASF14
  3973 00a4 04       		.uleb128 0x4
- 3974 00a5 0D070000 		.4byte	.LASF15
+ 3974 00a5 12070000 		.4byte	.LASF15
  3975 00a9 02       		.byte	0x2
  3976 00aa 8602     		.2byte	0x286
  3977 00ac 48000000 		.4byte	0x48
  3978 00b0 04       		.uleb128 0x4
- 3979 00b1 9E030000 		.4byte	.LASF16
+ 3979 00b1 E3030000 		.4byte	.LASF16
  3980 00b5 02       		.byte	0x2
  3981 00b6 9002     		.2byte	0x290
  3982 00b8 BC000000 		.4byte	0xbc
  3983 00bc 05       		.uleb128 0x5
  3984 00bd 77000000 		.4byte	0x77
  3985 00c1 04       		.uleb128 0x4
- 3986 00c2 D8050000 		.4byte	.LASF17
+ 3986 00c2 1D060000 		.4byte	.LASF17
  3987 00c6 02       		.byte	0x2
  3988 00c7 A002     		.2byte	0x2a0
  3989 00c9 CD000000 		.4byte	0xcd
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  3999 00dc 09       		.uleb128 0x9
  4000 00dd 63746C00 		.ascii	"ctl\000"
  4001 00e1 03       		.byte	0x3
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 97
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 97
 
 
  4002 00e2 28       		.byte	0x28
@@ -5775,9 +5775,9 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4013 00f9 02       		.uleb128 0x2
  4014 00fa 04       		.byte	0x4
  4015 00fb 07       		.byte	0x7
- 4016 00fc D7030000 		.4byte	.LASF18
+ 4016 00fc 1C040000 		.4byte	.LASF18
  4017 0100 0C       		.uleb128 0xc
- 4018 0101 29010000 		.4byte	.LASF19
+ 4018 0101 6E010000 		.4byte	.LASF19
  4019 0105 03       		.byte	0x3
  4020 0106 29       		.byte	0x29
  4021 0107 D4000000 		.4byte	0xd4
@@ -5805,7 +5805,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4043 0132 77000000 		.4byte	0x77
  4044 0136 08       		.byte	0x8
  4045 0137 0D       		.uleb128 0xd
- 4046 0138 EE060000 		.4byte	.LASF20
+ 4046 0138 F3060000 		.4byte	.LASF20
  4047 013c 03       		.byte	0x3
  4048 013d 31       		.byte	0x31
  4049 013e 77000000 		.4byte	0x77
@@ -5814,11 +5814,11 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4052 0144 0E       		.uleb128 0xe
  4053 0145 04       		.byte	0x4
  4054 0146 0C       		.uleb128 0xc
- 4055 0147 F5060000 		.4byte	.LASF21
+ 4055 0147 FA060000 		.4byte	.LASF21
  4056 014b 03       		.byte	0x3
  4057 014c 32       		.byte	0x32
  4058 014d 0B010000 		.4byte	0x10b
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 98
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 98
 
 
  4059 0151 0F       		.uleb128 0xf
@@ -5827,7 +5827,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4062 0155 38       		.byte	0x38
  4063 0156 67010000 		.4byte	0x167
  4064 015a 0D       		.uleb128 0xd
- 4065 015b A2050000 		.4byte	.LASF22
+ 4065 015b E7050000 		.4byte	.LASF22
  4066 015f 03       		.byte	0x3
  4067 0160 3A       		.byte	0x3a
  4068 0161 67010000 		.4byte	0x167
@@ -5844,7 +5844,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4079 017b 01       		.byte	0x1
  4080 017c 00       		.byte	0
  4081 017d 0C       		.uleb128 0xc
- 4082 017e 46070000 		.4byte	.LASF23
+ 4082 017e 4B070000 		.4byte	.LASF23
  4083 0182 03       		.byte	0x3
  4084 0183 3B       		.byte	0x3b
  4085 0184 51010000 		.4byte	0x151
@@ -5854,73 +5854,73 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4089 018b 3E       		.byte	0x3e
  4090 018c F1010000 		.4byte	0x1f1
  4091 0190 0D       		.uleb128 0xd
- 4092 0191 BD040000 		.4byte	.LASF24
+ 4092 0191 02050000 		.4byte	.LASF24
  4093 0195 03       		.byte	0x3
  4094 0196 44       		.byte	0x44
  4095 0197 77000000 		.4byte	0x77
  4096 019b 00       		.byte	0
  4097 019c 0D       		.uleb128 0xd
- 4098 019d 7E010000 		.4byte	.LASF25
+ 4098 019d C3010000 		.4byte	.LASF25
  4099 01a1 03       		.byte	0x3
  4100 01a2 49       		.byte	0x49
  4101 01a3 83000000 		.4byte	0x83
  4102 01a7 04       		.byte	0x4
  4103 01a8 0D       		.uleb128 0xd
- 4104 01a9 71040000 		.4byte	.LASF26
+ 4104 01a9 B6040000 		.4byte	.LASF26
  4105 01ad 03       		.byte	0x3
  4106 01ae 4C       		.byte	0x4c
  4107 01af 77000000 		.4byte	0x77
  4108 01b3 08       		.byte	0x8
  4109 01b4 0D       		.uleb128 0xd
- 4110 01b5 99060000 		.4byte	.LASF27
+ 4110 01b5 9E060000 		.4byte	.LASF27
  4111 01b9 03       		.byte	0x3
  4112 01ba 51       		.byte	0x51
  4113 01bb 77000000 		.4byte	0x77
  4114 01bf 0C       		.byte	0xc
  4115 01c0 0D       		.uleb128 0xd
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 99
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 99
 
 
- 4116 01c1 D2010000 		.4byte	.LASF28
+ 4116 01c1 17020000 		.4byte	.LASF28
  4117 01c5 03       		.byte	0x3
  4118 01c6 54       		.byte	0x54
  4119 01c7 77000000 		.4byte	0x77
  4120 01cb 10       		.byte	0x10
  4121 01cc 0D       		.uleb128 0xd
- 4122 01cd 39020000 		.4byte	.LASF29
+ 4122 01cd 7E020000 		.4byte	.LASF29
  4123 01d1 03       		.byte	0x3
  4124 01d2 57       		.byte	0x57
  4125 01d3 77000000 		.4byte	0x77
  4126 01d7 14       		.byte	0x14
  4127 01d8 0D       		.uleb128 0xd
- 4128 01d9 9D070000 		.4byte	.LASF30
+ 4128 01d9 A2070000 		.4byte	.LASF30
  4129 01dd 03       		.byte	0x3
  4130 01de 5A       		.byte	0x5a
  4131 01df 77000000 		.4byte	0x77
  4132 01e3 18       		.byte	0x18
  4133 01e4 0D       		.uleb128 0xd
- 4134 01e5 95070000 		.4byte	.LASF31
+ 4134 01e5 9A070000 		.4byte	.LASF31
  4135 01e9 03       		.byte	0x3
  4136 01ea 5D       		.byte	0x5d
  4137 01eb 77000000 		.4byte	0x77
  4138 01ef 1C       		.byte	0x1c
  4139 01f0 00       		.byte	0
  4140 01f1 0C       		.uleb128 0xc
- 4141 01f2 10020000 		.4byte	.LASF32
+ 4141 01f2 55020000 		.4byte	.LASF32
  4142 01f6 03       		.byte	0x3
  4143 01f7 5F       		.byte	0x5f
  4144 01f8 88010000 		.4byte	0x188
  4145 01fc 0C       		.uleb128 0xc
- 4146 01fd D3040000 		.4byte	.LASF33
+ 4146 01fd 18050000 		.4byte	.LASF33
  4147 0201 03       		.byte	0x3
  4148 0202 67       		.byte	0x67
  4149 0203 CD000000 		.4byte	0xcd
  4150 0207 02       		.uleb128 0x2
  4151 0208 08       		.byte	0x8
  4152 0209 04       		.byte	0x4
- 4153 020a E0030000 		.4byte	.LASF34
+ 4153 020a 25040000 		.4byte	.LASF34
  4154 020e 10       		.uleb128 0x10
- 4155 020f 8D060000 		.4byte	.LASF39
+ 4155 020f 92060000 		.4byte	.LASF39
  4156 0213 01       		.byte	0x1
  4157 0214 4A       		.byte	0x4a
  4158 0215 00000000 		.4byte	.LFB1
@@ -5929,7 +5929,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4161 021e 9C       		.byte	0x9c
  4162 021f 35020000 		.4byte	0x235
  4163 0223 11       		.uleb128 0x11
- 4164 0224 55010000 		.4byte	.LASF50
+ 4164 0224 9A010000 		.4byte	.LASF50
  4165 0228 01       		.byte	0x1
  4166 0229 4C       		.byte	0x4c
  4167 022a 6B000000 		.4byte	0x6b
@@ -5938,10 +5938,10 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4170 0230 04000000 		.4byte	initIntrVector.5066
  4171 0234 00       		.byte	0
  4172 0235 12       		.uleb128 0x12
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 100
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 100
 
 
- 4173 0236 94010000 		.4byte	.LASF105
+ 4173 0236 D9010000 		.4byte	.LASF105
  4174 023a 01       		.byte	0x1
  4175 023b 69       		.byte	0x69
  4176 023c 00000000 		.4byte	.LFB2
@@ -5949,7 +5949,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4178 0244 01       		.uleb128 0x1
  4179 0245 9C       		.byte	0x9c
  4180 0246 13       		.uleb128 0x13
- 4181 0247 FB040000 		.4byte	.LASF35
+ 4181 0247 40050000 		.4byte	.LASF35
  4182 024b 01       		.byte	0x1
  4183 024c 85       		.byte	0x85
  4184 024d 77000000 		.4byte	0x77
@@ -5958,7 +5958,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4187 0259 01       		.uleb128 0x1
  4188 025a 9C       		.byte	0x9c
  4189 025b 13       		.uleb128 0x13
- 4190 025c 53020000 		.4byte	.LASF36
+ 4190 025c 98020000 		.4byte	.LASF36
  4191 0260 01       		.byte	0x1
  4192 0261 9A       		.byte	0x9a
  4193 0262 77000000 		.4byte	0x77
@@ -5976,7 +5976,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4205 0283 01       		.uleb128 0x1
  4206 0284 9C       		.byte	0x9c
  4207 0285 13       		.uleb128 0x13
- 4208 0286 BD060000 		.4byte	.LASF38
+ 4208 0286 C2060000 		.4byte	.LASF38
  4209 028a 01       		.byte	0x1
  4210 028b D2       		.byte	0xd2
  4211 028c 44010000 		.4byte	0x144
@@ -5994,11 +5994,11 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4223 02aa 9C       		.byte	0x9c
  4224 02ab BE020000 		.4byte	0x2be
  4225 02af 14       		.uleb128 0x14
- 4226 02b0 A2000000 		.4byte	.LASF43
+ 4226 02b0 E7000000 		.4byte	.LASF43
  4227 02b4 01       		.byte	0x1
  4228 02b5 EF       		.byte	0xef
  4229 02b6 C1000000 		.4byte	0xc1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 101
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 101
 
 
  4230 02ba 02       		.uleb128 0x2
@@ -6006,7 +6006,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4232 02bc 74       		.sleb128 -12
  4233 02bd 00       		.byte	0
  4234 02be 15       		.uleb128 0x15
- 4235 02bf 59040000 		.4byte	.LASF41
+ 4235 02bf 9E040000 		.4byte	.LASF41
  4236 02c3 01       		.byte	0x1
  4237 02c4 0301     		.2byte	0x103
  4238 02c6 77000000 		.4byte	0x77
@@ -6015,7 +6015,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4241 02d2 01       		.uleb128 0x1
  4242 02d3 9C       		.byte	0x9c
  4243 02d4 16       		.uleb128 0x16
- 4244 02d5 BE050000 		.4byte	.LASF42
+ 4244 02d5 03060000 		.4byte	.LASF42
  4245 02d9 01       		.byte	0x1
  4246 02da 1701     		.2byte	0x117
  4247 02dc 00000000 		.4byte	.LFB9
@@ -6024,7 +6024,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4250 02e5 9C       		.byte	0x9c
  4251 02e6 FA020000 		.4byte	0x2fa
  4252 02ea 17       		.uleb128 0x17
- 4253 02eb 40050000 		.4byte	.LASF44
+ 4253 02eb 85050000 		.4byte	.LASF44
  4254 02ef 01       		.byte	0x1
  4255 02f0 1701     		.2byte	0x117
  4256 02f2 77000000 		.4byte	0x77
@@ -6033,7 +6033,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4259 02f8 74       		.sleb128 -12
  4260 02f9 00       		.byte	0
  4261 02fa 16       		.uleb128 0x16
- 4262 02fb F4010000 		.4byte	.LASF45
+ 4262 02fb 39020000 		.4byte	.LASF45
  4263 02ff 01       		.byte	0x1
  4264 0300 2B01     		.2byte	0x12b
  4265 0302 00000000 		.4byte	.LFB10
@@ -6042,7 +6042,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4268 030b 9C       		.byte	0x9c
  4269 030c 20030000 		.4byte	0x320
  4270 0310 17       		.uleb128 0x17
- 4271 0311 40050000 		.4byte	.LASF44
+ 4271 0311 85050000 		.4byte	.LASF44
  4272 0315 01       		.byte	0x1
  4273 0316 2B01     		.2byte	0x12b
  4274 0318 77000000 		.4byte	0x77
@@ -6051,19 +6051,19 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4277 031e 74       		.sleb128 -12
  4278 031f 00       		.byte	0
  4279 0320 15       		.uleb128 0x15
- 4280 0321 4E050000 		.4byte	.LASF46
+ 4280 0321 93050000 		.4byte	.LASF46
  4281 0325 01       		.byte	0x1
  4282 0326 3F01     		.2byte	0x13f
  4283 0328 77000000 		.4byte	0x77
  4284 032c 00000000 		.4byte	.LFB11
  4285 0330 14000000 		.4byte	.LFE11-.LFB11
  4286 0334 01       		.uleb128 0x1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 102
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 102
 
 
  4287 0335 9C       		.byte	0x9c
  4288 0336 15       		.uleb128 0x15
- 4289 0337 18050000 		.4byte	.LASF47
+ 4289 0337 5D050000 		.4byte	.LASF47
  4290 033b 01       		.byte	0x1
  4291 033c 5301     		.2byte	0x153
  4292 033e 77000000 		.4byte	0x77
@@ -6072,7 +6072,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4295 034a 01       		.uleb128 0x1
  4296 034b 9C       		.byte	0x9c
  4297 034c 18       		.uleb128 0x18
- 4298 034d 3F040000 		.4byte	.LASF52
+ 4298 034d 84040000 		.4byte	.LASF52
  4299 0351 01       		.byte	0x1
  4300 0352 6A01     		.2byte	0x16a
  4301 0354 FC010000 		.4byte	0x1fc
@@ -6082,7 +6082,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4305 0361 9C       		.byte	0x9c
  4306 0362 94030000 		.4byte	0x394
  4307 0366 17       		.uleb128 0x17
- 4308 0367 79050000 		.4byte	.LASF48
+ 4308 0367 BE050000 		.4byte	.LASF48
  4309 036b 01       		.byte	0x1
  4310 036c 6A01     		.2byte	0x16a
  4311 036e 83000000 		.4byte	0x83
@@ -6090,7 +6090,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4313 0373 91       		.byte	0x91
  4314 0374 6C       		.sleb128 -20
  4315 0375 17       		.uleb128 0x17
- 4316 0376 D1020000 		.4byte	.LASF49
+ 4316 0376 16030000 		.4byte	.LASF49
  4317 037a 01       		.byte	0x1
  4318 037b 6A01     		.2byte	0x16a
  4319 037d FC010000 		.4byte	0x1fc
@@ -6098,7 +6098,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4321 0382 91       		.byte	0x91
  4322 0383 68       		.sleb128 -24
  4323 0384 19       		.uleb128 0x19
- 4324 0385 DE010000 		.4byte	.LASF51
+ 4324 0385 23020000 		.4byte	.LASF51
  4325 0389 01       		.byte	0x1
  4326 038a 6C01     		.2byte	0x16c
  4327 038c FC010000 		.4byte	0x1fc
@@ -6107,7 +6107,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4330 0392 74       		.sleb128 -12
  4331 0393 00       		.byte	0
  4332 0394 18       		.uleb128 0x18
- 4333 0395 64010000 		.4byte	.LASF53
+ 4333 0395 A9010000 		.4byte	.LASF53
  4334 0399 01       		.byte	0x1
  4335 039a 8501     		.2byte	0x185
  4336 039c FC010000 		.4byte	0x1fc
@@ -6117,8 +6117,8 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4340 03a9 9C       		.byte	0x9c
  4341 03aa BE030000 		.4byte	0x3be
  4342 03ae 17       		.uleb128 0x17
- 4343 03af 79050000 		.4byte	.LASF48
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 103
+ 4343 03af BE050000 		.4byte	.LASF48
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 103
 
 
  4344 03b3 01       		.byte	0x1
@@ -6129,7 +6129,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4349 03bc 74       		.sleb128 -12
  4350 03bd 00       		.byte	0
  4351 03be 1A       		.uleb128 0x1a
- 4352 03bf 9D040000 		.4byte	.LASF54
+ 4352 03bf E2040000 		.4byte	.LASF54
  4353 03c3 01       		.byte	0x1
  4354 03c4 A001     		.2byte	0x1a0
  4355 03c6 00000000 		.4byte	.LFB15
@@ -6138,7 +6138,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4358 03cf 9C       		.byte	0x9c
  4359 03d0 F3030000 		.4byte	0x3f3
  4360 03d4 19       		.uleb128 0x19
- 4361 03d5 EC030000 		.4byte	.LASF55
+ 4361 03d5 31040000 		.4byte	.LASF55
  4362 03d9 01       		.byte	0x1
  4363 03da A201     		.2byte	0x1a2
  4364 03dc 77000000 		.4byte	0x77
@@ -6146,7 +6146,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4366 03e1 91       		.byte	0x91
  4367 03e2 74       		.sleb128 -12
  4368 03e3 19       		.uleb128 0x19
- 4369 03e4 74000000 		.4byte	.LASF56
+ 4369 03e4 B9000000 		.4byte	.LASF56
  4370 03e8 01       		.byte	0x1
  4371 03e9 A301     		.2byte	0x1a3
  4372 03eb 77000000 		.4byte	0x77
@@ -6155,7 +6155,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4375 03f1 70       		.sleb128 -16
  4376 03f2 00       		.byte	0
  4377 03f3 1B       		.uleb128 0x1b
- 4378 03f4 F1030000 		.4byte	.LASF106
+ 4378 03f4 36040000 		.4byte	.LASF106
  4379 03f8 01       		.byte	0x1
  4380 03f9 C701     		.2byte	0x1c7
  4381 03fb 00000000 		.4byte	.LFB16
@@ -6163,7 +6163,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4383 0403 01       		.uleb128 0x1
  4384 0404 9C       		.byte	0x9c
  4385 0405 1C       		.uleb128 0x1c
- 4386 0406 95050000 		.4byte	.LASF57
+ 4386 0406 DA050000 		.4byte	.LASF57
  4387 040a 01       		.byte	0x1
  4388 040b E401     		.2byte	0x1e4
  4389 040d 83000000 		.4byte	0x83
@@ -6173,18 +6173,18 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4393 041a 9C       		.byte	0x9c
  4394 041b 3E040000 		.4byte	0x43e
  4395 041f 19       		.uleb128 0x19
- 4396 0420 79050000 		.4byte	.LASF48
+ 4396 0420 BE050000 		.4byte	.LASF48
  4397 0424 01       		.byte	0x1
  4398 0425 E601     		.2byte	0x1e6
  4399 0427 83000000 		.4byte	0x83
  4400 042b 02       		.uleb128 0x2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 104
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 104
 
 
  4401 042c 91       		.byte	0x91
  4402 042d 74       		.sleb128 -12
  4403 042e 19       		.uleb128 0x19
- 4404 042f AD050000 		.4byte	.LASF58
+ 4404 042f F2050000 		.4byte	.LASF58
  4405 0433 01       		.byte	0x1
  4406 0434 E701     		.2byte	0x1e7
  4407 0436 77000000 		.4byte	0x77
@@ -6193,7 +6193,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4410 043c 70       		.sleb128 -16
  4411 043d 00       		.byte	0
  4412 043e 18       		.uleb128 0x18
- 4413 043f BD070000 		.4byte	.LASF59
+ 4413 043f C2070000 		.4byte	.LASF59
  4414 0443 01       		.byte	0x1
  4415 0444 0802     		.2byte	0x208
  4416 0446 A4000000 		.4byte	0xa4
@@ -6203,7 +6203,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4420 0453 9C       		.byte	0x9c
  4421 0454 86040000 		.4byte	0x486
  4422 0458 17       		.uleb128 0x17
- 4423 0459 79050000 		.4byte	.LASF48
+ 4423 0459 BE050000 		.4byte	.LASF48
  4424 045d 01       		.byte	0x1
  4425 045e 0802     		.2byte	0x208
  4426 0460 83000000 		.4byte	0x83
@@ -6211,7 +6211,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4428 0465 91       		.byte	0x91
  4429 0466 6C       		.sleb128 -20
  4430 0467 19       		.uleb128 0x19
- 4431 0468 AD050000 		.4byte	.LASF58
+ 4431 0468 F2050000 		.4byte	.LASF58
  4432 046c 01       		.byte	0x1
  4433 046d 0A02     		.2byte	0x20a
  4434 046f 77000000 		.4byte	0x77
@@ -6219,7 +6219,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4436 0474 91       		.byte	0x91
  4437 0475 70       		.sleb128 -16
  4438 0476 19       		.uleb128 0x19
- 4439 0477 A1010000 		.4byte	.LASF60
+ 4439 0477 E6010000 		.4byte	.LASF60
  4440 047b 01       		.byte	0x1
  4441 047c 0B02     		.2byte	0x20b
  4442 047e A4000000 		.4byte	0xa4
@@ -6228,7 +6228,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4445 0484 74       		.sleb128 -12
  4446 0485 00       		.byte	0
  4447 0486 1A       		.uleb128 0x1a
- 4448 0487 66000000 		.4byte	.LASF61
+ 4448 0487 AB000000 		.4byte	.LASF61
  4449 048b 01       		.byte	0x1
  4450 048c 3102     		.2byte	0x231
  4451 048e 00000000 		.4byte	.LFB19
@@ -6237,8 +6237,8 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4454 0497 9C       		.byte	0x9c
  4455 0498 AC040000 		.4byte	0x4ac
  4456 049c 17       		.uleb128 0x17
- 4457 049d 79050000 		.4byte	.LASF48
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 105
+ 4457 049d BE050000 		.4byte	.LASF48
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 105
 
 
  4458 04a1 01       		.byte	0x1
@@ -6249,7 +6249,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4463 04aa 74       		.sleb128 -12
  4464 04ab 00       		.byte	0
  4465 04ac 1A       		.uleb128 0x1a
- 4466 04ad 44000000 		.4byte	.LASF62
+ 4466 04ad 89000000 		.4byte	.LASF62
  4467 04b1 01       		.byte	0x1
  4468 04b2 4A02     		.2byte	0x24a
  4469 04b4 00000000 		.4byte	.LFB20
@@ -6258,7 +6258,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4472 04bd 9C       		.byte	0x9c
  4473 04be D2040000 		.4byte	0x4d2
  4474 04c2 17       		.uleb128 0x17
- 4475 04c3 79050000 		.4byte	.LASF48
+ 4475 04c3 BE050000 		.4byte	.LASF48
  4476 04c7 01       		.byte	0x1
  4477 04c8 4A02     		.2byte	0x24a
  4478 04ca 83000000 		.4byte	0x83
@@ -6267,7 +6267,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4481 04d0 74       		.sleb128 -12
  4482 04d1 00       		.byte	0
  4483 04d2 1A       		.uleb128 0x1a
- 4484 04d3 24070000 		.4byte	.LASF63
+ 4484 04d3 29070000 		.4byte	.LASF63
  4485 04d7 01       		.byte	0x1
  4486 04d8 6102     		.2byte	0x261
  4487 04da 00000000 		.4byte	.LFB21
@@ -6276,7 +6276,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4490 04e3 9C       		.byte	0x9c
  4491 04e4 0A050000 		.4byte	0x50a
  4492 04e8 17       		.uleb128 0x17
- 4493 04e9 79050000 		.4byte	.LASF48
+ 4493 04e9 BE050000 		.4byte	.LASF48
  4494 04ed 01       		.byte	0x1
  4495 04ee 6102     		.2byte	0x261
  4496 04f0 83000000 		.4byte	0x83
@@ -6284,7 +6284,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4498 04f5 91       		.byte	0x91
  4499 04f6 74       		.sleb128 -12
  4500 04f7 19       		.uleb128 0x19
- 4501 04f8 C8000000 		.4byte	.LASF64
+ 4501 04f8 0D010000 		.4byte	.LASF64
  4502 04fc 01       		.byte	0x1
  4503 04fd 6402     		.2byte	0x264
  4504 04ff 1F050000 		.4byte	0x51f
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4512 0513 0B       		.uleb128 0xb
  4513 0514 F9000000 		.4byte	0xf9
  4514 0518 03       		.byte	0x3
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 106
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 106
 
 
  4515 0519 00       		.byte	0
@@ -6307,7 +6307,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4518 051f 1D       		.uleb128 0x1d
  4519 0520 0A050000 		.4byte	0x50a
  4520 0524 1A       		.uleb128 0x1a
- 4521 0525 AC040000 		.4byte	.LASF65
+ 4521 0525 F1040000 		.4byte	.LASF65
  4522 0529 01       		.byte	0x1
  4523 052a 7F02     		.2byte	0x27f
  4524 052c 00000000 		.4byte	.LFB22
@@ -6316,7 +6316,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4527 0535 9C       		.byte	0x9c
  4528 0536 68050000 		.4byte	0x568
  4529 053a 17       		.uleb128 0x17
- 4530 053b 79050000 		.4byte	.LASF48
+ 4530 053b BE050000 		.4byte	.LASF48
  4531 053f 01       		.byte	0x1
  4532 0540 7F02     		.2byte	0x27f
  4533 0542 83000000 		.4byte	0x83
@@ -6324,7 +6324,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4535 0547 91       		.byte	0x91
  4536 0548 6C       		.sleb128 -20
  4537 0549 17       		.uleb128 0x17
- 4538 054a DA020000 		.4byte	.LASF66
+ 4538 054a 1F030000 		.4byte	.LASF66
  4539 054e 01       		.byte	0x1
  4540 054f 7F02     		.2byte	0x27f
  4541 0551 83000000 		.4byte	0x83
@@ -6332,7 +6332,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4543 0556 91       		.byte	0x91
  4544 0557 68       		.sleb128 -24
  4545 0558 19       		.uleb128 0x19
- 4546 0559 EB010000 		.4byte	.LASF67
+ 4546 0559 30020000 		.4byte	.LASF67
  4547 055d 01       		.byte	0x1
  4548 055e 8102     		.2byte	0x281
  4549 0560 77000000 		.4byte	0x77
@@ -6341,7 +6341,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4552 0566 74       		.sleb128 -12
  4553 0567 00       		.byte	0
  4554 0568 18       		.uleb128 0x18
- 4555 0569 7A000000 		.4byte	.LASF68
+ 4555 0569 BF000000 		.4byte	.LASF68
  4556 056d 01       		.byte	0x1
  4557 056e 9902     		.2byte	0x299
  4558 0570 83000000 		.4byte	0x83
@@ -6351,18 +6351,18 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4562 057d 9C       		.byte	0x9c
  4563 057e A1050000 		.4byte	0x5a1
  4564 0582 17       		.uleb128 0x17
- 4565 0583 79050000 		.4byte	.LASF48
+ 4565 0583 BE050000 		.4byte	.LASF48
  4566 0587 01       		.byte	0x1
  4567 0588 9902     		.2byte	0x299
  4568 058a 83000000 		.4byte	0x83
  4569 058e 02       		.uleb128 0x2
  4570 058f 91       		.byte	0x91
  4571 0590 6C       		.sleb128 -20
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 107
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 107
 
 
  4572 0591 19       		.uleb128 0x19
- 4573 0592 DA020000 		.4byte	.LASF66
+ 4573 0592 1F030000 		.4byte	.LASF66
  4574 0596 01       		.byte	0x1
  4575 0597 9B02     		.2byte	0x29b
  4576 0599 77000000 		.4byte	0x77
@@ -6371,7 +6371,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4579 059f 74       		.sleb128 -12
  4580 05a0 00       		.byte	0
  4581 05a1 1A       		.uleb128 0x1a
- 4582 05a2 22020000 		.4byte	.LASF69
+ 4582 05a2 67020000 		.4byte	.LASF69
  4583 05a6 01       		.byte	0x1
  4584 05a7 B702     		.2byte	0x2b7
  4585 05a9 00000000 		.4byte	.LFB24
@@ -6380,7 +6380,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4588 05b2 9C       		.byte	0x9c
  4589 05b3 E5050000 		.4byte	0x5e5
  4590 05b7 17       		.uleb128 0x17
- 4591 05b8 79050000 		.4byte	.LASF48
+ 4591 05b8 BE050000 		.4byte	.LASF48
  4592 05bc 01       		.byte	0x1
  4593 05bd B702     		.2byte	0x2b7
  4594 05bf 83000000 		.4byte	0x83
@@ -6388,7 +6388,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4596 05c4 91       		.byte	0x91
  4597 05c5 6C       		.sleb128 -20
  4598 05c6 17       		.uleb128 0x17
- 4599 05c7 A2050000 		.4byte	.LASF22
+ 4599 05c7 E7050000 		.4byte	.LASF22
  4600 05cb 01       		.byte	0x1
  4601 05cc B702     		.2byte	0x2b7
  4602 05ce 83000000 		.4byte	0x83
@@ -6396,7 +6396,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4604 05d3 91       		.byte	0x91
  4605 05d4 68       		.sleb128 -24
  4606 05d5 19       		.uleb128 0x19
- 4607 05d6 EB010000 		.4byte	.LASF67
+ 4607 05d6 30020000 		.4byte	.LASF67
  4608 05da 01       		.byte	0x1
  4609 05db B902     		.2byte	0x2b9
  4610 05dd 77000000 		.4byte	0x77
@@ -6405,7 +6405,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4613 05e3 74       		.sleb128 -12
  4614 05e4 00       		.byte	0
  4615 05e5 18       		.uleb128 0x18
- 4616 05e6 09010000 		.4byte	.LASF70
+ 4616 05e6 4E010000 		.4byte	.LASF70
  4617 05ea 01       		.byte	0x1
  4618 05eb D202     		.2byte	0x2d2
  4619 05ed 83000000 		.4byte	0x83
@@ -6415,10 +6415,10 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4623 05fa 9C       		.byte	0x9c
  4624 05fb 1E060000 		.4byte	0x61e
  4625 05ff 17       		.uleb128 0x17
- 4626 0600 79050000 		.4byte	.LASF48
+ 4626 0600 BE050000 		.4byte	.LASF48
  4627 0604 01       		.byte	0x1
  4628 0605 D202     		.2byte	0x2d2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 108
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 108
 
 
  4629 0607 83000000 		.4byte	0x83
@@ -6426,7 +6426,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4631 060c 91       		.byte	0x91
  4632 060d 6C       		.sleb128 -20
  4633 060e 19       		.uleb128 0x19
- 4634 060f 6A050000 		.4byte	.LASF71
+ 4634 060f AF050000 		.4byte	.LASF71
  4635 0613 01       		.byte	0x1
  4636 0614 D402     		.2byte	0x2d4
  4637 0616 77000000 		.4byte	0x77
@@ -6435,7 +6435,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4640 061c 74       		.sleb128 -12
  4641 061d 00       		.byte	0
  4642 061e 1A       		.uleb128 0x1a
- 4643 061f B2000000 		.4byte	.LASF72
+ 4643 061f F7000000 		.4byte	.LASF72
  4644 0623 01       		.byte	0x1
  4645 0624 F502     		.2byte	0x2f5
  4646 0626 00000000 		.4byte	.LFB26
@@ -6444,7 +6444,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4649 062f 9C       		.byte	0x9c
  4650 0630 62060000 		.4byte	0x662
  4651 0634 17       		.uleb128 0x17
- 4652 0635 79050000 		.4byte	.LASF48
+ 4652 0635 BE050000 		.4byte	.LASF48
  4653 0639 01       		.byte	0x1
  4654 063a F502     		.2byte	0x2f5
  4655 063c 83000000 		.4byte	0x83
@@ -6452,7 +6452,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4657 0641 91       		.byte	0x91
  4658 0642 74       		.sleb128 -12
  4659 0643 17       		.uleb128 0x17
- 4660 0644 A2050000 		.4byte	.LASF22
+ 4660 0644 E7050000 		.4byte	.LASF22
  4661 0648 01       		.byte	0x1
  4662 0649 F502     		.2byte	0x2f5
  4663 064b 83000000 		.4byte	0x83
@@ -6460,7 +6460,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4665 0650 91       		.byte	0x91
  4666 0651 70       		.sleb128 -16
  4667 0652 17       		.uleb128 0x17
- 4668 0653 E5050000 		.4byte	.LASF73
+ 4668 0653 2A060000 		.4byte	.LASF73
  4669 0657 01       		.byte	0x1
  4670 0658 F502     		.2byte	0x2f5
  4671 065a 62060000 		.4byte	0x662
@@ -6474,11 +6474,11 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4679 0668 1D       		.uleb128 0x1d
  4680 0669 F1010000 		.4byte	0x1f1
  4681 066d 1A       		.uleb128 0x1a
- 4682 066e 75060000 		.4byte	.LASF74
+ 4682 066e 7A060000 		.4byte	.LASF74
  4683 0672 01       		.byte	0x1
  4684 0673 2503     		.2byte	0x325
  4685 0675 00000000 		.4byte	.LFB27
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 109
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 109
 
 
  4686 0679 64000000 		.4byte	.LFE27-.LFB27
@@ -6486,7 +6486,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4688 067e 9C       		.byte	0x9c
  4689 067f A2060000 		.4byte	0x6a2
  4690 0683 17       		.uleb128 0x17
- 4691 0684 79050000 		.4byte	.LASF48
+ 4691 0684 BE050000 		.4byte	.LASF48
  4692 0688 01       		.byte	0x1
  4693 0689 2503     		.2byte	0x325
  4694 068b 83000000 		.4byte	0x83
@@ -6494,7 +6494,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4696 0690 91       		.byte	0x91
  4697 0691 74       		.sleb128 -12
  4698 0692 17       		.uleb128 0x17
- 4699 0693 A2050000 		.4byte	.LASF22
+ 4699 0693 E7050000 		.4byte	.LASF22
  4700 0697 01       		.byte	0x1
  4701 0698 2503     		.2byte	0x325
  4702 069a 83000000 		.4byte	0x83
@@ -6503,7 +6503,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4705 06a0 70       		.sleb128 -16
  4706 06a1 00       		.byte	0
  4707 06a2 18       		.uleb128 0x18
- 4708 06a3 26040000 		.4byte	.LASF75
+ 4708 06a3 6B040000 		.4byte	.LASF75
  4709 06a7 01       		.byte	0x1
  4710 06a8 3F03     		.2byte	0x33f
  4711 06aa 77000000 		.4byte	0x77
@@ -6513,7 +6513,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4715 06b7 9C       		.byte	0x9c
  4716 06b8 DB060000 		.4byte	0x6db
  4717 06bc 17       		.uleb128 0x17
- 4718 06bd 79050000 		.4byte	.LASF48
+ 4718 06bd BE050000 		.4byte	.LASF48
  4719 06c1 01       		.byte	0x1
  4720 06c2 3F03     		.2byte	0x33f
  4721 06c4 83000000 		.4byte	0x83
@@ -6521,7 +6521,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4723 06c9 91       		.byte	0x91
  4724 06ca 74       		.sleb128 -12
  4725 06cb 17       		.uleb128 0x17
- 4726 06cc A2050000 		.4byte	.LASF22
+ 4726 06cc E7050000 		.4byte	.LASF22
  4727 06d0 01       		.byte	0x1
  4728 06d1 3F03     		.2byte	0x33f
  4729 06d3 83000000 		.4byte	0x83
@@ -6530,7 +6530,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4732 06d9 70       		.sleb128 -16
  4733 06da 00       		.byte	0
  4734 06db 1A       		.uleb128 0x1a
- 4735 06dc 42010000 		.4byte	.LASF76
+ 4735 06dc 87010000 		.4byte	.LASF76
  4736 06e0 01       		.byte	0x1
  4737 06e1 5C03     		.2byte	0x35c
  4738 06e3 00000000 		.4byte	.LFB29
@@ -6538,11 +6538,11 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4740 06eb 01       		.uleb128 0x1
  4741 06ec 9C       		.byte	0x9c
  4742 06ed 1F070000 		.4byte	0x71f
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 110
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 110
 
 
  4743 06f1 17       		.uleb128 0x17
- 4744 06f2 79050000 		.4byte	.LASF48
+ 4744 06f2 BE050000 		.4byte	.LASF48
  4745 06f6 01       		.byte	0x1
  4746 06f7 5C03     		.2byte	0x35c
  4747 06f9 83000000 		.4byte	0x83
@@ -6550,7 +6550,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4749 06fe 91       		.byte	0x91
  4750 06ff 74       		.sleb128 -12
  4751 0700 17       		.uleb128 0x17
- 4752 0701 A2050000 		.4byte	.LASF22
+ 4752 0701 E7050000 		.4byte	.LASF22
  4753 0705 01       		.byte	0x1
  4754 0706 5C03     		.2byte	0x35c
  4755 0708 83000000 		.4byte	0x83
@@ -6558,7 +6558,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4757 070d 91       		.byte	0x91
  4758 070e 70       		.sleb128 -16
  4759 070f 17       		.uleb128 0x17
- 4760 0710 1B040000 		.4byte	.LASF77
+ 4760 0710 60040000 		.4byte	.LASF77
  4761 0714 01       		.byte	0x1
  4762 0715 5C03     		.2byte	0x35c
  4763 0717 44010000 		.4byte	0x144
@@ -6577,7 +6577,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4776 0734 9C       		.byte	0x9c
  4777 0735 58070000 		.4byte	0x758
  4778 0739 17       		.uleb128 0x17
- 4779 073a 79050000 		.4byte	.LASF48
+ 4779 073a BE050000 		.4byte	.LASF48
  4780 073e 01       		.byte	0x1
  4781 073f 7503     		.2byte	0x375
  4782 0741 83000000 		.4byte	0x83
@@ -6585,7 +6585,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4784 0746 91       		.byte	0x91
  4785 0747 74       		.sleb128 -12
  4786 0748 17       		.uleb128 0x17
- 4787 0749 A2050000 		.4byte	.LASF22
+ 4787 0749 E7050000 		.4byte	.LASF22
  4788 074d 01       		.byte	0x1
  4789 074e 7503     		.2byte	0x375
  4790 0750 83000000 		.4byte	0x83
@@ -6594,11 +6594,11 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4793 0756 70       		.sleb128 -16
  4794 0757 00       		.byte	0
  4795 0758 1A       		.uleb128 0x1a
- 4796 0759 53000000 		.4byte	.LASF79
+ 4796 0759 98000000 		.4byte	.LASF79
  4797 075d 01       		.byte	0x1
  4798 075e 9203     		.2byte	0x392
  4799 0760 00000000 		.4byte	.LFB31
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 111
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 111
 
 
  4800 0764 64000000 		.4byte	.LFE31-.LFB31
@@ -6606,7 +6606,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4802 0769 9C       		.byte	0x9c
  4803 076a 9C070000 		.4byte	0x79c
  4804 076e 17       		.uleb128 0x17
- 4805 076f 79050000 		.4byte	.LASF48
+ 4805 076f BE050000 		.4byte	.LASF48
  4806 0773 01       		.byte	0x1
  4807 0774 9203     		.2byte	0x392
  4808 0776 83000000 		.4byte	0x83
@@ -6614,7 +6614,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4810 077b 91       		.byte	0x91
  4811 077c 74       		.sleb128 -12
  4812 077d 17       		.uleb128 0x17
- 4813 077e A2050000 		.4byte	.LASF22
+ 4813 077e E7050000 		.4byte	.LASF22
  4814 0782 01       		.byte	0x1
  4815 0783 9203     		.2byte	0x392
  4816 0785 83000000 		.4byte	0x83
@@ -6622,7 +6622,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4818 078a 91       		.byte	0x91
  4819 078b 70       		.sleb128 -16
  4820 078c 17       		.uleb128 0x17
- 4821 078d 7C020000 		.4byte	.LASF80
+ 4821 078d C1020000 		.4byte	.LASF80
  4822 0791 01       		.byte	0x1
  4823 0792 9203     		.2byte	0x392
  4824 0794 44010000 		.4byte	0x144
@@ -6631,7 +6631,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4827 079a 6C       		.sleb128 -20
  4828 079b 00       		.byte	0
  4829 079c 18       		.uleb128 0x18
- 4830 079d AA060000 		.4byte	.LASF81
+ 4830 079d AF060000 		.4byte	.LASF81
  4831 07a1 01       		.byte	0x1
  4832 07a2 AB03     		.2byte	0x3ab
  4833 07a4 44010000 		.4byte	0x144
@@ -6641,7 +6641,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4837 07b1 9C       		.byte	0x9c
  4838 07b2 D5070000 		.4byte	0x7d5
  4839 07b6 17       		.uleb128 0x17
- 4840 07b7 79050000 		.4byte	.LASF48
+ 4840 07b7 BE050000 		.4byte	.LASF48
  4841 07bb 01       		.byte	0x1
  4842 07bc AB03     		.2byte	0x3ab
  4843 07be 83000000 		.4byte	0x83
@@ -6649,7 +6649,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4845 07c3 91       		.byte	0x91
  4846 07c4 74       		.sleb128 -12
  4847 07c5 17       		.uleb128 0x17
- 4848 07c6 A2050000 		.4byte	.LASF22
+ 4848 07c6 E7050000 		.4byte	.LASF22
  4849 07ca 01       		.byte	0x1
  4850 07cb AB03     		.2byte	0x3ab
  4851 07cd 83000000 		.4byte	0x83
@@ -6658,10 +6658,10 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4854 07d3 70       		.sleb128 -16
  4855 07d4 00       		.byte	0
  4856 07d5 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 112
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 112
 
 
- 4857 07d6 85040000 		.4byte	.LASF82
+ 4857 07d6 CA040000 		.4byte	.LASF82
  4858 07da 01       		.byte	0x1
  4859 07db CC03     		.2byte	0x3cc
  4860 07dd 00000000 		.4byte	.LFB33
@@ -6670,7 +6670,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4863 07e6 9C       		.byte	0x9c
  4864 07e7 28080000 		.4byte	0x828
  4865 07eb 17       		.uleb128 0x17
- 4866 07ec 79050000 		.4byte	.LASF48
+ 4866 07ec BE050000 		.4byte	.LASF48
  4867 07f0 01       		.byte	0x1
  4868 07f1 CC03     		.2byte	0x3cc
  4869 07f3 83000000 		.4byte	0x83
@@ -6678,7 +6678,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4871 07f8 91       		.byte	0x91
  4872 07f9 6C       		.sleb128 -20
  4873 07fa 17       		.uleb128 0x17
- 4874 07fb A2050000 		.4byte	.LASF22
+ 4874 07fb E7050000 		.4byte	.LASF22
  4875 07ff 01       		.byte	0x1
  4876 0800 CC03     		.2byte	0x3cc
  4877 0802 83000000 		.4byte	0x83
@@ -6686,7 +6686,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4879 0807 91       		.byte	0x91
  4880 0808 68       		.sleb128 -24
  4881 0809 17       		.uleb128 0x17
- 4882 080a BD040000 		.4byte	.LASF24
+ 4882 080a 02050000 		.4byte	.LASF24
  4883 080e 01       		.byte	0x1
  4884 080f CC03     		.2byte	0x3cc
  4885 0811 77000000 		.4byte	0x77
@@ -6694,7 +6694,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4887 0816 91       		.byte	0x91
  4888 0817 64       		.sleb128 -28
  4889 0818 19       		.uleb128 0x19
- 4890 0819 EB010000 		.4byte	.LASF67
+ 4890 0819 30020000 		.4byte	.LASF67
  4891 081d 01       		.byte	0x1
  4892 081e CE03     		.2byte	0x3ce
  4893 0820 77000000 		.4byte	0x77
@@ -6703,7 +6703,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4896 0826 74       		.sleb128 -12
  4897 0827 00       		.byte	0
  4898 0828 18       		.uleb128 0x18
- 4899 0829 41060000 		.4byte	.LASF83
+ 4899 0829 46060000 		.4byte	.LASF83
  4900 082d 01       		.byte	0x1
  4901 082e F003     		.2byte	0x3f0
  4902 0830 77000000 		.4byte	0x77
@@ -6713,18 +6713,18 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4906 083d 9C       		.byte	0x9c
  4907 083e 61080000 		.4byte	0x861
  4908 0842 17       		.uleb128 0x17
- 4909 0843 79050000 		.4byte	.LASF48
+ 4909 0843 BE050000 		.4byte	.LASF48
  4910 0847 01       		.byte	0x1
  4911 0848 F003     		.2byte	0x3f0
  4912 084a 83000000 		.4byte	0x83
  4913 084e 02       		.uleb128 0x2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 113
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 113
 
 
  4914 084f 91       		.byte	0x91
  4915 0850 74       		.sleb128 -12
  4916 0851 17       		.uleb128 0x17
- 4917 0852 A2050000 		.4byte	.LASF22
+ 4917 0852 E7050000 		.4byte	.LASF22
  4918 0856 01       		.byte	0x1
  4919 0857 F003     		.2byte	0x3f0
  4920 0859 83000000 		.4byte	0x83
@@ -6733,7 +6733,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4923 085f 70       		.sleb128 -16
  4924 0860 00       		.byte	0
  4925 0861 1A       		.uleb128 0x1a
- 4926 0862 D6060000 		.4byte	.LASF84
+ 4926 0862 DB060000 		.4byte	.LASF84
  4927 0866 01       		.byte	0x1
  4928 0867 0E04     		.2byte	0x40e
  4929 0869 00000000 		.4byte	.LFB35
@@ -6742,7 +6742,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4932 0872 9C       		.byte	0x9c
  4933 0873 B4080000 		.4byte	0x8b4
  4934 0877 17       		.uleb128 0x17
- 4935 0878 79050000 		.4byte	.LASF48
+ 4935 0878 BE050000 		.4byte	.LASF48
  4936 087c 01       		.byte	0x1
  4937 087d 0E04     		.2byte	0x40e
  4938 087f 83000000 		.4byte	0x83
@@ -6750,7 +6750,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4940 0884 91       		.byte	0x91
  4941 0885 6C       		.sleb128 -20
  4942 0886 17       		.uleb128 0x17
- 4943 0887 A2050000 		.4byte	.LASF22
+ 4943 0887 E7050000 		.4byte	.LASF22
  4944 088b 01       		.byte	0x1
  4945 088c 0E04     		.2byte	0x40e
  4946 088e 83000000 		.4byte	0x83
@@ -6758,7 +6758,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4948 0893 91       		.byte	0x91
  4949 0894 68       		.sleb128 -24
  4950 0895 17       		.uleb128 0x17
- 4951 0896 7E010000 		.4byte	.LASF25
+ 4951 0896 C3010000 		.4byte	.LASF25
  4952 089a 01       		.byte	0x1
  4953 089b 0E04     		.2byte	0x40e
  4954 089d 83000000 		.4byte	0x83
@@ -6766,7 +6766,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4956 08a2 91       		.byte	0x91
  4957 08a3 64       		.sleb128 -28
  4958 08a4 19       		.uleb128 0x19
- 4959 08a5 EB010000 		.4byte	.LASF67
+ 4959 08a5 30020000 		.4byte	.LASF67
  4960 08a9 01       		.byte	0x1
  4961 08aa 1004     		.2byte	0x410
  4962 08ac 77000000 		.4byte	0x77
@@ -6775,10 +6775,10 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4965 08b2 74       		.sleb128 -12
  4966 08b3 00       		.byte	0
  4967 08b4 18       		.uleb128 0x18
- 4968 08b5 EB000000 		.4byte	.LASF85
+ 4968 08b5 30010000 		.4byte	.LASF85
  4969 08b9 01       		.byte	0x1
  4970 08ba 2E04     		.2byte	0x42e
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 114
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 114
 
 
  4971 08bc 83000000 		.4byte	0x83
@@ -6788,7 +6788,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4975 08c9 9C       		.byte	0x9c
  4976 08ca FC080000 		.4byte	0x8fc
  4977 08ce 17       		.uleb128 0x17
- 4978 08cf 79050000 		.4byte	.LASF48
+ 4978 08cf BE050000 		.4byte	.LASF48
  4979 08d3 01       		.byte	0x1
  4980 08d4 2E04     		.2byte	0x42e
  4981 08d6 83000000 		.4byte	0x83
@@ -6796,7 +6796,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4983 08db 91       		.byte	0x91
  4984 08dc 6C       		.sleb128 -20
  4985 08dd 17       		.uleb128 0x17
- 4986 08de A2050000 		.4byte	.LASF22
+ 4986 08de E7050000 		.4byte	.LASF22
  4987 08e2 01       		.byte	0x1
  4988 08e3 2E04     		.2byte	0x42e
  4989 08e5 83000000 		.4byte	0x83
@@ -6804,7 +6804,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  4991 08ea 91       		.byte	0x91
  4992 08eb 68       		.sleb128 -24
  4993 08ec 19       		.uleb128 0x19
- 4994 08ed 0F040000 		.4byte	.LASF86
+ 4994 08ed 54040000 		.4byte	.LASF86
  4995 08f1 01       		.byte	0x1
  4996 08f2 3004     		.2byte	0x430
  4997 08f4 77000000 		.4byte	0x77
@@ -6813,7 +6813,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5000 08fa 74       		.sleb128 -12
  5001 08fb 00       		.byte	0
  5002 08fc 1A       		.uleb128 0x1a
- 5003 08fd 59060000 		.4byte	.LASF87
+ 5003 08fd 5E060000 		.4byte	.LASF87
  5004 0901 01       		.byte	0x1
  5005 0902 5504     		.2byte	0x455
  5006 0904 00000000 		.4byte	.LFB37
@@ -6822,7 +6822,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5009 090d 9C       		.byte	0x9c
  5010 090e 4F090000 		.4byte	0x94f
  5011 0912 17       		.uleb128 0x17
- 5012 0913 79050000 		.4byte	.LASF48
+ 5012 0913 BE050000 		.4byte	.LASF48
  5013 0917 01       		.byte	0x1
  5014 0918 5504     		.2byte	0x455
  5015 091a 83000000 		.4byte	0x83
@@ -6830,7 +6830,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5017 091f 91       		.byte	0x91
  5018 0920 6C       		.sleb128 -20
  5019 0921 17       		.uleb128 0x17
- 5020 0922 A2050000 		.4byte	.LASF22
+ 5020 0922 E7050000 		.4byte	.LASF22
  5021 0926 01       		.byte	0x1
  5022 0927 5504     		.2byte	0x455
  5023 0929 83000000 		.4byte	0x83
@@ -6838,10 +6838,10 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5025 092e 91       		.byte	0x91
  5026 092f 68       		.sleb128 -24
  5027 0930 17       		.uleb128 0x17
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 115
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 115
 
 
- 5028 0931 16070000 		.4byte	.LASF88
+ 5028 0931 1B070000 		.4byte	.LASF88
  5029 0935 01       		.byte	0x1
  5030 0936 5504     		.2byte	0x455
  5031 0938 77000000 		.4byte	0x77
@@ -6849,7 +6849,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5033 093d 91       		.byte	0x91
  5034 093e 64       		.sleb128 -28
  5035 093f 19       		.uleb128 0x19
- 5036 0940 EB010000 		.4byte	.LASF67
+ 5036 0940 30020000 		.4byte	.LASF67
  5037 0944 01       		.byte	0x1
  5038 0945 5704     		.2byte	0x457
  5039 0947 77000000 		.4byte	0x77
@@ -6858,7 +6858,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5042 094d 74       		.sleb128 -12
  5043 094e 00       		.byte	0
  5044 094f 18       		.uleb128 0x18
- 5045 0950 AF010000 		.4byte	.LASF89
+ 5045 0950 F4010000 		.4byte	.LASF89
  5046 0954 01       		.byte	0x1
  5047 0955 7404     		.2byte	0x474
  5048 0957 77000000 		.4byte	0x77
@@ -6868,7 +6868,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5052 0964 9C       		.byte	0x9c
  5053 0965 88090000 		.4byte	0x988
  5054 0969 17       		.uleb128 0x17
- 5055 096a 79050000 		.4byte	.LASF48
+ 5055 096a BE050000 		.4byte	.LASF48
  5056 096e 01       		.byte	0x1
  5057 096f 7404     		.2byte	0x474
  5058 0971 83000000 		.4byte	0x83
@@ -6876,7 +6876,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5060 0976 91       		.byte	0x91
  5061 0977 74       		.sleb128 -12
  5062 0978 17       		.uleb128 0x17
- 5063 0979 A2050000 		.4byte	.LASF22
+ 5063 0979 E7050000 		.4byte	.LASF22
  5064 097d 01       		.byte	0x1
  5065 097e 7404     		.2byte	0x474
  5066 0980 83000000 		.4byte	0x83
@@ -6885,7 +6885,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5069 0986 70       		.sleb128 -16
  5070 0987 00       		.byte	0
  5071 0988 1A       		.uleb128 0x1a
- 5072 0989 E3020000 		.4byte	.LASF90
+ 5072 0989 28030000 		.4byte	.LASF90
  5073 098d 01       		.byte	0x1
  5074 098e 9604     		.2byte	0x496
  5075 0990 00000000 		.4byte	.LFB39
@@ -6894,18 +6894,18 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5078 0999 9C       		.byte	0x9c
  5079 099a DB090000 		.4byte	0x9db
  5080 099e 17       		.uleb128 0x17
- 5081 099f 79050000 		.4byte	.LASF48
+ 5081 099f BE050000 		.4byte	.LASF48
  5082 09a3 01       		.byte	0x1
  5083 09a4 9604     		.2byte	0x496
  5084 09a6 83000000 		.4byte	0x83
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 116
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 116
 
 
  5085 09aa 02       		.uleb128 0x2
  5086 09ab 91       		.byte	0x91
  5087 09ac 6C       		.sleb128 -20
  5088 09ad 17       		.uleb128 0x17
- 5089 09ae A2050000 		.4byte	.LASF22
+ 5089 09ae E7050000 		.4byte	.LASF22
  5090 09b2 01       		.byte	0x1
  5091 09b3 9604     		.2byte	0x496
  5092 09b5 83000000 		.4byte	0x83
@@ -6913,7 +6913,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5094 09ba 91       		.byte	0x91
  5095 09bb 68       		.sleb128 -24
  5096 09bc 17       		.uleb128 0x17
- 5097 09bd 99060000 		.4byte	.LASF27
+ 5097 09bd 9E060000 		.4byte	.LASF27
  5098 09c1 01       		.byte	0x1
  5099 09c2 9604     		.2byte	0x496
  5100 09c4 77000000 		.4byte	0x77
@@ -6921,7 +6921,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5102 09c9 91       		.byte	0x91
  5103 09ca 64       		.sleb128 -28
  5104 09cb 19       		.uleb128 0x19
- 5105 09cc EB010000 		.4byte	.LASF67
+ 5105 09cc 30020000 		.4byte	.LASF67
  5106 09d0 01       		.byte	0x1
  5107 09d1 9804     		.2byte	0x498
  5108 09d3 77000000 		.4byte	0x77
@@ -6930,7 +6930,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5111 09d9 74       		.sleb128 -12
  5112 09da 00       		.byte	0
  5113 09db 18       		.uleb128 0x18
- 5114 09dc B8020000 		.4byte	.LASF91
+ 5114 09dc FD020000 		.4byte	.LASF91
  5115 09e0 01       		.byte	0x1
  5116 09e1 B504     		.2byte	0x4b5
  5117 09e3 77000000 		.4byte	0x77
@@ -6940,7 +6940,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5121 09f0 9C       		.byte	0x9c
  5122 09f1 140A0000 		.4byte	0xa14
  5123 09f5 17       		.uleb128 0x17
- 5124 09f6 79050000 		.4byte	.LASF48
+ 5124 09f6 BE050000 		.4byte	.LASF48
  5125 09fa 01       		.byte	0x1
  5126 09fb B504     		.2byte	0x4b5
  5127 09fd 83000000 		.4byte	0x83
@@ -6948,7 +6948,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5129 0a02 91       		.byte	0x91
  5130 0a03 74       		.sleb128 -12
  5131 0a04 17       		.uleb128 0x17
- 5132 0a05 A2050000 		.4byte	.LASF22
+ 5132 0a05 E7050000 		.4byte	.LASF22
  5133 0a09 01       		.byte	0x1
  5134 0a0a B504     		.2byte	0x4b5
  5135 0a0c 83000000 		.4byte	0x83
@@ -6957,8 +6957,8 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5138 0a12 70       		.sleb128 -16
  5139 0a13 00       		.byte	0
  5140 0a14 1A       		.uleb128 0x1a
- 5141 0a15 62070000 		.4byte	.LASF92
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 117
+ 5141 0a15 67070000 		.4byte	.LASF92
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 117
 
 
  5142 0a19 01       		.byte	0x1
@@ -6969,7 +6969,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5147 0a25 9C       		.byte	0x9c
  5148 0a26 670A0000 		.4byte	0xa67
  5149 0a2a 17       		.uleb128 0x17
- 5150 0a2b 79050000 		.4byte	.LASF48
+ 5150 0a2b BE050000 		.4byte	.LASF48
  5151 0a2f 01       		.byte	0x1
  5152 0a30 D604     		.2byte	0x4d6
  5153 0a32 83000000 		.4byte	0x83
@@ -6977,7 +6977,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5155 0a37 91       		.byte	0x91
  5156 0a38 6C       		.sleb128 -20
  5157 0a39 17       		.uleb128 0x17
- 5158 0a3a A2050000 		.4byte	.LASF22
+ 5158 0a3a E7050000 		.4byte	.LASF22
  5159 0a3e 01       		.byte	0x1
  5160 0a3f D604     		.2byte	0x4d6
  5161 0a41 83000000 		.4byte	0x83
@@ -6985,7 +6985,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5163 0a46 91       		.byte	0x91
  5164 0a47 68       		.sleb128 -24
  5165 0a48 17       		.uleb128 0x17
- 5166 0a49 D2010000 		.4byte	.LASF28
+ 5166 0a49 17020000 		.4byte	.LASF28
  5167 0a4d 01       		.byte	0x1
  5168 0a4e D604     		.2byte	0x4d6
  5169 0a50 77000000 		.4byte	0x77
@@ -6993,7 +6993,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5171 0a55 91       		.byte	0x91
  5172 0a56 64       		.sleb128 -28
  5173 0a57 19       		.uleb128 0x19
- 5174 0a58 EB010000 		.4byte	.LASF67
+ 5174 0a58 30020000 		.4byte	.LASF67
  5175 0a5c 01       		.byte	0x1
  5176 0a5d D804     		.2byte	0x4d8
  5177 0a5f 77000000 		.4byte	0x77
@@ -7002,7 +7002,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5180 0a65 74       		.sleb128 -12
  5181 0a66 00       		.byte	0
  5182 0a67 18       		.uleb128 0x18
- 5183 0a68 81050000 		.4byte	.LASF93
+ 5183 0a68 C6050000 		.4byte	.LASF93
  5184 0a6c 01       		.byte	0x1
  5185 0a6d F504     		.2byte	0x4f5
  5186 0a6f 77000000 		.4byte	0x77
@@ -7012,18 +7012,18 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5190 0a7c 9C       		.byte	0x9c
  5191 0a7d A00A0000 		.4byte	0xaa0
  5192 0a81 17       		.uleb128 0x17
- 5193 0a82 79050000 		.4byte	.LASF48
+ 5193 0a82 BE050000 		.4byte	.LASF48
  5194 0a86 01       		.byte	0x1
  5195 0a87 F504     		.2byte	0x4f5
  5196 0a89 83000000 		.4byte	0x83
  5197 0a8d 02       		.uleb128 0x2
  5198 0a8e 91       		.byte	0x91
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 118
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 118
 
 
  5199 0a8f 74       		.sleb128 -12
  5200 0a90 17       		.uleb128 0x17
- 5201 0a91 A2050000 		.4byte	.LASF22
+ 5201 0a91 E7050000 		.4byte	.LASF22
  5202 0a95 01       		.byte	0x1
  5203 0a96 F504     		.2byte	0x4f5
  5204 0a98 83000000 		.4byte	0x83
@@ -7032,7 +7032,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5207 0a9e 70       		.sleb128 -16
  5208 0a9f 00       		.byte	0
  5209 0aa0 1A       		.uleb128 0x1a
- 5210 0aa1 31070000 		.4byte	.LASF94
+ 5210 0aa1 36070000 		.4byte	.LASF94
  5211 0aa5 01       		.byte	0x1
  5212 0aa6 1505     		.2byte	0x515
  5213 0aa8 00000000 		.4byte	.LFB43
@@ -7041,7 +7041,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5216 0ab1 9C       		.byte	0x9c
  5217 0ab2 F30A0000 		.4byte	0xaf3
  5218 0ab6 17       		.uleb128 0x17
- 5219 0ab7 79050000 		.4byte	.LASF48
+ 5219 0ab7 BE050000 		.4byte	.LASF48
  5220 0abb 01       		.byte	0x1
  5221 0abc 1505     		.2byte	0x515
  5222 0abe 83000000 		.4byte	0x83
@@ -7049,7 +7049,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5224 0ac3 91       		.byte	0x91
  5225 0ac4 6C       		.sleb128 -20
  5226 0ac5 17       		.uleb128 0x17
- 5227 0ac6 A2050000 		.4byte	.LASF22
+ 5227 0ac6 E7050000 		.4byte	.LASF22
  5228 0aca 01       		.byte	0x1
  5229 0acb 1505     		.2byte	0x515
  5230 0acd 83000000 		.4byte	0x83
@@ -7057,7 +7057,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5232 0ad2 91       		.byte	0x91
  5233 0ad3 68       		.sleb128 -24
  5234 0ad4 17       		.uleb128 0x17
- 5235 0ad5 39020000 		.4byte	.LASF29
+ 5235 0ad5 7E020000 		.4byte	.LASF29
  5236 0ad9 01       		.byte	0x1
  5237 0ada 1505     		.2byte	0x515
  5238 0adc 77000000 		.4byte	0x77
@@ -7065,7 +7065,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5240 0ae1 91       		.byte	0x91
  5241 0ae2 64       		.sleb128 -28
  5242 0ae3 19       		.uleb128 0x19
- 5243 0ae4 EB010000 		.4byte	.LASF67
+ 5243 0ae4 30020000 		.4byte	.LASF67
  5244 0ae8 01       		.byte	0x1
  5245 0ae9 1705     		.2byte	0x517
  5246 0aeb 77000000 		.4byte	0x77
@@ -7074,11 +7074,11 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5249 0af1 74       		.sleb128 -12
  5250 0af2 00       		.byte	0
  5251 0af3 18       		.uleb128 0x18
- 5252 0af4 A4030000 		.4byte	.LASF95
+ 5252 0af4 E9030000 		.4byte	.LASF95
  5253 0af8 01       		.byte	0x1
  5254 0af9 3405     		.2byte	0x534
  5255 0afb 77000000 		.4byte	0x77
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 119
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 119
 
 
  5256 0aff 00000000 		.4byte	.LFB44
@@ -7087,7 +7087,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5259 0b08 9C       		.byte	0x9c
  5260 0b09 2C0B0000 		.4byte	0xb2c
  5261 0b0d 17       		.uleb128 0x17
- 5262 0b0e 79050000 		.4byte	.LASF48
+ 5262 0b0e BE050000 		.4byte	.LASF48
  5263 0b12 01       		.byte	0x1
  5264 0b13 3405     		.2byte	0x534
  5265 0b15 83000000 		.4byte	0x83
@@ -7095,7 +7095,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5267 0b1a 91       		.byte	0x91
  5268 0b1b 74       		.sleb128 -12
  5269 0b1c 17       		.uleb128 0x17
- 5270 0b1d A2050000 		.4byte	.LASF22
+ 5270 0b1d E7050000 		.4byte	.LASF22
  5271 0b21 01       		.byte	0x1
  5272 0b22 3405     		.2byte	0x534
  5273 0b24 83000000 		.4byte	0x83
@@ -7104,7 +7104,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5276 0b2a 70       		.sleb128 -16
  5277 0b2b 00       		.byte	0
  5278 0b2c 1A       		.uleb128 0x1a
- 5279 0b2d A9070000 		.4byte	.LASF96
+ 5279 0b2d AE070000 		.4byte	.LASF96
  5280 0b31 01       		.byte	0x1
  5281 0b32 5305     		.2byte	0x553
  5282 0b34 00000000 		.4byte	.LFB45
@@ -7113,7 +7113,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5285 0b3d 9C       		.byte	0x9c
  5286 0b3e 7F0B0000 		.4byte	0xb7f
  5287 0b42 17       		.uleb128 0x17
- 5288 0b43 79050000 		.4byte	.LASF48
+ 5288 0b43 BE050000 		.4byte	.LASF48
  5289 0b47 01       		.byte	0x1
  5290 0b48 5305     		.2byte	0x553
  5291 0b4a 83000000 		.4byte	0x83
@@ -7121,7 +7121,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5293 0b4f 91       		.byte	0x91
  5294 0b50 6C       		.sleb128 -20
  5295 0b51 17       		.uleb128 0x17
- 5296 0b52 A2050000 		.4byte	.LASF22
+ 5296 0b52 E7050000 		.4byte	.LASF22
  5297 0b56 01       		.byte	0x1
  5298 0b57 5305     		.2byte	0x553
  5299 0b59 83000000 		.4byte	0x83
@@ -7129,7 +7129,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5301 0b5e 91       		.byte	0x91
  5302 0b5f 68       		.sleb128 -24
  5303 0b60 17       		.uleb128 0x17
- 5304 0b61 9D070000 		.4byte	.LASF30
+ 5304 0b61 A2070000 		.4byte	.LASF30
  5305 0b65 01       		.byte	0x1
  5306 0b66 5305     		.2byte	0x553
  5307 0b68 77000000 		.4byte	0x77
@@ -7137,8 +7137,8 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5309 0b6d 91       		.byte	0x91
  5310 0b6e 64       		.sleb128 -28
  5311 0b6f 19       		.uleb128 0x19
- 5312 0b70 EB010000 		.4byte	.LASF67
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 120
+ 5312 0b70 30020000 		.4byte	.LASF67
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 120
 
 
  5313 0b74 01       		.byte	0x1
@@ -7149,7 +7149,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5318 0b7d 74       		.sleb128 -12
  5319 0b7e 00       		.byte	0
  5320 0b7f 18       		.uleb128 0x18
- 5321 0b80 FC020000 		.4byte	.LASF97
+ 5321 0b80 41030000 		.4byte	.LASF97
  5322 0b84 01       		.byte	0x1
  5323 0b85 7105     		.2byte	0x571
  5324 0b87 77000000 		.4byte	0x77
@@ -7159,7 +7159,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5328 0b94 9C       		.byte	0x9c
  5329 0b95 B80B0000 		.4byte	0xbb8
  5330 0b99 17       		.uleb128 0x17
- 5331 0b9a 79050000 		.4byte	.LASF48
+ 5331 0b9a BE050000 		.4byte	.LASF48
  5332 0b9e 01       		.byte	0x1
  5333 0b9f 7105     		.2byte	0x571
  5334 0ba1 83000000 		.4byte	0x83
@@ -7167,7 +7167,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5336 0ba6 91       		.byte	0x91
  5337 0ba7 74       		.sleb128 -12
  5338 0ba8 17       		.uleb128 0x17
- 5339 0ba9 A2050000 		.4byte	.LASF22
+ 5339 0ba9 E7050000 		.4byte	.LASF22
  5340 0bad 01       		.byte	0x1
  5341 0bae 7105     		.2byte	0x571
  5342 0bb0 83000000 		.4byte	0x83
@@ -7176,7 +7176,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5345 0bb6 70       		.sleb128 -16
  5346 0bb7 00       		.byte	0
  5347 0bb8 1A       		.uleb128 0x1a
- 5348 0bb9 B9030000 		.4byte	.LASF98
+ 5348 0bb9 FE030000 		.4byte	.LASF98
  5349 0bbd 01       		.byte	0x1
  5350 0bbe 9005     		.2byte	0x590
  5351 0bc0 00000000 		.4byte	.LFB47
@@ -7185,7 +7185,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5354 0bc9 9C       		.byte	0x9c
  5355 0bca 0B0C0000 		.4byte	0xc0b
  5356 0bce 17       		.uleb128 0x17
- 5357 0bcf 79050000 		.4byte	.LASF48
+ 5357 0bcf BE050000 		.4byte	.LASF48
  5358 0bd3 01       		.byte	0x1
  5359 0bd4 9005     		.2byte	0x590
  5360 0bd6 83000000 		.4byte	0x83
@@ -7193,18 +7193,18 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5362 0bdb 91       		.byte	0x91
  5363 0bdc 6C       		.sleb128 -20
  5364 0bdd 17       		.uleb128 0x17
- 5365 0bde A2050000 		.4byte	.LASF22
+ 5365 0bde E7050000 		.4byte	.LASF22
  5366 0be2 01       		.byte	0x1
  5367 0be3 9005     		.2byte	0x590
  5368 0be5 83000000 		.4byte	0x83
  5369 0be9 02       		.uleb128 0x2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 121
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 121
 
 
  5370 0bea 91       		.byte	0x91
  5371 0beb 68       		.sleb128 -24
  5372 0bec 17       		.uleb128 0x17
- 5373 0bed 95070000 		.4byte	.LASF31
+ 5373 0bed 9A070000 		.4byte	.LASF31
  5374 0bf1 01       		.byte	0x1
  5375 0bf2 9005     		.2byte	0x590
  5376 0bf4 77000000 		.4byte	0x77
@@ -7212,7 +7212,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5378 0bf9 91       		.byte	0x91
  5379 0bfa 64       		.sleb128 -28
  5380 0bfb 19       		.uleb128 0x19
- 5381 0bfc EB010000 		.4byte	.LASF67
+ 5381 0bfc 30020000 		.4byte	.LASF67
  5382 0c00 01       		.byte	0x1
  5383 0c01 9205     		.2byte	0x592
  5384 0c03 77000000 		.4byte	0x77
@@ -7221,7 +7221,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5387 0c09 74       		.sleb128 -12
  5388 0c0a 00       		.byte	0
  5389 0c0b 18       		.uleb128 0x18
- 5390 0c0c 9A020000 		.4byte	.LASF99
+ 5390 0c0c DF020000 		.4byte	.LASF99
  5391 0c10 01       		.byte	0x1
  5392 0c11 AF05     		.2byte	0x5af
  5393 0c13 77000000 		.4byte	0x77
@@ -7231,7 +7231,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5397 0c20 9C       		.byte	0x9c
  5398 0c21 440C0000 		.4byte	0xc44
  5399 0c25 17       		.uleb128 0x17
- 5400 0c26 79050000 		.4byte	.LASF48
+ 5400 0c26 BE050000 		.4byte	.LASF48
  5401 0c2a 01       		.byte	0x1
  5402 0c2b AF05     		.2byte	0x5af
  5403 0c2d 83000000 		.4byte	0x83
@@ -7239,7 +7239,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5405 0c32 91       		.byte	0x91
  5406 0c33 74       		.sleb128 -12
  5407 0c34 17       		.uleb128 0x17
- 5408 0c35 A2050000 		.4byte	.LASF22
+ 5408 0c35 E7050000 		.4byte	.LASF22
  5409 0c39 01       		.byte	0x1
  5410 0c3a AF05     		.2byte	0x5af
  5411 0c3c 83000000 		.4byte	0x83
@@ -7255,10 +7255,10 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5421 0c52 1F       		.byte	0x1f
  5422 0c53 00       		.byte	0
  5423 0c54 11       		.uleb128 0x11
- 5424 0c55 E4040000 		.4byte	.LASF100
+ 5424 0c55 29050000 		.4byte	.LASF100
  5425 0c59 01       		.byte	0x1
  5426 0c5a 1A       		.byte	0x1a
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 122
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 122
 
 
  5427 0c5b 440C0000 		.4byte	0xc44
@@ -7266,7 +7266,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5429 0c60 03       		.byte	0x3
  5430 0c61 00000000 		.4byte	CyDmaInterruptCallback
  5431 0c65 11       		.uleb128 0x11
- 5432 0c66 2C060000 		.4byte	.LASF101
+ 5432 0c66 31060000 		.4byte	.LASF101
  5433 0c6a 01       		.byte	0x1
  5434 0c6b 34       		.byte	0x34
  5435 0c6c 77000000 		.4byte	0x77
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5481 0027 00       		.byte	0
  5482 0028 00       		.byte	0
  5483 0029 04       		.uleb128 0x4
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 123
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 123
 
 
  5484 002a 16       		.uleb128 0x16
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5538 0060 0B       		.uleb128 0xb
  5539 0061 3B       		.uleb128 0x3b
  5540 0062 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 124
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 124
 
 
  5541 0063 49       		.uleb128 0x49
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5595 0099 00       		.byte	0
  5596 009a 0B       		.uleb128 0xb
  5597 009b 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 125
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 125
 
 
  5598 009c 00       		.byte	0
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5652 00d3 00       		.byte	0
  5653 00d4 12       		.uleb128 0x12
  5654 00d5 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 126
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 126
 
 
  5655 00d6 00       		.byte	0
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5709 010e 0B       		.uleb128 0xb
  5710 010f 49       		.uleb128 0x49
  5711 0110 13       		.uleb128 0x13
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 127
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 127
 
 
  5712 0111 02       		.uleb128 0x2
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5766 0149 17       		.uleb128 0x17
  5767 014a 05       		.uleb128 0x5
  5768 014b 00       		.byte	0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 128
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 128
 
 
  5769 014c 03       		.uleb128 0x3
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5823 0183 1A       		.uleb128 0x1a
  5824 0184 2E       		.uleb128 0x2e
  5825 0185 01       		.byte	0x1
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 129
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 129
 
 
  5826 0186 3F       		.uleb128 0x3f
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5880 01be 27       		.uleb128 0x27
  5881 01bf 19       		.uleb128 0x19
  5882 01c0 49       		.uleb128 0x49
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 130
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 130
 
 
  5883 01c1 13       		.uleb128 0x13
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5937 0074 48000000 		.4byte	.LFE13-.LFB13
  5938 0078 00000000 		.4byte	.LFB14
  5939 007c 38000000 		.4byte	.LFE14-.LFB14
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 131
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 131
 
 
  5940 0080 00000000 		.4byte	.LFB15
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  5994 0158 00000000 		.4byte	.LFB42
  5995 015c 68000000 		.4byte	.LFE42-.LFB42
  5996 0160 00000000 		.4byte	.LFB43
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 132
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 132
 
 
  5997 0164 90000000 		.4byte	.LFE43-.LFB43
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  6051 009c 44000000 		.4byte	.LFE20
  6052 00a0 00000000 		.4byte	.LFB21
  6053 00a4 4C000000 		.4byte	.LFE21
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 133
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 133
 
 
  6054 00a8 00000000 		.4byte	.LFB22
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  6108 0180 00000000 		.4byte	0
  6109 0184 00000000 		.4byte	0
  6110              		.section	.debug_line,"",%progbits
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 134
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 134
 
 
  6111              	.Ldebug_line0:
@@ -8005,570 +8005,570 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 1
  6118      41637469 
  6118      76655372 
  6118      63416464 
- 6119              	.LASF62:
- 6120 0044 4379446D 		.ascii	"CyDmaChDisable\000"
- 6120      61436844 
- 6120      69736162 
- 6120      6C6500
- 6121              	.LASF79:
- 6122 0053 4379446D 		.ascii	"CyDmaSetDstAddress\000"
- 6122      61536574 
- 6122      44737441 
- 6122      64647265 
- 6122      737300
- 6123              	.LASF61:
- 6124 0066 4379446D 		.ascii	"CyDmaChEnable\000"
- 6124      61436845 
- 6124      6E61626C 
- 6124      6500
- 6125              	.LASF56:
- 6126 0074 63624964 		.ascii	"cbIdx\000"
- 6126      7800
- 6127              	.LASF68:
- 6128 007a 4379446D 		.ascii	"CyDmaGetPriority\000"
- 6128      61476574 
- 6128      5072696F 
- 6128      72697479 
- 6128      00
- 6129              	.LASF7:
- 6130 008b 6C6F6E67 		.ascii	"long long unsigned int\000"
- 6130      206C6F6E 
- 6130      6720756E 
- 6130      7369676E 
- 6130      65642069 
- 6131              	.LASF43:
- 6132 00a2 696E7465 		.ascii	"interruptVector\000"
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 135
+ 6119              	.LASF104:
+ 6120 0044 433A5C55 		.ascii	"C:\\Users\\Jason\\Desktop\\github\\nixie-psoc-proje"
+ 6120      73657273 
+ 6120      5C4A6173 
+ 6120      6F6E5C44 
+ 6120      65736B74 
+ 6121 0072 63745C6E 		.ascii	"ct\\nixie_control.cydsn\000"
+ 6121      69786965 
+ 6121      5F636F6E 
+ 6121      74726F6C 
+ 6121      2E637964 
+ 6122              	.LASF62:
+ 6123 0089 4379446D 		.ascii	"CyDmaChDisable\000"
+ 6123      61436844 
+ 6123      69736162 
+ 6123      6C6500
+ 6124              	.LASF79:
+ 6125 0098 4379446D 		.ascii	"CyDmaSetDstAddress\000"
+ 6125      61536574 
+ 6125      44737441 
+ 6125      64647265 
+ 6125      737300
+ 6126              	.LASF61:
+ 6127 00ab 4379446D 		.ascii	"CyDmaChEnable\000"
+ 6127      61436845 
+ 6127      6E61626C 
+ 6127      6500
+ 6128              	.LASF56:
+ 6129 00b9 63624964 		.ascii	"cbIdx\000"
+ 6129      7800
+ 6130              	.LASF68:
+ 6131 00bf 4379446D 		.ascii	"CyDmaGetPriority\000"
+ 6131      61476574 
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 135
 
 
- 6132      72727570 
- 6132      74566563 
- 6132      746F7200 
- 6133              	.LASF72:
- 6134 00b2 4379446D 		.ascii	"CyDmaSetConfiguration\000"
- 6134      61536574 
- 6134      436F6E66 
- 6134      69677572 
- 6134      6174696F 
- 6135              	.LASF64:
- 6136 00c8 74724374 		.ascii	"trCtlLut\000"
- 6136      6C4C7574 
- 6136      00
- 6137              	.LASF6:
- 6138 00d1 6C6F6E67 		.ascii	"long long int\000"
- 6138      206C6F6E 
- 6138      6720696E 
- 6138      7400
- 6139              	.LASF0:
- 6140 00df 7369676E 		.ascii	"signed char\000"
- 6140      65642063 
- 6140      68617200 
- 6141              	.LASF85:
- 6142 00eb 4379446D 		.ascii	"CyDmaGetNumDataElements\000"
- 6142      61476574 
- 6142      4E756D44 
- 6142      61746145 
- 6142      6C656D65 
- 6143              	.LASF11:
- 6144 0103 696E7433 		.ascii	"int32\000"
- 6144      3200
- 6145              	.LASF70:
- 6146 0109 4379446D 		.ascii	"CyDmaGetNextDescriptor\000"
- 6146      61476574 
- 6146      4E657874 
- 6146      44657363 
- 6146      72697074 
- 6147              	.LASF4:
- 6148 0120 6C6F6E67 		.ascii	"long int\000"
- 6148      20696E74 
- 6148      00
- 6149              	.LASF19:
- 6150 0129 6379646D 		.ascii	"cydma_channel_ctl_struct\000"
- 6150      615F6368 
- 6150      616E6E65 
- 6150      6C5F6374 
- 6150      6C5F7374 
- 6151              	.LASF76:
- 6152 0142 4379446D 		.ascii	"CyDmaSetSrcAddress\000"
- 6152      61536574 
- 6152      53726341 
- 6152      64647265 
- 6152      737300
- 6153              	.LASF50:
- 6154 0155 696E6974 		.ascii	"initIntrVector\000"
- 6154      496E7472 
- 6154      56656374 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 136
+ 6131      5072696F 
+ 6131      72697479 
+ 6131      00
+ 6132              	.LASF7:
+ 6133 00d0 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 6133      206C6F6E 
+ 6133      6720756E 
+ 6133      7369676E 
+ 6133      65642069 
+ 6134              	.LASF43:
+ 6135 00e7 696E7465 		.ascii	"interruptVector\000"
+ 6135      72727570 
+ 6135      74566563 
+ 6135      746F7200 
+ 6136              	.LASF72:
+ 6137 00f7 4379446D 		.ascii	"CyDmaSetConfiguration\000"
+ 6137      61536574 
+ 6137      436F6E66 
+ 6137      69677572 
+ 6137      6174696F 
+ 6138              	.LASF64:
+ 6139 010d 74724374 		.ascii	"trCtlLut\000"
+ 6139      6C4C7574 
+ 6139      00
+ 6140              	.LASF6:
+ 6141 0116 6C6F6E67 		.ascii	"long long int\000"
+ 6141      206C6F6E 
+ 6141      6720696E 
+ 6141      7400
+ 6142              	.LASF0:
+ 6143 0124 7369676E 		.ascii	"signed char\000"
+ 6143      65642063 
+ 6143      68617200 
+ 6144              	.LASF85:
+ 6145 0130 4379446D 		.ascii	"CyDmaGetNumDataElements\000"
+ 6145      61476574 
+ 6145      4E756D44 
+ 6145      61746145 
+ 6145      6C656D65 
+ 6146              	.LASF11:
+ 6147 0148 696E7433 		.ascii	"int32\000"
+ 6147      3200
+ 6148              	.LASF70:
+ 6149 014e 4379446D 		.ascii	"CyDmaGetNextDescriptor\000"
+ 6149      61476574 
+ 6149      4E657874 
+ 6149      44657363 
+ 6149      72697074 
+ 6150              	.LASF4:
+ 6151 0165 6C6F6E67 		.ascii	"long int\000"
+ 6151      20696E74 
+ 6151      00
+ 6152              	.LASF19:
+ 6153 016e 6379646D 		.ascii	"cydma_channel_ctl_struct\000"
+ 6153      615F6368 
+ 6153      616E6E65 
+ 6153      6C5F6374 
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 136
 
 
- 6154      6F7200
- 6155              	.LASF53:
- 6156 0164 4379446D 		.ascii	"CyDmaGetInterruptCallback\000"
- 6156      61476574 
- 6156      496E7465 
- 6156      72727570 
- 6156      7443616C 
- 6157              	.LASF25:
- 6158 017e 6E756D44 		.ascii	"numDataElements\000"
- 6158      61746145 
- 6158      6C656D65 
- 6158      6E747300 
- 6159              	.LASF9:
- 6160 018e 75696E74 		.ascii	"uint8\000"
- 6160      3800
- 6161              	.LASF105:
- 6162 0194 4379446D 		.ascii	"CyDmaDisable\000"
- 6162      61446973 
- 6162      61626C65 
- 6162      00
- 6163              	.LASF60:
- 6164 01a1 72657375 		.ascii	"result\000"
- 6164      6C7400
- 6165              	.LASF13:
- 6166 01a8 646F7562 		.ascii	"double\000"
- 6166      6C6500
- 6167              	.LASF89:
- 6168 01af 4379446D 		.ascii	"CyDmaGetSrcDstTransferWidth\000"
- 6168      61476574 
- 6168      53726344 
- 6168      73745472 
- 6168      616E7366 
- 6169              	.LASF10:
- 6170 01cb 75696E74 		.ascii	"uint32\000"
- 6170      333200
- 6171              	.LASF28:
- 6172 01d2 74726967 		.ascii	"triggerType\000"
- 6172      67657254 
- 6172      79706500 
- 6173              	.LASF51:
- 6174 01de 70726576 		.ascii	"prevCallback\000"
- 6174      43616C6C 
- 6174      6261636B 
- 6174      00
- 6175              	.LASF67:
- 6176 01eb 72656756 		.ascii	"regValue\000"
- 6176      616C7565 
- 6176      00
- 6177              	.LASF45:
- 6178 01f4 4379446D 		.ascii	"CyDmaSetInterruptSourceMask\000"
- 6178      61536574 
- 6178      496E7465 
- 6178      72727570 
- 6178      74536F75 
- 6179              	.LASF32:
- 6180 0210 6379646D 		.ascii	"cydma_init_struct\000"
- 6180      615F696E 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 137
+ 6153      6C5F7374 
+ 6154              	.LASF76:
+ 6155 0187 4379446D 		.ascii	"CyDmaSetSrcAddress\000"
+ 6155      61536574 
+ 6155      53726341 
+ 6155      64647265 
+ 6155      737300
+ 6156              	.LASF50:
+ 6157 019a 696E6974 		.ascii	"initIntrVector\000"
+ 6157      496E7472 
+ 6157      56656374 
+ 6157      6F7200
+ 6158              	.LASF53:
+ 6159 01a9 4379446D 		.ascii	"CyDmaGetInterruptCallback\000"
+ 6159      61476574 
+ 6159      496E7465 
+ 6159      72727570 
+ 6159      7443616C 
+ 6160              	.LASF25:
+ 6161 01c3 6E756D44 		.ascii	"numDataElements\000"
+ 6161      61746145 
+ 6161      6C656D65 
+ 6161      6E747300 
+ 6162              	.LASF9:
+ 6163 01d3 75696E74 		.ascii	"uint8\000"
+ 6163      3800
+ 6164              	.LASF105:
+ 6165 01d9 4379446D 		.ascii	"CyDmaDisable\000"
+ 6165      61446973 
+ 6165      61626C65 
+ 6165      00
+ 6166              	.LASF60:
+ 6167 01e6 72657375 		.ascii	"result\000"
+ 6167      6C7400
+ 6168              	.LASF13:
+ 6169 01ed 646F7562 		.ascii	"double\000"
+ 6169      6C6500
+ 6170              	.LASF89:
+ 6171 01f4 4379446D 		.ascii	"CyDmaGetSrcDstTransferWidth\000"
+ 6171      61476574 
+ 6171      53726344 
+ 6171      73745472 
+ 6171      616E7366 
+ 6172              	.LASF10:
+ 6173 0210 75696E74 		.ascii	"uint32\000"
+ 6173      333200
+ 6174              	.LASF28:
+ 6175 0217 74726967 		.ascii	"triggerType\000"
+ 6175      67657254 
+ 6175      79706500 
+ 6176              	.LASF51:
+ 6177 0223 70726576 		.ascii	"prevCallback\000"
+ 6177      43616C6C 
+ 6177      6261636B 
+ 6177      00
+ 6178              	.LASF67:
+ 6179 0230 72656756 		.ascii	"regValue\000"
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 137
 
 
- 6180      69745F73 
- 6180      74727563 
- 6180      7400
- 6181              	.LASF69:
- 6182 0222 4379446D 		.ascii	"CyDmaSetNextDescriptor\000"
- 6182      61536574 
- 6182      4E657874 
- 6182      44657363 
- 6182      72697074 
- 6183              	.LASF29:
- 6184 0239 7472616E 		.ascii	"transferMode\000"
- 6184      73666572 
- 6184      4D6F6465 
- 6184      00
- 6185              	.LASF8:
- 6186 0246 756E7369 		.ascii	"unsigned int\000"
- 6186      676E6564 
- 6186      20696E74 
- 6186      00
- 6187              	.LASF36:
- 6188 0253 4379446D 		.ascii	"CyDmaGetActiveChannels\000"
- 6188      61476574 
- 6188      41637469 
- 6188      76654368 
- 6188      616E6E65 
- 6189              	.LASF5:
- 6190 026a 6C6F6E67 		.ascii	"long unsigned int\000"
- 6190      20756E73 
- 6190      69676E65 
- 6190      6420696E 
- 6190      7400
- 6191              	.LASF80:
- 6192 027c 64737441 		.ascii	"dstAddress\000"
- 6192      64647265 
- 6192      737300
- 6193              	.LASF3:
- 6194 0287 73686F72 		.ascii	"short unsigned int\000"
- 6194      7420756E 
- 6194      7369676E 
- 6194      65642069 
- 6194      6E7400
- 6195              	.LASF99:
- 6196 029a 4379446D 		.ascii	"CyDmaGetPostCompletionActions\000"
- 6196      61476574 
- 6196      506F7374 
- 6196      436F6D70 
- 6196      6C657469 
- 6197              	.LASF91:
- 6198 02b8 4379446D 		.ascii	"CyDmaGetAddressIncrement\000"
- 6198      61476574 
- 6198      41646472 
- 6198      65737349 
- 6198      6E637265 
- 6199              	.LASF49:
- 6200 02d1 63616C6C 		.ascii	"callback\000"
- 6200      6261636B 
- 6200      00
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 138
+ 6179      616C7565 
+ 6179      00
+ 6180              	.LASF45:
+ 6181 0239 4379446D 		.ascii	"CyDmaSetInterruptSourceMask\000"
+ 6181      61536574 
+ 6181      496E7465 
+ 6181      72727570 
+ 6181      74536F75 
+ 6182              	.LASF32:
+ 6183 0255 6379646D 		.ascii	"cydma_init_struct\000"
+ 6183      615F696E 
+ 6183      69745F73 
+ 6183      74727563 
+ 6183      7400
+ 6184              	.LASF69:
+ 6185 0267 4379446D 		.ascii	"CyDmaSetNextDescriptor\000"
+ 6185      61536574 
+ 6185      4E657874 
+ 6185      44657363 
+ 6185      72697074 
+ 6186              	.LASF29:
+ 6187 027e 7472616E 		.ascii	"transferMode\000"
+ 6187      73666572 
+ 6187      4D6F6465 
+ 6187      00
+ 6188              	.LASF8:
+ 6189 028b 756E7369 		.ascii	"unsigned int\000"
+ 6189      676E6564 
+ 6189      20696E74 
+ 6189      00
+ 6190              	.LASF36:
+ 6191 0298 4379446D 		.ascii	"CyDmaGetActiveChannels\000"
+ 6191      61476574 
+ 6191      41637469 
+ 6191      76654368 
+ 6191      616E6E65 
+ 6192              	.LASF5:
+ 6193 02af 6C6F6E67 		.ascii	"long unsigned int\000"
+ 6193      20756E73 
+ 6193      69676E65 
+ 6193      6420696E 
+ 6193      7400
+ 6194              	.LASF80:
+ 6195 02c1 64737441 		.ascii	"dstAddress\000"
+ 6195      64647265 
+ 6195      737300
+ 6196              	.LASF3:
+ 6197 02cc 73686F72 		.ascii	"short unsigned int\000"
+ 6197      7420756E 
+ 6197      7369676E 
+ 6197      65642069 
+ 6197      6E7400
+ 6198              	.LASF99:
+ 6199 02df 4379446D 		.ascii	"CyDmaGetPostCompletionActions\000"
+ 6199      61476574 
+ 6199      506F7374 
+ 6199      436F6D70 
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 138
 
 
- 6201              	.LASF66:
- 6202 02da 7072696F 		.ascii	"priority\000"
- 6202      72697479 
- 6202      00
- 6203              	.LASF90:
- 6204 02e3 4379446D 		.ascii	"CyDmaSetAddressIncrement\000"
- 6204      61536574 
- 6204      41646472 
- 6204      65737349 
- 6204      6E637265 
- 6205              	.LASF97:
- 6206 02fc 4379446D 		.ascii	"CyDmaGetPreemptable\000"
- 6206      61476574 
- 6206      50726565 
- 6206      6D707461 
- 6206      626C6500 
- 6207              	.LASF102:
- 6208 0310 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 6208      43313120 
- 6208      352E342E 
- 6208      31203230 
- 6208      31363036 
- 6209 0343 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 6209      20726576 
- 6209      6973696F 
- 6209      6E203233 
- 6209      37373135 
- 6210 0376 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 6210      66756E63 
- 6210      74696F6E 
- 6210      2D736563 
- 6210      74696F6E 
- 6211              	.LASF16:
- 6212 039e 72656733 		.ascii	"reg32\000"
- 6212      3200
- 6213              	.LASF95:
- 6214 03a4 4379446D 		.ascii	"CyDmaGetTransferMode\000"
- 6214      61476574 
- 6214      5472616E 
- 6214      73666572 
- 6214      4D6F6465 
- 6215              	.LASF98:
- 6216 03b9 4379446D 		.ascii	"CyDmaSetPostCompletionActions\000"
- 6216      61536574 
- 6216      506F7374 
- 6216      436F6D70 
- 6216      6C657469 
- 6217              	.LASF18:
- 6218 03d7 73697A65 		.ascii	"sizetype\000"
- 6218      74797065 
- 6218      00
- 6219              	.LASF34:
- 6220 03e0 6C6F6E67 		.ascii	"long double\000"
- 6220      20646F75 
- 6220      626C6500 
- 6221              	.LASF55:
- 6222 03ec 696E7472 		.ascii	"intr\000"
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 139
+ 6199      6C657469 
+ 6200              	.LASF91:
+ 6201 02fd 4379446D 		.ascii	"CyDmaGetAddressIncrement\000"
+ 6201      61476574 
+ 6201      41646472 
+ 6201      65737349 
+ 6201      6E637265 
+ 6202              	.LASF49:
+ 6203 0316 63616C6C 		.ascii	"callback\000"
+ 6203      6261636B 
+ 6203      00
+ 6204              	.LASF66:
+ 6205 031f 7072696F 		.ascii	"priority\000"
+ 6205      72697479 
+ 6205      00
+ 6206              	.LASF90:
+ 6207 0328 4379446D 		.ascii	"CyDmaSetAddressIncrement\000"
+ 6207      61536574 
+ 6207      41646472 
+ 6207      65737349 
+ 6207      6E637265 
+ 6208              	.LASF97:
+ 6209 0341 4379446D 		.ascii	"CyDmaGetPreemptable\000"
+ 6209      61476574 
+ 6209      50726565 
+ 6209      6D707461 
+ 6209      626C6500 
+ 6210              	.LASF102:
+ 6211 0355 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 6211      43313120 
+ 6211      352E342E 
+ 6211      31203230 
+ 6211      31363036 
+ 6212 0388 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 6212      20726576 
+ 6212      6973696F 
+ 6212      6E203233 
+ 6212      37373135 
+ 6213 03bb 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 6213      66756E63 
+ 6213      74696F6E 
+ 6213      2D736563 
+ 6213      74696F6E 
+ 6214              	.LASF16:
+ 6215 03e3 72656733 		.ascii	"reg32\000"
+ 6215      3200
+ 6216              	.LASF95:
+ 6217 03e9 4379446D 		.ascii	"CyDmaGetTransferMode\000"
+ 6217      61476574 
+ 6217      5472616E 
+ 6217      73666572 
+ 6217      4D6F6465 
+ 6218              	.LASF98:
+ 6219 03fe 4379446D 		.ascii	"CyDmaSetPostCompletionActions\000"
+ 6219      61536574 
+ 6219      506F7374 
+ 6219      436F6D70 
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 139
 
 
- 6222      00
- 6223              	.LASF106:
- 6224 03f1 4379446D 		.ascii	"CyDmaDefaultInterruptCallback\000"
- 6224      61446566 
- 6224      61756C74 
- 6224      496E7465 
- 6224      72727570 
- 6225              	.LASF86:
- 6226 040f 6E756D45 		.ascii	"numElements\000"
- 6226      6C656D65 
- 6226      6E747300 
- 6227              	.LASF77:
- 6228 041b 73726341 		.ascii	"srcAddress\000"
- 6228      64647265 
- 6228      737300
- 6229              	.LASF75:
- 6230 0426 4379446D 		.ascii	"CyDmaGetDescriptorStatus\000"
- 6230      61476574 
- 6230      44657363 
- 6230      72697074 
- 6230      6F725374 
- 6231              	.LASF52:
- 6232 043f 4379446D 		.ascii	"CyDmaSetInterruptCallback\000"
- 6232      61536574 
- 6232      496E7465 
- 6232      72727570 
- 6232      7443616C 
- 6233              	.LASF41:
- 6234 0459 4379446D 		.ascii	"CyDmaGetInterruptSource\000"
- 6234      61476574 
- 6234      496E7465 
- 6234      72727570 
- 6234      74536F75 
- 6235              	.LASF26:
- 6236 0471 73726344 		.ascii	"srcDstTransferWidth\000"
- 6236      73745472 
- 6236      616E7366 
- 6236      65725769 
- 6236      64746800 
- 6237              	.LASF82:
- 6238 0485 4379446D 		.ascii	"CyDmaSetDataElementSize\000"
- 6238      61536574 
- 6238      44617461 
- 6238      456C656D 
- 6238      656E7453 
- 6239              	.LASF54:
- 6240 049d 4379446D 		.ascii	"CyDmaInterrupt\000"
- 6240      61496E74 
- 6240      65727275 
- 6240      707400
- 6241              	.LASF65:
- 6242 04ac 4379446D 		.ascii	"CyDmaSetPriority\000"
- 6242      61536574 
- 6242      5072696F 
- 6242      72697479 
- 6242      00
- 6243              	.LASF24:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 140
+ 6219      6C657469 
+ 6220              	.LASF18:
+ 6221 041c 73697A65 		.ascii	"sizetype\000"
+ 6221      74797065 
+ 6221      00
+ 6222              	.LASF34:
+ 6223 0425 6C6F6E67 		.ascii	"long double\000"
+ 6223      20646F75 
+ 6223      626C6500 
+ 6224              	.LASF55:
+ 6225 0431 696E7472 		.ascii	"intr\000"
+ 6225      00
+ 6226              	.LASF106:
+ 6227 0436 4379446D 		.ascii	"CyDmaDefaultInterruptCallback\000"
+ 6227      61446566 
+ 6227      61756C74 
+ 6227      496E7465 
+ 6227      72727570 
+ 6228              	.LASF86:
+ 6229 0454 6E756D45 		.ascii	"numElements\000"
+ 6229      6C656D65 
+ 6229      6E747300 
+ 6230              	.LASF77:
+ 6231 0460 73726341 		.ascii	"srcAddress\000"
+ 6231      64647265 
+ 6231      737300
+ 6232              	.LASF75:
+ 6233 046b 4379446D 		.ascii	"CyDmaGetDescriptorStatus\000"
+ 6233      61476574 
+ 6233      44657363 
+ 6233      72697074 
+ 6233      6F725374 
+ 6234              	.LASF52:
+ 6235 0484 4379446D 		.ascii	"CyDmaSetInterruptCallback\000"
+ 6235      61536574 
+ 6235      496E7465 
+ 6235      72727570 
+ 6235      7443616C 
+ 6236              	.LASF41:
+ 6237 049e 4379446D 		.ascii	"CyDmaGetInterruptSource\000"
+ 6237      61476574 
+ 6237      496E7465 
+ 6237      72727570 
+ 6237      74536F75 
+ 6238              	.LASF26:
+ 6239 04b6 73726344 		.ascii	"srcDstTransferWidth\000"
+ 6239      73745472 
+ 6239      616E7366 
+ 6239      65725769 
+ 6239      64746800 
+ 6240              	.LASF82:
+ 6241 04ca 4379446D 		.ascii	"CyDmaSetDataElementSize\000"
+ 6241      61536574 
+ 6241      44617461 
+ 6241      456C656D 
+ 6241      656E7453 
+ 6242              	.LASF54:
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 140
 
 
- 6244 04bd 64617461 		.ascii	"dataElementSize\000"
- 6244      456C656D 
- 6244      656E7453 
- 6244      697A6500 
- 6245              	.LASF12:
- 6246 04cd 666C6F61 		.ascii	"float\000"
- 6246      7400
- 6247              	.LASF33:
- 6248 04d3 6379646D 		.ascii	"cydma_callback_t\000"
- 6248      615F6361 
- 6248      6C6C6261 
- 6248      636B5F74 
- 6248      00
- 6249              	.LASF100:
- 6250 04e4 4379446D 		.ascii	"CyDmaInterruptCallback\000"
- 6250      61496E74 
- 6250      65727275 
- 6250      70744361 
- 6250      6C6C6261 
- 6251              	.LASF35:
- 6252 04fb 4379446D 		.ascii	"CyDmaGetStatus\000"
- 6252      61476574 
- 6252      53746174 
- 6252      757300
- 6253              	.LASF1:
- 6254 050a 756E7369 		.ascii	"unsigned char\000"
- 6254      676E6564 
- 6254      20636861 
- 6254      7200
- 6255              	.LASF47:
- 6256 0518 4379446D 		.ascii	"CyDmaGetInterruptSourceMasked\000"
- 6256      61476574 
- 6256      496E7465 
- 6256      72727570 
- 6256      74536F75 
- 6257              	.LASF2:
- 6258 0536 73686F72 		.ascii	"short int\000"
- 6258      7420696E 
- 6258      7400
- 6259              	.LASF44:
- 6260 0540 696E7465 		.ascii	"interruptMask\000"
- 6260      72727570 
- 6260      744D6173 
- 6260      6B00
- 6261              	.LASF46:
- 6262 054e 4379446D 		.ascii	"CyDmaGetInterruptSourceMask\000"
- 6262      61476574 
- 6262      496E7465 
- 6262      72727570 
- 6262      74536F75 
- 6263              	.LASF71:
- 6264 056a 6E657874 		.ascii	"nextDescriptor\000"
- 6264      44657363 
- 6264      72697074 
- 6264      6F7200
- 6265              	.LASF48:
- 6266 0579 6368616E 		.ascii	"channel\000"
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 141
+ 6243 04e2 4379446D 		.ascii	"CyDmaInterrupt\000"
+ 6243      61496E74 
+ 6243      65727275 
+ 6243      707400
+ 6244              	.LASF65:
+ 6245 04f1 4379446D 		.ascii	"CyDmaSetPriority\000"
+ 6245      61536574 
+ 6245      5072696F 
+ 6245      72697479 
+ 6245      00
+ 6246              	.LASF24:
+ 6247 0502 64617461 		.ascii	"dataElementSize\000"
+ 6247      456C656D 
+ 6247      656E7453 
+ 6247      697A6500 
+ 6248              	.LASF12:
+ 6249 0512 666C6F61 		.ascii	"float\000"
+ 6249      7400
+ 6250              	.LASF33:
+ 6251 0518 6379646D 		.ascii	"cydma_callback_t\000"
+ 6251      615F6361 
+ 6251      6C6C6261 
+ 6251      636B5F74 
+ 6251      00
+ 6252              	.LASF100:
+ 6253 0529 4379446D 		.ascii	"CyDmaInterruptCallback\000"
+ 6253      61496E74 
+ 6253      65727275 
+ 6253      70744361 
+ 6253      6C6C6261 
+ 6254              	.LASF35:
+ 6255 0540 4379446D 		.ascii	"CyDmaGetStatus\000"
+ 6255      61476574 
+ 6255      53746174 
+ 6255      757300
+ 6256              	.LASF1:
+ 6257 054f 756E7369 		.ascii	"unsigned char\000"
+ 6257      676E6564 
+ 6257      20636861 
+ 6257      7200
+ 6258              	.LASF47:
+ 6259 055d 4379446D 		.ascii	"CyDmaGetInterruptSourceMasked\000"
+ 6259      61476574 
+ 6259      496E7465 
+ 6259      72727570 
+ 6259      74536F75 
+ 6260              	.LASF2:
+ 6261 057b 73686F72 		.ascii	"short int\000"
+ 6261      7420696E 
+ 6261      7400
+ 6262              	.LASF44:
+ 6263 0585 696E7465 		.ascii	"interruptMask\000"
+ 6263      72727570 
+ 6263      744D6173 
+ 6263      6B00
+ 6264              	.LASF46:
+ 6265 0593 4379446D 		.ascii	"CyDmaGetInterruptSourceMask\000"
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 141
 
 
- 6266      6E656C00 
- 6267              	.LASF93:
- 6268 0581 4379446D 		.ascii	"CyDmaGetTriggerType\000"
- 6268      61476574 
- 6268      54726967 
- 6268      67657254 
- 6268      79706500 
- 6269              	.LASF57:
- 6270 0595 4379446D 		.ascii	"CyDmaChAlloc\000"
- 6270      61436841 
- 6270      6C6C6F63 
- 6270      00
- 6271              	.LASF22:
- 6272 05a2 64657363 		.ascii	"descriptor\000"
- 6272      72697074 
- 6272      6F7200
- 6273              	.LASF58:
- 6274 05ad 6368616E 		.ascii	"channelMask\000"
- 6274      6E656C4D 
- 6274      61736B00 
- 6275              	.LASF14:
- 6276 05b9 63686172 		.ascii	"char\000"
- 6276      00
- 6277              	.LASF42:
- 6278 05be 4379446D 		.ascii	"CyDmaClearInterruptSource\000"
- 6278      61436C65 
- 6278      6172496E 
- 6278      74657272 
- 6278      75707453 
- 6279              	.LASF17:
- 6280 05d8 63796973 		.ascii	"cyisraddress\000"
- 6280      72616464 
- 6280      72657373 
- 6280      00
- 6281              	.LASF73:
- 6282 05e5 636F6E66 		.ascii	"config\000"
- 6282      696700
- 6283              	.LASF104:
- 6284 05ec 433A5C55 		.ascii	"C:\\Users\\Jason\\Documents\\PSoC Creator\\nixie\\n"
- 6284      73657273 
- 6284      5C4A6173 
- 6284      6F6E5C44 
- 6284      6F63756D 
- 6285 0619 69786965 		.ascii	"ixie_control.cydsn\000"
- 6285      5F636F6E 
- 6285      74726F6C 
- 6285      2E637964 
- 6285      736E00
+ 6265      61476574 
+ 6265      496E7465 
+ 6265      72727570 
+ 6265      74536F75 
+ 6266              	.LASF71:
+ 6267 05af 6E657874 		.ascii	"nextDescriptor\000"
+ 6267      44657363 
+ 6267      72697074 
+ 6267      6F7200
+ 6268              	.LASF48:
+ 6269 05be 6368616E 		.ascii	"channel\000"
+ 6269      6E656C00 
+ 6270              	.LASF93:
+ 6271 05c6 4379446D 		.ascii	"CyDmaGetTriggerType\000"
+ 6271      61476574 
+ 6271      54726967 
+ 6271      67657254 
+ 6271      79706500 
+ 6272              	.LASF57:
+ 6273 05da 4379446D 		.ascii	"CyDmaChAlloc\000"
+ 6273      61436841 
+ 6273      6C6C6F63 
+ 6273      00
+ 6274              	.LASF22:
+ 6275 05e7 64657363 		.ascii	"descriptor\000"
+ 6275      72697074 
+ 6275      6F7200
+ 6276              	.LASF58:
+ 6277 05f2 6368616E 		.ascii	"channelMask\000"
+ 6277      6E656C4D 
+ 6277      61736B00 
+ 6278              	.LASF14:
+ 6279 05fe 63686172 		.ascii	"char\000"
+ 6279      00
+ 6280              	.LASF42:
+ 6281 0603 4379446D 		.ascii	"CyDmaClearInterruptSource\000"
+ 6281      61436C65 
+ 6281      6172496E 
+ 6281      74657272 
+ 6281      75707453 
+ 6282              	.LASF17:
+ 6283 061d 63796973 		.ascii	"cyisraddress\000"
+ 6283      72616464 
+ 6283      72657373 
+ 6283      00
+ 6284              	.LASF73:
+ 6285 062a 636F6E66 		.ascii	"config\000"
+ 6285      696700
  6286              	.LASF101:
- 6287 062c 4379446D 		.ascii	"CyDmaChannelUsedMask\000"
+ 6287 0631 4379446D 		.ascii	"CyDmaChannelUsedMask\000"
  6287      61436861 
  6287      6E6E656C 
  6287      55736564 
  6287      4D61736B 
  6288              	.LASF83:
- 6289 0641 4379446D 		.ascii	"CyDmaGetDataElementSize\000"
+ 6289 0646 4379446D 		.ascii	"CyDmaGetDataElementSize\000"
  6289      61476574 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 142
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 142
 
 
  6289      44617461 
  6289      456C656D 
  6289      656E7453 
  6290              	.LASF87:
- 6291 0659 4379446D 		.ascii	"CyDmaSetSrcDstTransferWidth\000"
+ 6291 065e 4379446D 		.ascii	"CyDmaSetSrcDstTransferWidth\000"
  6291      61536574 
  6291      53726344 
  6291      73745472 
  6291      616E7366 
  6292              	.LASF74:
- 6293 0675 4379446D 		.ascii	"CyDmaValidateDescriptor\000"
+ 6293 067a 4379446D 		.ascii	"CyDmaValidateDescriptor\000"
  6293      6156616C 
  6293      69646174 
  6293      65446573 
  6293      63726970 
  6294              	.LASF39:
- 6295 068d 4379446D 		.ascii	"CyDmaEnable\000"
+ 6295 0692 4379446D 		.ascii	"CyDmaEnable\000"
  6295      61456E61 
  6295      626C6500 
  6296              	.LASF27:
- 6297 0699 61646472 		.ascii	"addressIncrement\000"
+ 6297 069e 61646472 		.ascii	"addressIncrement\000"
  6297      65737349 
  6297      6E637265 
  6297      6D656E74 
  6297      00
  6298              	.LASF81:
- 6299 06aa 4379446D 		.ascii	"CyDmaGetDstAddress\000"
+ 6299 06af 4379446D 		.ascii	"CyDmaGetDstAddress\000"
  6299      61476574 
  6299      44737441 
  6299      64647265 
  6299      737300
  6300              	.LASF38:
- 6301 06bd 4379446D 		.ascii	"CyDmaGetActiveDstAddress\000"
+ 6301 06c2 4379446D 		.ascii	"CyDmaGetActiveDstAddress\000"
  6301      61476574 
  6301      41637469 
  6301      76654473 
  6301      74416464 
  6302              	.LASF84:
- 6303 06d6 4379446D 		.ascii	"CyDmaSetNumDataElements\000"
+ 6303 06db 4379446D 		.ascii	"CyDmaSetNumDataElements\000"
  6303      61536574 
  6303      4E756D44 
  6303      61746145 
  6303      6C656D65 
  6304              	.LASF20:
- 6305 06ee 73746174 		.ascii	"status\000"
+ 6305 06f3 73746174 		.ascii	"status\000"
  6305      757300
  6306              	.LASF21:
- 6307 06f5 6379646D 		.ascii	"cydma_descriptor_struct\000"
+ 6307 06fa 6379646D 		.ascii	"cydma_descriptor_struct\000"
  6307      615F6465 
  6307      73637269 
  6307      70746F72 
  6307      5F737472 
  6308              	.LASF15:
- 6309 070d 63797374 		.ascii	"cystatus\000"
+ 6309 0712 63797374 		.ascii	"cystatus\000"
  6309      61747573 
  6309      00
  6310              	.LASF88:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccxXb3hk.s 			page 143
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccrI7Wj0.s 			page 143
 
 
- 6311 0716 7472616E 		.ascii	"transferWidth\000"
+ 6311 071b 7472616E 		.ascii	"transferWidth\000"
  6311      73666572 
  6311      57696474 
  6311      6800
  6312              	.LASF63:
- 6313 0724 4379446D 		.ascii	"CyDmaTrigger\000"
+ 6313 0729 4379446D 		.ascii	"CyDmaTrigger\000"
  6313      61547269 
  6313      67676572 
  6313      00
  6314              	.LASF94:
- 6315 0731 4379446D 		.ascii	"CyDmaSetTransferMode\000"
+ 6315 0736 4379446D 		.ascii	"CyDmaSetTransferMode\000"
  6315      61536574 
  6315      5472616E 
  6315      73666572 
  6315      4D6F6465 
  6316              	.LASF23:
- 6317 0746 6379646D 		.ascii	"cydma_descriptor_ram_struct\000"
+ 6317 074b 6379646D 		.ascii	"cydma_descriptor_ram_struct\000"
  6317      615F6465 
  6317      73637269 
  6317      70746F72 
  6317      5F72616D 
  6318              	.LASF92:
- 6319 0762 4379446D 		.ascii	"CyDmaSetTriggerType\000"
+ 6319 0767 4379446D 		.ascii	"CyDmaSetTriggerType\000"
  6319      61536574 
  6319      54726967 
  6319      67657254 
  6319      79706500 
  6320              	.LASF103:
- 6321 0776 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyDMA.c\000"
+ 6321 077b 47656E65 		.ascii	"Generated_Source\\PSoC4\\CyDMA.c\000"
  6321      72617465 
  6321      645F536F 
  6321      75726365 
  6321      5C50536F 
  6322              	.LASF31:
- 6323 0795 61637469 		.ascii	"actions\000"
+ 6323 079a 61637469 		.ascii	"actions\000"
  6323      6F6E7300 
  6324              	.LASF30:
- 6325 079d 70726565 		.ascii	"preemptable\000"
+ 6325 07a2 70726565 		.ascii	"preemptable\000"
  6325      6D707461 
  6325      626C6500 
  6326              	.LASF96:
- 6327 07a9 4379446D 		.ascii	"CyDmaSetPreemptable\000"
+ 6327 07ae 4379446D 		.ascii	"CyDmaSetPreemptable\000"
  6327      61536574 
  6327      50726565 
  6327      6D707461 
  6327      626C6500 
  6328              	.LASF59:
- 6329 07bd 4379446D 		.ascii	"CyDmaChFree\000"
+ 6329 07c2 4379446D 		.ascii	"CyDmaChFree\000"
  6329      61436846 
  6329      72656500 
  6330              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

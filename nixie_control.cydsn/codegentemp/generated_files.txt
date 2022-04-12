@@ -1,81 +1,172 @@
 <?xml version="1.0" encoding="us-ascii"?>
 
-<fileSet version="1" anchorPath="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp" xsi:schemaLocation="http://cypress.com/xsd/cypathdictionary cypathdictionary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cypathdictionary">
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyfitter_cfg.h" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyfitter_cfg.c" value="SOURCE_C;CortexM0;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cymetadata.c" value="SOURCE_C;CortexM0;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cydevice_trm.h" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cydevicegnu_trm.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cydevicerv_trm.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cydeviceiar_trm.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyfittergnu.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyfitterrv.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyfitteriar.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\C.c" value="SOURCE_C;CortexM0;;;;C" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\C.h" value="HEADER;;;;;C" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\C_aliases.h" value="HEADER;;;;;C" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\C_PM.c" value="SOURCE_C;CortexM0;;;;C" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\B.c" value="SOURCE_C;CortexM0;;;;B" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\B.h" value="HEADER;;;;;B" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\B_aliases.h" value="HEADER;;;;;B" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\B_PM.c" value="SOURCE_C;CortexM0;;;;B" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\D.c" value="SOURCE_C;CortexM0;;;;D" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\D.h" value="HEADER;;;;;D" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\D_aliases.h" value="HEADER;;;;;D" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\D_PM.c" value="SOURCE_C;CortexM0;;;;D" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\A.c" value="SOURCE_C;CortexM0;;;;A" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\A.h" value="HEADER;;;;;A" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\A_aliases.h" value="HEADER;;;;;A" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\A_PM.c" value="SOURCE_C;CortexM0;;;;A" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\E.c" value="SOURCE_C;CortexM0;;;;E" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\E.h" value="HEADER;;;;;E" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\E_aliases.h" value="HEADER;;;;;E" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\E_PM.c" value="SOURCE_C;CortexM0;;;;E" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\F.c" value="SOURCE_C;CortexM0;;;;F" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\F.h" value="HEADER;;;;;F" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\F_aliases.h" value="HEADER;;;;;F" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\F_PM.c" value="SOURCE_C;CortexM0;;;;F" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\G.c" value="SOURCE_C;CortexM0;;;;G" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\G.h" value="HEADER;;;;;G" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\G_aliases.h" value="HEADER;;;;;G" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\G_PM.c" value="SOURCE_C;CortexM0;;;;G" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\H.c" value="SOURCE_C;CortexM0;;;;H" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\H.h" value="HEADER;;;;;H" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\H_aliases.h" value="HEADER;;;;;H" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\H_PM.c" value="SOURCE_C;CortexM0;;;;H" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\core_cm0.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\core_cm0_psoc4.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyBootAsmRv.s" value="SOURCE_ASM;CortexM0,CortexM0p,CortexM3,CortexM4,CortexM7;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyFlash.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyFlash.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyLib.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyLib.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyPm.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyPm.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cytypes.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cyutils.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cypins.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\core_cmFunc.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\core_cmInstr.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\Cm0Iar.icf" value="LINKER_SCRIPT;;;e9305a93-d091-4da5-bdc7-2813049dcdbf;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyBootAsmIar.s" value="SOURCE_ASM;CortexM0,CortexM0p,CortexM3,CortexM4,CortexM7;;e9305a93-d091-4da5-bdc7-2813049dcdbf;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cmsis_armcc.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cmsis_gcc.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cmsis_compiler.h" value="HEADER;;;;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyBootAsmGnu.s" value="SOURCE_ASM;CortexM0,CortexM0p,CortexM3,CortexM4,CortexM7;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyDMA.h" value="HEADER;;;;;cy_dmac" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyDMA.c" value="SOURCE_C;CortexM0;;;;cy_dmac" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyLFClk.c" value="SOURCE_C;CortexM0;;;;cy_lfclk" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\CyLFClk.h" value="HEADER;;;;;cy_lfclk" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cy_em_eeprom.c" value="SOURCE_C;CortexM0;;;;Em_EEPROM_Dynamic" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cy_em_eeprom.h" value="HEADER;;;;;Em_EEPROM_Dynamic" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\project.h" value="OTHER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cycodeshareimport.ld" value="OTHER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cycodeshareexport.ld" value="OTHER;;;;;" />
-  <file name="C:\Users\Jason\Documents\PSoC Creator\nixie\nixie_control.cydsn\codegentemp\cycodeshareimport.scat" value="OTHER;;;;;" />
+<fileSet version="1" anchorPath="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp" xsi:schemaLocation="http://cypress.com/xsd/cypathdictionary cypathdictionary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cypathdictionary">
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyfitter_cfg.h" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyfitter_cfg.c" value="SOURCE_C;CortexM0;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cymetadata.c" value="SOURCE_C;CortexM0;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cydevice_trm.h" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cydevicegnu_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cydevicerv_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cydeviceiar_trm.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyfittergnu.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyfitterrv.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyfitteriar.inc" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\C.c" value="SOURCE_C;CortexM0;;;;C" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\C.h" value="HEADER;;;;;C" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\C_aliases.h" value="HEADER;;;;;C" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\C_PM.c" value="SOURCE_C;CortexM0;;;;C" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\B.c" value="SOURCE_C;CortexM0;;;;B" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\B.h" value="HEADER;;;;;B" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\B_aliases.h" value="HEADER;;;;;B" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\B_PM.c" value="SOURCE_C;CortexM0;;;;B" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\D.c" value="SOURCE_C;CortexM0;;;;D" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\D.h" value="HEADER;;;;;D" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\D_aliases.h" value="HEADER;;;;;D" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\D_PM.c" value="SOURCE_C;CortexM0;;;;D" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\A.c" value="SOURCE_C;CortexM0;;;;A" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\A.h" value="HEADER;;;;;A" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\A_aliases.h" value="HEADER;;;;;A" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\A_PM.c" value="SOURCE_C;CortexM0;;;;A" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\E.c" value="SOURCE_C;CortexM0;;;;E" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\E.h" value="HEADER;;;;;E" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\E_aliases.h" value="HEADER;;;;;E" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\E_PM.c" value="SOURCE_C;CortexM0;;;;E" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\F.c" value="SOURCE_C;CortexM0;;;;F" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\F.h" value="HEADER;;;;;F" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\F_aliases.h" value="HEADER;;;;;F" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\F_PM.c" value="SOURCE_C;CortexM0;;;;F" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\G.c" value="SOURCE_C;CortexM0;;;;G" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\G.h" value="HEADER;;;;;G" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\G_aliases.h" value="HEADER;;;;;G" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\G_PM.c" value="SOURCE_C;CortexM0;;;;G" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\H.c" value="SOURCE_C;CortexM0;;;;H" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\H.h" value="HEADER;;;;;H" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\H_aliases.h" value="HEADER;;;;;H" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\H_PM.c" value="SOURCE_C;CortexM0;;;;H" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\RTC.c" value="SOURCE_C;CortexM0;;;;RTC" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\RTC.h" value="HEADER;;;;;RTC" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\I.c" value="SOURCE_C;CortexM0;;;;I" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\I.h" value="HEADER;;;;;I" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\I_aliases.h" value="HEADER;;;;;I" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\I_PM.c" value="SOURCE_C;CortexM0;;;;I" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\J.c" value="SOURCE_C;CortexM0;;;;J" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\J.h" value="HEADER;;;;;J" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\J_aliases.h" value="HEADER;;;;;J" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\J_PM.c" value="SOURCE_C;CortexM0;;;;J" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\K.c" value="SOURCE_C;CortexM0;;;;K" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\K.h" value="HEADER;;;;;K" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\K_aliases.h" value="HEADER;;;;;K" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\K_PM.c" value="SOURCE_C;CortexM0;;;;K" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\L.c" value="SOURCE_C;CortexM0;;;;L" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\L.h" value="HEADER;;;;;L" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\L_aliases.h" value="HEADER;;;;;L" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\L_PM.c" value="SOURCE_C;CortexM0;;;;L" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\M.c" value="SOURCE_C;CortexM0;;;;M" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\M.h" value="HEADER;;;;;M" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\M_aliases.h" value="HEADER;;;;;M" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\M_PM.c" value="SOURCE_C;CortexM0;;;;M" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\N.c" value="SOURCE_C;CortexM0;;;;N" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\N.h" value="HEADER;;;;;N" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\N_aliases.h" value="HEADER;;;;;N" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\N_PM.c" value="SOURCE_C;CortexM0;;;;N" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\O.c" value="SOURCE_C;CortexM0;;;;O" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\O.h" value="HEADER;;;;;O" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\O_aliases.h" value="HEADER;;;;;O" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\O_PM.c" value="SOURCE_C;CortexM0;;;;O" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\P.c" value="SOURCE_C;CortexM0;;;;P" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\P.h" value="HEADER;;;;;P" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\P_aliases.h" value="HEADER;;;;;P" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\P_PM.c" value="SOURCE_C;CortexM0;;;;P" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Q.c" value="SOURCE_C;CortexM0;;;;Q" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Q.h" value="HEADER;;;;;Q" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Q_aliases.h" value="HEADER;;;;;Q" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Q_PM.c" value="SOURCE_C;CortexM0;;;;Q" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\R.c" value="SOURCE_C;CortexM0;;;;R" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\R.h" value="HEADER;;;;;R" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\R_aliases.h" value="HEADER;;;;;R" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\R_PM.c" value="SOURCE_C;CortexM0;;;;R" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\S.c" value="SOURCE_C;CortexM0;;;;S" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\S.h" value="HEADER;;;;;S" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\S_aliases.h" value="HEADER;;;;;S" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\S_PM.c" value="SOURCE_C;CortexM0;;;;S" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\T.c" value="SOURCE_C;CortexM0;;;;T" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\T.h" value="HEADER;;;;;T" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\T_aliases.h" value="HEADER;;;;;T" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\T_PM.c" value="SOURCE_C;CortexM0;;;;T" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\U.c" value="SOURCE_C;CortexM0;;;;U" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\U.h" value="HEADER;;;;;U" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\U_aliases.h" value="HEADER;;;;;U" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\U_PM.c" value="SOURCE_C;CortexM0;;;;U" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\V.c" value="SOURCE_C;CortexM0;;;;V" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\V.h" value="HEADER;;;;;V" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\V_aliases.h" value="HEADER;;;;;V" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\V_PM.c" value="SOURCE_C;CortexM0;;;;V" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\W.c" value="SOURCE_C;CortexM0;;;;W" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\W.h" value="HEADER;;;;;W" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\W_aliases.h" value="HEADER;;;;;W" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\W_PM.c" value="SOURCE_C;CortexM0;;;;W" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\X.c" value="SOURCE_C;CortexM0;;;;X" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\X.h" value="HEADER;;;;;X" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\X_aliases.h" value="HEADER;;;;;X" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\X_PM.c" value="SOURCE_C;CortexM0;;;;X" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB.c" value="SOURCE_C;CortexM0;;;;PB" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB.h" value="HEADER;;;;;PB" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB_aliases.h" value="HEADER;;;;;PB" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB_PM.c" value="SOURCE_C;CortexM0;;;;PB" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led.c" value="SOURCE_C;CortexM0;;;;led" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led.h" value="HEADER;;;;;led" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_aliases.h" value="HEADER;;;;;led" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_PM.c" value="SOURCE_C;CortexM0;;;;led" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer.c" value="SOURCE_C;CortexM0;;;;Timer" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer.h" value="HEADER;;;;;Timer" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer_PM.c" value="SOURCE_C;CortexM0;;;;Timer" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4.c" value="SOURCE_C;CortexM0;;;;led_4" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4.h" value="HEADER;;;;;led_4" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4_aliases.h" value="HEADER;;;;;led_4" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4_PM.c" value="SOURCE_C;CortexM0;;;;led_4" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red.c" value="SOURCE_C;CortexM0;;;;led_red" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red.h" value="HEADER;;;;;led_red" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red_aliases.h" value="HEADER;;;;;led_red" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red_PM.c" value="SOURCE_C;CortexM0;;;;led_red" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1.c" value="SOURCE_C;CortexM0;;;;Pin_1" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1.h" value="HEADER;;;;;Pin_1" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1_aliases.h" value="HEADER;;;;;Pin_1" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1_PM.c" value="SOURCE_C;CortexM0;;;;Pin_1" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Clock_1.c" value="SOURCE_C;CortexM0;;;;Clock_1" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Clock_1.h" value="HEADER;;;;;Clock_1" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\core_cm0.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\core_cm0_psoc4.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyBootAsmRv.s" value="SOURCE_ASM;CortexM0,CortexM0p,CortexM3,CortexM4,CortexM7;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyFlash.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyFlash.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyLib.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyLib.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyPm.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyPm.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cytypes.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cyutils.c" value="SOURCE_C;CortexM0;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cypins.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\core_cmFunc.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\core_cmInstr.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Cm0Iar.icf" value="LINKER_SCRIPT;;;e9305a93-d091-4da5-bdc7-2813049dcdbf;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyBootAsmIar.s" value="SOURCE_ASM;CortexM0,CortexM0p,CortexM3,CortexM4,CortexM7;;e9305a93-d091-4da5-bdc7-2813049dcdbf;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cmsis_armcc.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cmsis_gcc.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cmsis_compiler.h" value="HEADER;;;;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyBootAsmGnu.s" value="SOURCE_ASM;CortexM0,CortexM0p,CortexM3,CortexM4,CortexM7;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyDMA.h" value="HEADER;;;;;cy_dmac" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyDMA.c" value="SOURCE_C;CortexM0;;;;cy_dmac" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyLFClk.c" value="SOURCE_C;CortexM0;;;;cy_lfclk" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\CyLFClk.h" value="HEADER;;;;;cy_lfclk" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cy_em_eeprom.c" value="SOURCE_C;CortexM0;;;;Em_EEPROM_Dynamic" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cy_em_eeprom.h" value="HEADER;;;;;Em_EEPROM_Dynamic" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\project.h" value="OTHER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cycodeshareimport.ld" value="OTHER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cycodeshareexport.ld" value="OTHER;;;;;" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cycodeshareimport.scat" value="OTHER;;;;;" />
 </fileSet>
