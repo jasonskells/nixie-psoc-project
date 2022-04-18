@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="nixie">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="nixie\nixie_control\TopDesign">
 <ExpandedNodeIds>
 <v>nixie</v>
 <v>nixie\nixie_control</v>
@@ -59,6 +59,7 @@
 <v>nixie\nixie_control\Generated_Source\PSoC4\B</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\C</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\Clock_1</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\Clock_2</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_boot</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_dmac</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_lfclk</v>
@@ -70,9 +71,6 @@
 <v>nixie\nixie_control\Generated_Source\PSoC4\H</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\I</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\J</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\K</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\L</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\led</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -142,6 +140,7 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -190,6 +189,10 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PB_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_2_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Q.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Q_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\R.lst</v>
@@ -230,6 +233,7 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -250,9 +254,6 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\G.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\G_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\I.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\I_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -275,6 +276,7 @@
 <v>nixie\nixie_control\cy_pins_v2_20</v>
 <v>nixie\nixie_control\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>nixie\nixie_control\Debouncer_v1_0.pdf</v>
+<v>nixie\nixie_control\PWM_v3_30.pdf</v>
 <v>nixie\nixie_control\RTC_P4_v1_30.pdf</v>
 <v>nixie\nixie_control\Timer_v2_80.pdf</v>
 <v>nixie\nixie_control\ZeroTerminal.pdf</v>
@@ -293,6 +295,7 @@
 <v>nixie\nixie_control\cy_pins_v2_20</v>
 <v>nixie\nixie_control\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>nixie\nixie_control\Debouncer_v1_0.pdf</v>
+<v>nixie\nixie_control\PWM_v3_30.pdf</v>
 <v>nixie\nixie_control\RTC_P4_v1_30.pdf</v>
 <v>nixie\nixie_control\Timer_v2_80.pdf</v>
 <v>nixie\nixie_control\ZeroTerminal.pdf</v>

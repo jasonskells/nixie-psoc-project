@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
   29:Generated_Source\PSoC4/cyPm.h **** \brief PSoC 4 devices support the following power modes (in order of high to low power consumption)
   30:Generated_Source\PSoC4/cyPm.h **** Deep Sleep, Hibernate, and Stop. Active, Sleep and Deep-Sleep are standard ARM defined power modes,
   31:Generated_Source\PSoC4/cyPm.h **** ARM CPUs. Hibernate/Stop are even lower power modes that are entered from firmware just like Deep-S
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 2
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 2
 
 
   32:Generated_Source\PSoC4/cyPm.h **** the CPU (and all peripherals) goes through a full reset.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
   86:Generated_Source\PSoC4/cyPm.h **** void CySysPmSleep(void);
   87:Generated_Source\PSoC4/cyPm.h **** void CySysPmDeepSleep(void);
   88:Generated_Source\PSoC4/cyPm.h **** 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 3
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 3
 
 
   89:Generated_Source\PSoC4/cyPm.h **** #if(CY_IP_SRSSV2)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  143:Generated_Source\PSoC4/cyPm.h ****     #define CY_PM_CPU_SCR_REG                   (*(reg32 *) CYREG_CM0P_SCR)
  144:Generated_Source\PSoC4/cyPm.h ****     #define CY_PM_CPU_SCR_PTR                   ( (reg32 *) CYREG_CM0P_SCR)
  145:Generated_Source\PSoC4/cyPm.h **** #endif /* (CY_IP_CPUSS_CM0) */
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 4
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 4
 
 
  146:Generated_Source\PSoC4/cyPm.h **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  200:Generated_Source\PSoC4/cyPm.h **** #else
  201:Generated_Source\PSoC4/cyPm.h ****     #define CY_PM_PWR_KEY_DELAY_REG_DEFAULT     ((uint32) 248u)
  202:Generated_Source\PSoC4/cyPm.h ****     #define CY_PM_PWR_KEY_DELAY_FREQ_DEFAULT    (48u)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 5
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 5
 
 
  203:Generated_Source\PSoC4/cyPm.h **** #endif /* (CY_IP_SRSSV2) */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  233:Generated_Source\PSoC4/cyPm.h ****                 CY_CLEAR_REG32_FIELD( CYREG_GPIO_PRT2_PC, CYFLD_GPIO_PRT_PORT_IB_MODE_SEL);
   51              		.loc 1 233 0
   52 001c 244B     		ldr	r3, .L2+8
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 6
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 6
 
 
   53 001e 244A     		ldr	r2, .L2+8
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
   87 0058 1A4B     		ldr	r3, .L2+28
   88 005a 1A4A     		ldr	r2, .L2+28
   89 005c 1268     		ldr	r2, [r2]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 7
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 7
 
 
   90 005e 9200     		lsls	r2, r2, #2
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  124 0098 1268     		ldr	r2, [r2]
  125 009a 9200     		lsls	r2, r2, #2
  126 009c 9208     		lsrs	r2, r2, #2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 8
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 8
 
 
  127 009e 1A60     		str	r2, [r3]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
    7:Generated_Source\PSoC4/cyPm.c **** * \note Documentation of the API's in this file is located in the System
    8:Generated_Source\PSoC4/cyPm.c **** * Reference Guide provided with PSoC Creator.
    9:Generated_Source\PSoC4/cyPm.c **** *
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 9
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 9
 
 
   10:Generated_Source\PSoC4/cyPm.c **** ********************************************************************************
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  184 0018 8A43     		bics	r2, r1
  185 001a 1A60     		str	r2, [r3]
   41:Generated_Source\PSoC4/cyPm.c **** 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 10
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 10
 
 
   42:Generated_Source\PSoC4/cyPm.c ****     /* Sleep and wait for interrupt */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
   62:Generated_Source\PSoC4/cyPm.c **** *
   63:Generated_Source\PSoC4/cyPm.c **** *******************************************************************************/
   64:Generated_Source\PSoC4/cyPm.c **** void CySysPmDeepSleep(void)
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 11
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 11
 
 
   65:Generated_Source\PSoC4/cyPm.c **** {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
   94:Generated_Source\PSoC4/cyPm.c ****     #endif /* (CY_IP_CPUSS && CY_IP_SRSSV2) */
   95:Generated_Source\PSoC4/cyPm.c **** 
   96:Generated_Source\PSoC4/cyPm.c ****     /* Adjust delay to wait for references to settle on wakeup from Deep Sleep */
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 12
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 12
 
 
   97:Generated_Source\PSoC4/cyPm.c ****     CY_PM_PWR_KEY_DELAY_REG = CY_SFLASH_DPSLP_KEY_DELAY_REG;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  119:Generated_Source\PSoC4/cyPm.c ****         CY_PM_CPUSS_CONFIG_REG &= (uint32) (~CY_PM_CPUSS_CONFIG_FLSH_ACC_BYPASS);
  120:Generated_Source\PSoC4/cyPm.c ****     #endif /* (CY_IP_CPUSS && CY_IP_SRSSV2) */
  121:Generated_Source\PSoC4/cyPm.c **** 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 13
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 13
 
 
  122:Generated_Source\PSoC4/cyPm.c ****     #if(CY_IP_ECO_SRSSLT)
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  146:Generated_Source\PSoC4/cyPm.c ****     * in the Active to Deep Sleep transition, but will lose their state on wake up
  147:Generated_Source\PSoC4/cyPm.c ****     * (because of the reset occurring at that time).
  148:Generated_Source\PSoC4/cyPm.c ****     *
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 14
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 14
 
 
  149:Generated_Source\PSoC4/cyPm.c ****     * Because all the CPU state is lost, the CPU will start up at the reset vector.
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  175:Generated_Source\PSoC4/cyPm.c ****         CY_PM_PWR_KEY_DELAY_REG = CY_SFLASH_HIB_KEY_DELAY_REG;
  335              		.loc 2 175 0
  336 0022 0F4B     		ldr	r3, .L11+4
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 15
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 15
 
 
  337 0024 0F4A     		ldr	r2, .L11+8
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  372 0056 BD46     		mov	sp, r7
  373 0058 03B0     		add	sp, sp, #12
  374              		@ sp needed
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 16
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 16
 
 
  375 005a 90BD     		pop	{r4, r7, pc}
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  403 0002 00AF     		add	r7, sp, #0
  404              		.cfi_def_cfa_register 7
  221:Generated_Source\PSoC4/cyPm.c ****         (void) CyEnterCriticalSection();
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 17
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 17
 
 
  405              		.loc 2 221 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  439              	@ 241 "Generated_Source\PSoC4\cyPm.c" 1
  440 0030 30BF     		WFI 
  441              	
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 18
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 18
 
 
  442              	@ 0 "" 2
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  472              		.cfi_offset 7, -8
  473              		.cfi_offset 14, -4
  474 0002 85B0     		sub	sp, sp, #20
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 19
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 19
 
 
  475              		.cfi_def_cfa_offset 32
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  517 0042 05B0     		add	sp, sp, #20
  518              		@ sp needed
  519 0044 90BD     		pop	{r4, r7, pc}
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 20
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 20
 
 
  520              	.L20:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  553 000c 1B68     		ldr	r3, [r3]
  554 000e FF22     		movs	r2, #255
  555 0010 1340     		ands	r3, r2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 21
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 21
 
 
  556 0012 F12B     		cmp	r3, #241
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  318:Generated_Source\PSoC4/cyPm.c ****         return (reason);
  583              		.loc 2 318 0
  584 0032 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 22
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 22
 
 
  319:Generated_Source\PSoC4/cyPm.c ****     }
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  619              		.loc 2 338 0
  620 0006 FC1D     		adds	r4, r7, #7
  621 0008 FFF7FEFF 		bl	CyEnterCriticalSection
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 23
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 23
 
 
  622 000c 0300     		movs	r3, r0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  360:Generated_Source\PSoC4/cyPm.c ****         }
  361:Generated_Source\PSoC4/cyPm.c **** 
  362:Generated_Source\PSoC4/cyPm.c ****         CyExitCriticalSection(interruptState);
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 24
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 24
 
 
  654              		.loc 2 362 0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  687              		.cfi_def_cfa_offset 12
  688              		.cfi_offset 4, -12
  689              		.cfi_offset 7, -8
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 25
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 25
 
 
  690              		.cfi_offset 14, -4
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  402:Generated_Source\PSoC4/cyPm.c **** 
  403:Generated_Source\PSoC4/cyPm.c ****         CyExitCriticalSection(interruptState);
  725              		.loc 2 403 0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 26
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 26
 
 
  726 0036 FB1D     		adds	r3, r7, #7
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  779 0043 05       		.byte	0x5
  780 0044 FE010000 		.4byte	.LASF4
  781 0048 02       		.uleb128 0x2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 27
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 27
 
 
  782 0049 04       		.byte	0x4
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  836 00b6 06000000 		.4byte	.LASF16
  837 00ba 03       		.byte	0x3
  838 00bb 9002     		.2byte	0x290
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 28
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 28
 
 
  839 00bd C1000000 		.4byte	0xc1
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  893 012c 08       		.uleb128 0x8
  894 012d D6010000 		.4byte	.LASF22
  895 0131 02       		.byte	0x2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 29
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 29
 
 
  896 0132 44       		.byte	0x44
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  950 01a1 02       		.uleb128 0x2
  951 01a2 91       		.byte	0x91
  952 01a3 6F       		.sleb128 -17
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 30
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 30
 
 
  953 01a4 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1007 0216 00       		.byte	0
  1008 0217 00       		.byte	0
  1009              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 31
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 31
 
 
  1010              	.Ldebug_abbrev0:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1064 0035 00       		.byte	0
  1065 0036 05       		.uleb128 0x5
  1066 0037 35       		.uleb128 0x35
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 32
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 32
 
 
  1067 0038 00       		.byte	0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1121 0070 03       		.uleb128 0x3
  1122 0071 0E       		.uleb128 0xe
  1123 0072 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 33
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 33
 
 
  1124 0073 0B       		.uleb128 0xb
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1178 00ab 13       		.uleb128 0x13
  1179 00ac 00       		.byte	0
  1180 00ad 00       		.byte	0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 34
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 34
 
 
  1181 00ae 0B       		.uleb128 0xb
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1235 00e5 13       		.uleb128 0x13
  1236 00e6 00       		.byte	0
  1237 00e7 00       		.byte	0
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 35
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 35
 
 
  1238 00e8 0E       		.uleb128 0xe
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1292 0000 00000000 		.4byte	.LFB0
  1293 0004 DC000000 		.4byte	.LFE0
  1294 0008 00000000 		.4byte	.LFB2
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 36
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 36
 
 
  1295 000c 34000000 		.4byte	.LFE2
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1328 0056 43795379 		.ascii	"CySysPmHibPinsDisableInputBuf\000"
  1328      73506D48 
  1328      69625069 
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 37
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 37
 
 
  1328      6E734469 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1350 0162 75696E74 		.ascii	"uint16\000"
  1350      313600
  1351              	.LASF11:
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 38
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 38
 
 
  1352 0169 75696E74 		.ascii	"uint32\000"
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 1
  1376 01fe 6C6F6E67 		.ascii	"long int\000"
  1376      20696E74 
  1376      00
-ARM GAS  C:\Users\Jason\AppData\Local\Temp\ccx1gK0E.s 			page 39
+ARM GAS  C:\Users\Jason\AppData\Local\Temp\cc4qonah.s 			page 39
 
 
  1377              	.LASF28:

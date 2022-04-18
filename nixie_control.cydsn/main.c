@@ -315,10 +315,11 @@ void set_time(){
     end = Timer_ReadCounter();
     
     if(((start - end) <= 30000000) && !hours_locked){      // short press
-        set_hours();        
+//        set_hours();        
     }
     
     if((start - end) > 30000000){
+    }
     if(((start - end) <= 30000000) && hours_locked){
             minutes++;
             nixie_write(0,minutes/10);
@@ -338,10 +339,21 @@ void set_date(){
 }
 
 int main() {
+   
+    /*
+    while(1) {
+        PWM_Start();    
+        CyDelay(500);
+        PWM_Stop();
+        CyDelay(500);
+    }
+    */ 
+    
+    Pin_2_Write(0);
     
     // setting up the real time clock
     RTC_Start();
-    RTC_SetDateAndTime(0x071739,0x10042022);    // setting the time (0xHHMMSS) and date (0xDDMMYYYY)
+    RTC_SetDateAndTime(0x125945,0x12042022);    // setting the time (0xHHMMSS) and date (0xDDMMYYYY)
     
     // setting up global interrupts 
     CyGlobalIntEnable;
