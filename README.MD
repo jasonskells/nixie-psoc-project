@@ -15,7 +15,7 @@ In the future, I plan on making my own high voltage switch mode power supply as 
 Images of the Nixie Tube Clock 
 ------------
 # Tubes
-![](images/tubes.jpeg)
+<img src = "images/tubes.JPEG" width="60%" height="80%">
 
 # System Connections
-![](images/system_connections.jpeg)
+<img src = "images/system_connections.JPEG" width="60%" height="60%">
