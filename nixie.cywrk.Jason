@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="nixie\nixie_control\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>nixie</v>
 <v>nixie\nixie_control</v>
@@ -33,7 +33,6 @@
 <v>nixie\nixie_control\Source Files\main.c</v>
 <v>nixie\nixie_control\Generated_Source</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\RTC</v>
 <v>nixie\CE230991_Getting_Started_With_PSoC4.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -307,14 +306,18 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\nixie_control.cydsn\main.c" />
+<name v=".\nixie_control.cydsn\nixie_control.cydwr" />
+<name v=".\nixie_control.cydsn\TopDesign\TopDesign.cysch" />
+</OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1309, 495" SelectedTabbedMdiWindow="8a6581ca-a8e3-4a28-a4d4-8b9fb4f14ad5"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8a6581ca-a8e3-4a28-a4d4-8b9fb4f14ad5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1098, 519" SelectedTabbedMdiWindow="d44803e5-60b0-4917-ad12-5e1cea1f29b2"><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\main.c" Guid="d44803e5-60b0-4917-ad12-5e1cea1f29b2" /><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\nixie_control.cydwr" Guid="e254395a-6488-4195-b958-306d312ac617" /><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\TopDesign\TopDesign.cysch" Guid="2f353696-6ceb-4861-83ca-ea54afb4b408" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
