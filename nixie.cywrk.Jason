@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="nixie">
 <ExpandedNodeIds>
 <v>nixie</v>
 <v>nixie\nixie_control</v>
@@ -57,8 +57,6 @@
 <v>nixie\nixie_control\Generated_Source\PSoC4\A</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\B</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\C</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\Clock_1</v>
-<v>nixie\nixie_control\Generated_Source\PSoC4\Clock_2</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_boot</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_dmac</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\cy_lfclk</v>
@@ -70,6 +68,8 @@
 <v>nixie\nixie_control\Generated_Source\PSoC4\H</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\I</v>
 <v>nixie\nixie_control\Generated_Source\PSoC4\J</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\K</v>
+<v>nixie\nixie_control\Generated_Source\PSoC4\L</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -138,8 +138,6 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\B_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -169,12 +167,6 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\K_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\L.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\L_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_4.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_4_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_red.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\led_red_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\M.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\M_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
@@ -186,12 +178,6 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\P_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PB.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PB_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_2_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Q.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Q_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\R.lst</v>
@@ -231,8 +217,6 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\B_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\C_PM.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_2.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -253,6 +237,8 @@
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\G.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\G_PM.lst</v>
 <v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\H_PM.lst</v>
+<v>nixie\nixie_control\CortexM0\ARM_GCC_541\Debug\Listing Files\I.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -270,12 +256,9 @@
 <v>nixie\nixie_control\System Reference Guides\cy_boot_v5_70</v>
 <v>nixie\nixie_control\System Reference Guides\cy_dmac_v1_10</v>
 <v>nixie\nixie_control\System Reference Guides\cy_lfclk_v1_20</v>
-<v>nixie\nixie_control\cy_clock_v2_20</v>
-<v>nixie\nixie_control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>nixie\nixie_control\cy_clock_v2_20.pdf</v>
 <v>nixie\nixie_control\cy_pins_v2_20</v>
 <v>nixie\nixie_control\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>nixie\nixie_control\Debouncer_v1_0.pdf</v>
-<v>nixie\nixie_control\PWM_v3_30.pdf</v>
 <v>nixie\nixie_control\RTC_P4_v1_30.pdf</v>
 <v>nixie\nixie_control\Timer_v2_80.pdf</v>
 <v>nixie\nixie_control\ZeroTerminal.pdf</v>
@@ -289,12 +272,9 @@
 <v>nixie\nixie_control\System Reference Guides\cy_boot_v5_70</v>
 <v>nixie\nixie_control\System Reference Guides\cy_dmac_v1_10</v>
 <v>nixie\nixie_control\System Reference Guides\cy_lfclk_v1_20</v>
-<v>nixie\nixie_control\cy_clock_v2_20</v>
-<v>nixie\nixie_control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>nixie\nixie_control\cy_clock_v2_20.pdf</v>
 <v>nixie\nixie_control\cy_pins_v2_20</v>
 <v>nixie\nixie_control\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>nixie\nixie_control\Debouncer_v1_0.pdf</v>
-<v>nixie\nixie_control\PWM_v3_30.pdf</v>
 <v>nixie\nixie_control\RTC_P4_v1_30.pdf</v>
 <v>nixie\nixie_control\Timer_v2_80.pdf</v>
 <v>nixie\nixie_control\ZeroTerminal.pdf</v>
@@ -317,7 +297,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1098, 519" SelectedTabbedMdiWindow="d44803e5-60b0-4917-ad12-5e1cea1f29b2"><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\main.c" Guid="d44803e5-60b0-4917-ad12-5e1cea1f29b2" /><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\nixie_control.cydwr" Guid="e254395a-6488-4195-b958-306d312ac617" /><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\TopDesign\TopDesign.cysch" Guid="2f353696-6ceb-4861-83ca-ea54afb4b408" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1309, 676" SelectedTabbedMdiWindow="2f353696-6ceb-4861-83ca-ea54afb4b408"><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\main.c" Guid="d44803e5-60b0-4917-ad12-5e1cea1f29b2" /><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\nixie_control.cydwr" Guid="e254395a-6488-4195-b958-306d312ac617" /><DocumentWindow Key="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\TopDesign\TopDesign.cysch" Guid="2f353696-6ceb-4861-83ca-ea54afb4b408" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8a6581ca-a8e3-4a28-a4d4-8b9fb4f14ad5" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

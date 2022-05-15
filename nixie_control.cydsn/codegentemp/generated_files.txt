@@ -111,40 +111,13 @@
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\X.h" value="HEADER;;;;;X" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\X_aliases.h" value="HEADER;;;;;X" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\X_PM.c" value="SOURCE_C;CortexM0;;;;X" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer.c" value="SOURCE_C;CortexM0;;;;Timer" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer.h" value="HEADER;;;;;Timer" />
+  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer_PM.c" value="SOURCE_C;CortexM0;;;;Timer" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB.c" value="SOURCE_C;CortexM0;;;;PB" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB.h" value="HEADER;;;;;PB" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB_aliases.h" value="HEADER;;;;;PB" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PB_PM.c" value="SOURCE_C;CortexM0;;;;PB" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led.c" value="SOURCE_C;CortexM0;;;;led" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led.h" value="HEADER;;;;;led" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_aliases.h" value="HEADER;;;;;led" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_PM.c" value="SOURCE_C;CortexM0;;;;led" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer.c" value="SOURCE_C;CortexM0;;;;Timer" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer.h" value="HEADER;;;;;Timer" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Timer_PM.c" value="SOURCE_C;CortexM0;;;;Timer" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4.c" value="SOURCE_C;CortexM0;;;;led_4" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4.h" value="HEADER;;;;;led_4" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4_aliases.h" value="HEADER;;;;;led_4" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_4_PM.c" value="SOURCE_C;CortexM0;;;;led_4" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red.c" value="SOURCE_C;CortexM0;;;;led_red" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red.h" value="HEADER;;;;;led_red" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red_aliases.h" value="HEADER;;;;;led_red" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\led_red_PM.c" value="SOURCE_C;CortexM0;;;;led_red" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1.c" value="SOURCE_C;CortexM0;;;;Pin_1" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1.h" value="HEADER;;;;;Pin_1" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1_aliases.h" value="HEADER;;;;;Pin_1" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_1_PM.c" value="SOURCE_C;CortexM0;;;;Pin_1" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Clock_1.c" value="SOURCE_C;CortexM0;;;;Clock_1" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Clock_1.h" value="HEADER;;;;;Clock_1" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM0;;;;Clock_2" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PWM.c" value="SOURCE_C;CortexM0;;;;PWM" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PWM.h" value="HEADER;;;;;PWM" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\PWM_PM.c" value="SOURCE_C;CortexM0;;;;PWM" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_2.c" value="SOURCE_C;CortexM0;;;;Pin_2" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_2.h" value="HEADER;;;;;Pin_2" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_2_aliases.h" value="HEADER;;;;;Pin_2" />
-  <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Pin_2_PM.c" value="SOURCE_C;CortexM0;;;;Pin_2" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="C:\Users\Jason\Desktop\github\nixie-psoc-project\nixie_control.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />

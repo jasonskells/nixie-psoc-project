@@ -340,17 +340,6 @@ void set_date(){
 
 int main() {
    
-    /*
-    while(1) {
-        PWM_Start();    
-        CyDelay(500);
-        PWM_Stop();
-        CyDelay(500);
-    }
-    */ 
-    
-    Pin_2_Write(0);
-    
     // setting up the real time clock
     RTC_Start();
     RTC_SetDateAndTime(0x125945,0x12042022);    // setting the time (0xHHMMSS) and date (0xDDMMYYYY)

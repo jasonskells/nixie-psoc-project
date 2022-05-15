@@ -19,3 +19,6 @@ Images of the Nixie Tube Clock
 
 # System Connections
 <img src = "images/system_connections.JPEG" width="60%" height="60%">
+
+# Schematic Top Design 
+<img src = "images/nixie_clock_top_design.png" width="60%" height="60%">
